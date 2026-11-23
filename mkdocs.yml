@@ -1,0 +1,112 @@
+site_name: RAC-Drugs 플래시카드 (개인 학습용)
+site_description: RAPS RAC-Drugs Spring 2027 준비 덱 — 규정 기준일 2026-09-01. 비공식·개인 학습 자료.
+docs_dir: cards
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  - 인덱스: index.md
+  - Phase 1 · 1주차:
+      - Ch01: Ch01.md
+      - Ch02: Ch02.md
+      - Ch03-04: Ch03-04.md
+      - Ch05-06: Ch05-06.md
+      - Ch07-08: Ch07-08.md
+      - 복습 W1: Review_W1.md
+  - Phase 1 · 2주차:
+      - Ch09-10: Ch09-10.md
+      - Ch11: Ch11.md
+      - Ch12: Ch12.md
+      - Ch13: Ch13.md
+      - Ch14: Ch14.md
+      - Ch15: Ch15.md
+      - 복습 W2: Review_W2.md
+  - Phase 1 · 3주차:
+      - Ch16: Ch16.md
+      - Ch17: Ch17.md
+      - Ch18: Ch18.md
+      - Ch19: Ch19.md
+      - Ch20: Ch20.md
+      - Ch21: Ch21.md
+      - 복습 W3: Review_W3.md
+  - Phase 1 · 4주차:
+      - Ch22: Ch22.md
+      - Ch23 (1/2): Ch23_1.md
+      - Ch23 (2/2): Ch23_2.md
+      - Ch24 (1/2): Ch24_1.md
+      - Ch24 (2/2): Ch24_2.md
+      - Ch25 (1/2): Ch25_1.md
+      - 복습 W4: Review_W4.md
+  - Phase 1 · 5주차:
+      - Ch25 (2/2): Ch25_2.md
+      - Ch26 (1/2): Ch26_1.md
+      - Ch26 (2/2): Ch26_2.md
+      - Ch27 (1/2): Ch27_1.md
+      - Ch27 (2/2): Ch27_2.md
+      - Ch28 (1/2): Ch28_1.md
+      - 복습 W5: Review_W5.md
+  - Phase 1 · 6주차:
+      - Ch28 (2/2): Ch28_2.md
+      - Ch29 (1/2): Ch29_1.md
+      - Ch29 (2/2): Ch29_2.md
+      - Ch30 (1/2): Ch30_1.md
+      - Ch30 (2/2): Ch30_2.md
+      - Ch31 (1/2): Ch31_1.md
+      - 복습 W6: Review_W6.md
+  - Phase 1 · 7주차:
+      - Ch31 (2/2): Ch31_2.md
+      - Ch32 (1/2): Ch32_1.md
+      - Ch32 (2/2): Ch32_2.md
+      - Ch33 (1/2): Ch33_1.md
+      - Ch33 (2/2): Ch33_2.md
+      - Ch34 (1/2): Ch34_1.md
+      - 복습 W7: Review_W7.md
+  - Phase 1 · 8주차:
+      - Ch34 (2/2): Ch34_2.md
+      - Ch35 (1/2): Ch35_1.md
+      - Ch35 (2/2): Ch35_2.md
+      - Ch36 (1/2): Ch36_1.md
+      - Ch36 (2/2): Ch36_2.md
+  - Phase 2 · 특화:
+      - ① OTP: P2_OTP.md
+      - ② 361 vs 351: P2_351vs361.md
+      - ③ RMAT: P2_RMAT.md
+      - ④ Potency: P2_potency.md
+      - ⑤ Comparability: P2_comparability.md
+      - ⑥ EU ATMP: P2_EU_ATMP.md

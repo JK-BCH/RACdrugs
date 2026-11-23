@@ -1,0 +1,17 @@
+# RAPS 발행물 (저작물 — 레포에 올리지 않음)
+refs/*.pdf
+refs/_*.txt
+
+# MkDocs 빌드 산출물
+site/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
