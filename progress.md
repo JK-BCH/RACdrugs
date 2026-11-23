@@ -123,3 +123,4 @@ Phase 3 영역 가중치를 조정할 때 이 표를 읽는다.
   남은 ? : GLP QS 최종규칙 · DAP guidance 최종화 · PFDD 3·4 · QRD v11 · Ames 양성 후속 draft · Ph. Eur. 5.26 장 번호 · OMB 2024 인종·민족 FDA 반영 · 2253 eCTD 의무화 연도 · OPDP advisory 표준 기한 · HTA Reg 2028/2030 적용 일자(13일) · Art 19 MA 수수료 감면 유효 여부 · CoCP Class III 48h 표기.
 - **운영 메모**: 이제 "오늘 카드"는 파일 출력 + 간격반복 5장 즉석이면 끝. Phase 2 도메인 통합 카드와 Phase 3 모의시험은 당일 구성(문제은행 `exams/bank_DomainX.md`는 아직 없음 — Phase 2 진입 전 생성 검토).
 - 2026-11-23: GitHub `JK-BCH/RACdrugs`(public) 생성·푸시 + **GitHub Pages 대시보드** https://jk-bch.github.io/RACdrugs/ — 플래시카드(간격 반복)·요약집·숏테스트·모의고사·기록. 데이터는 `tools/build_data.py` → `data/decks.json`. 덱 수정 시 스크립트 재실행 후 커밋.
+- 2026-11-23 (2차): **교과서(textbook/) 시작** — 사용자가 "내용을 모르니 카드가 의미 없다"고 해 덱과 같은 번호의 교과서 장을 쓰기로. 구조: 학습 목표 → 배경 → 본문(US→EU→ICH) → 숫자표 → 흔한 혼동 → 카드 연결 → 1차 출처. 사실은 덱 검증 메모에서만. 완료: Ch00_primer(기초), Ch01, Ch02, Ch03-04, Ch05-06, Ch07-08 (= 1주차). 대시보드에 교과서 탭·홈 흐름(교과서→요약→카드→테스트) 추가. 남은 장: Ch09~Ch36(30) + P2 6 = 36.
