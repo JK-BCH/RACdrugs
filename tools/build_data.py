@@ -15,6 +15,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ANKI = ROOT / "anki"
 CARDS = ROOT / "cards"
+TEXTBOOK = ROOT / "textbook"
 OUT = ROOT / "data" / "decks.json"
 
 TYPE = {"Recall": "R", "Application": "A", "Analysis": "An"}
@@ -73,6 +74,23 @@ def week_of(date):
     return (date - datetime.date(2026, 12, 7)).days // 7 + 2
 
 
+def textbook_id(deck_id):
+    """덱 -> 교과서 장 id. ChNN_1/ChNN_2 -> ChNN, 복습 덱은 없음, P2는 그대로."""
+    if deck_id.startswith("Review_"):
+        return None
+    return re.sub(r"_[12]$", "", deck_id)
+
+
+def textbook_title(tb_id):
+    path = TEXTBOOK / f"{tb_id}.md"
+    if not path.exists():
+        return None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("# "):
+            return line[2:].strip()
+    return tb_id
+
+
 def parse_deck(deck_id):
     md_path = CARDS / f"{deck_id}.md"
     md = md_path.read_text(encoding="utf-8")
@@ -106,6 +124,8 @@ def parse_deck(deck_id):
         "sources": pick(sections, "오늘 읽을"),
         "md": f"cards/{deck_id}.md",
     }
+    tb = textbook_id(deck_id)
+    deck["textbook"] = tb if (tb and (TEXTBOOK / f"{tb}.md").exists()) else None
     return deck
 
 
@@ -161,11 +181,37 @@ def main():
 
     schedule = [{"date": d["date"], "deck": d["id"]} for d in decks if d["date"]]
 
+    # 교과서 목록: 덱 순서대로, 같은 장은 한 번만. Ch00 기초 장은 맨 앞.
+    textbooks = []
+    seen_tb = set()
+    if (TEXTBOOK / "Ch00_primer.md").exists():
+        textbooks.append({"id": "Ch00_primer", "title": textbook_title("Ch00_primer"),
+                          "path": "textbook/Ch00_primer.md", "decks": [], "date": None})
+        seen_tb.add("Ch00_primer")
+    for d in decks:
+        tb = d["textbook"]
+        if not tb or tb in seen_tb:
+            if tb:
+                for t in textbooks:
+                    if t["id"] == tb:
+                        t["decks"].append(d["id"])
+            continue
+        seen_tb.add(tb)
+        textbooks.append({"id": tb, "title": textbook_title(tb), "path": f"textbook/{tb}.md",
+                          "decks": [d["id"]], "date": d["date"]})
+    # 아직 안 쓴 장도 자리만 표시 (title None)
+    for d in decks:
+        tb = textbook_id(d["id"])
+        if tb and tb not in seen_tb:
+            seen_tb.add(tb)
+            textbooks.append({"id": tb, "title": None, "path": None, "decks": [x["id"] for x in decks if textbook_id(x["id"]) == tb], "date": d["date"]})
+
     data = {
         "generated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "exam": EXAM,
         "domains": DOMAINS,
         "schedule": schedule,
+        "textbooks": textbooks,
         "decks": decks,
         "cards": cards,
     }
@@ -179,6 +225,8 @@ def main():
     print("by domain:", dict(sorted(by_domain.items())))
     print("missing summary:", [d["id"] for d in decks if not d["summary"]])
     print("missing memo:", [d["id"] for d in decks if not d["memo"]])
+    print("textbooks written:", [t["id"] for t in textbooks if t["path"]],
+          "/ pending:", len([t for t in textbooks if not t["path"]]))
 
 
 if __name__ == "__main__":

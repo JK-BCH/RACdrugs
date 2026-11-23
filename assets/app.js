@@ -99,6 +99,7 @@
     var r = parseHash();
     var head = r.segs[0] || '';
     if (!head) { setActiveNav('home'); return viewHome(); }
+    if (head === 'text') { setActiveNav('text'); return r.segs[1] ? viewTextbook(r.segs[1]) : viewTextbookList(); }
     if (head === 'flash') { setActiveNav('flash'); return viewFlash(r.params); }
     if (head === 'summary') { setActiveNav('summary'); return r.segs[1] ? viewSummaryDeck(r.segs[1]) : viewSummaryList(r.params); }
     if (head === 'deck') { setActiveNav('summary'); return viewDeckFull(r.segs[1]); }
@@ -150,6 +151,7 @@
     return { deck: null, note: 'Phase 3 — 매일 모의고사 30문항 + 틀린 영역 카드 복습.' };
   }
   function weekDecks(week) { return DATA.decks.filter(function (d) { return d.phase === 1 && d.week === week; }); }
+  function textbookOf(id) { return (DATA.textbooks || []).filter(function (t) { return t.id === id && t.path; })[0] || null; }
 
   /* ---------- 홈 ---------- */
   function viewHome() {
@@ -170,10 +172,13 @@
     if (td.deck) {
       var d = td.deck;
       html += '<div style="margin-top:10px"><b>' + esc(d.title) + '</b> <span class="pill">' + esc(weekLabel(d)) + '</span><span class="pill">' + d.n + '장</span></div>' +
-        '<div class="btnrow three" style="margin-top:10px">' +
-        '<a class="btn primary" href="#/flash?deck=' + d.id + '">카드 시작</a>' +
+        '<div class="small muted" style="margin-top:6px">순서: 교과서 → 요약 → 카드 → 테스트</div>' +
+        '<div class="btnrow" style="margin-top:8px">' +
+        (d.textbook && textbookOf(d.textbook) ? '<a class="btn primary" href="#/text/' + d.textbook + '">교과서</a>' : '<span class="btn" style="opacity:.55">교과서 준비 중</span>') +
         '<a class="btn" href="#/summary/' + d.id + '">요약</a>' +
-        '<a class="btn" href="#/quiz?deck=' + d.id + '">숏테스트</a></div>';
+        '<a class="btn" href="#/flash?deck=' + d.id + '">카드</a>' +
+        '<a class="btn" href="#/quiz?deck=' + d.id + '">테스트</a></div>';
+      if (textbookOf('Ch00_primer')) html += '<div class="small" style="margin-top:8px">' + (t < ex.phase1_start ? '먼저 ' : '기초가 흔들리면 ') + '<a href="#/text/Ch00_primer">Ch.0 기초 — 법 구조·기관·용어</a>부터.</div>';
     } else {
       html += '<div class="btnrow two" style="margin-top:10px"><a class="btn primary" href="#/flash?mode=p2">P2 특화 카드</a><a class="btn" href="#/exam">모의고사</a></div>';
     }
@@ -375,7 +380,7 @@
     var p = deckProgress(id);
     var html = '<div class="small muted"><a href="#/summary">요약집</a> › ' + esc(deckShort(id)) + '</div><h1>' + esc(d.title) + '</h1>' +
       '<div class="small muted" style="margin-bottom:8px">' + (d.date ? d.date + ' · ' : '') + esc(weekLabel(d)) + ' · ' + d.n + '장 · 본 카드 ' + p.seen + ' (○' + p.ok + ' ×' + p.ng + ')</div>' +
-      '<div class="btnrow three"><a class="btn primary" href="#/flash?deck=' + id + '&shuffle=1&types=R,A,An">카드</a><a class="btn" href="#/quiz?deck=' + id + '">숏테스트</a><a class="btn" href="#/deck/' + id + '">전체 덱 읽기</a></div>';
+      '<div class="btnrow' + (d.textbook && textbookOf(d.textbook) ? '' : ' three') + '">' + (d.textbook && textbookOf(d.textbook) ? '<a class="btn" href="#/text/' + d.textbook + '">교과서</a>' : '') + '<a class="btn primary" href="#/flash?deck=' + id + '&shuffle=1&types=R,A,An">카드</a><a class="btn" href="#/quiz?deck=' + id + '">숏테스트</a><a class="btn" href="#/deck/' + id + '">전체 덱</a></div>';
     html += '<div class="card"><h2 style="margin:0 0 6px">' + (d.kind === 'review' ? '비교표' : '핵심 요약') + '</h2><div class="md">' + mdFull(d.summary || '_(없음)_') + '</div></div>';
     html += '<div class="card"><h2 style="margin:0 0 6px">검증 메모</h2><div class="md small">' + mdFull(d.memo || '_(없음)_') + '</div></div>';
     if (d.sources) html += '<div class="card"><h2 style="margin:0 0 6px">1차 출처</h2><div class="md small">' + mdFull(d.sources) + '</div></div>';
@@ -394,6 +399,43 @@
     fetch(d.md).then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
       .then(function (md) { qs('#deck-md').innerHTML = mdFull(md); })
       .catch(function (e) { qs('#deck-md').innerHTML = '<p class="muted">덱 파일을 읽지 못했다 (' + esc(e.message) + '). <a href="' + d.md + '">원본 열기</a></p>'; });
+  }
+
+  /* ---------- 교과서 ---------- */
+  function viewTextbookList() {
+    var tbs = DATA.textbooks || [];
+    var html = '<h1>교과서</h1><div class="small muted" style="margin-bottom:8px">장마다 교과서를 읽고 같은 번호 덱의 요약 → 카드 → 테스트로 간다. 회색은 아직 안 쓴 장.</div><div class="card"><div class="list">';
+    tbs.forEach(function (tb) {
+      var decks = tb.decks.map(function (id) { return deckShort(id); }).join(' · ');
+      var label = tb.id === 'Ch00_primer' ? 'Ch.0' : tb.id;
+      if (tb.path) html += '<a class="item" href="#/text/' + tb.id + '"><b>' + esc(label) + '</b> ' + esc(tb.title || '') + '<div class="sub">' + (tb.date ? tb.date + ' · ' : '') + (decks ? '덱 ' + decks : '36장 전에 읽는 기초') + '</div></a>';
+      else html += '<div style="padding:10px 12px;border-bottom:1px solid var(--line)" class="muted"><b>' + esc(label) + '</b> (준비 중)<div class="sub">' + (tb.date ? tb.date + ' · ' : '') + '덱 ' + decks + '</div></div>';
+    });
+    html += '</div></div>';
+    APP.innerHTML = html;
+  }
+  function viewTextbook(id) {
+    var tbs = DATA.textbooks || [];
+    var tb = textbookOf(id);
+    if (!tb) { APP.innerHTML = '<h1>교과서</h1><div class="card">이 장은 아직 없다. <a href="#/text">목록</a></div>'; return; }
+    var idx = tbs.indexOf(tb);
+    var prev = null, next = null;
+    for (var i = idx - 1; i >= 0; i--) { if (tbs[i].path) { prev = tbs[i]; break; } }
+    for (var j = idx + 1; j < tbs.length; j++) { if (tbs[j].path) { next = tbs[j]; break; } }
+    var html = '<div class="small muted"><a href="#/text">교과서</a> › ' + esc(tb.id) + '</div><div class="card md" id="tb-md">불러오는 중…</div>';
+    if (tb.decks.length) {
+      html += '<div class="card"><h2 style="margin:0 0 6px">이 장의 덱 — 읽었으면 바로</h2>';
+      tb.decks.forEach(function (did) {
+        var d = DECK_BY_ID[did];
+        html += '<div class="row" style="margin:8px 0"><div class="grow"><b>' + esc(deckShort(did)) + '</b> <span class="small muted">' + esc(truncate(d.title, 48)) + '</span></div><a class="btn" href="#/summary/' + did + '">요약</a><a class="btn primary" href="#/flash?deck=' + did + '&shuffle=1&types=R,A,An">카드</a><a class="btn" href="#/quiz?deck=' + did + '">테스트</a></div>';
+      });
+      html += '</div>';
+    }
+    html += '<div class="btnrow two">' + (prev ? '<a class="btn" href="#/text/' + prev.id + '">← ' + esc(prev.id === 'Ch00_primer' ? 'Ch.0' : prev.id) + '</a>' : '<span></span>') + (next ? '<a class="btn" href="#/text/' + next.id + '">' + esc(next.id) + ' →</a>' : '<span></span>') + '</div>';
+    APP.innerHTML = html;
+    fetch(tb.path).then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+      .then(function (md) { qs('#tb-md').innerHTML = mdFull(md); })
+      .catch(function (e) { qs('#tb-md').innerHTML = '<p class="muted">교과서 파일을 읽지 못했다 (' + esc(e.message) + ').</p>'; });
   }
 
   /* ---------- 문항 생성 (4지선다) ---------- */
