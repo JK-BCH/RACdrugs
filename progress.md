@@ -122,3 +122,4 @@ Phase 3 영역 가중치를 조정할 때 이 표를 읽는다.
   Expedited RMT 초안 2025-09-20(2019 현행) · RMAT FY2025 91/50, 누적 ~370/184, 승인 13 · EMA/CAT/22473/2025(2025-07-01) · Part IV 개정 concept paper 2025-05-08 · exosome WL 12건(2025-10)·승인 0 · HCT/P 유예 종료 2021-05-31 · 동종세포 안전성 초안 2025-01 삭제.
   남은 ? : GLP QS 최종규칙 · DAP guidance 최종화 · PFDD 3·4 · QRD v11 · Ames 양성 후속 draft · Ph. Eur. 5.26 장 번호 · OMB 2024 인종·민족 FDA 반영 · 2253 eCTD 의무화 연도 · OPDP advisory 표준 기한 · HTA Reg 2028/2030 적용 일자(13일) · Art 19 MA 수수료 감면 유효 여부 · CoCP Class III 48h 표기.
 - **운영 메모**: 이제 "오늘 카드"는 파일 출력 + 간격반복 5장 즉석이면 끝. Phase 2 도메인 통합 카드와 Phase 3 모의시험은 당일 구성(문제은행 `exams/bank_DomainX.md`는 아직 없음 — Phase 2 진입 전 생성 검토).
+- 2026-11-23: GitHub `JK-BCH/RACdrugs`(public) 생성·푸시 + **GitHub Pages 대시보드** https://jk-bch.github.io/RACdrugs/ — 플래시카드(간격 반복)·요약집·숏테스트·모의고사·기록. 데이터는 `tools/build_data.py` → `data/decks.json`. 덱 수정 시 스크립트 재실행 후 커밋.
