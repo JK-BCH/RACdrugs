@@ -150,3 +150,22 @@ label.inline { display: flex; align-items: center; gap: 6px; font-size: 14px; }
   .stat-grid { grid-template-columns: repeat(6, 1fr); }
   .flashcard { min-height: 320px; }
 }
+
+/* 약어 사전 — 본문 약어 밑줄 + 하단 팝업 + 사전 페이지 */
+abbr.gl { text-decoration: none; border-bottom: 1px dotted var(--accent); cursor: pointer; color: inherit; }
+abbr.gl.gl-on { background: var(--accent-soft); border-bottom: 1px solid var(--accent); border-radius: 3px; }
+.glpop { position: fixed; left: 50%; bottom: calc(var(--nav-h) + 10px); transform: translateX(-50%); width: min(560px, calc(100% - 20px));
+  max-height: 55vh; overflow: auto; background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 10px 30px rgba(0,0,0,.28); padding: 12px 14px; z-index: 35; }
+.glpop-head { display: flex; align-items: center; justify-content: space-between; font-size: 18px; margin-bottom: 2px; }
+.glpop-x { background: none; border: 0; color: var(--muted); font-size: 16px; padding: 4px 8px; cursor: pointer; }
+.glpop-sense { padding: 7px 0; border-top: 1px solid var(--line); }
+.glpop-head + .glpop-sense { border-top: 0; }
+.glpop-ctx { display: inline-block; font-size: 11.5px; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 1px 8px; margin-bottom: 3px; }
+.glpop-full { font-size: 15px; font-weight: 600; line-height: 1.4; }
+.glpop-ko { font-size: 13.5px; color: var(--muted); margin-top: 2px; line-height: 1.5; }
+.glpop-foot { margin-top: 6px; font-size: 12.5px; text-align: right; }
+.gl-row { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.gl-row:last-child { border-bottom: 0; }
+.gl-row b { color: var(--accent); }
+.gl-sense { margin-top: 2px; line-height: 1.5; }

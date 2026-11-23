@@ -76,6 +76,105 @@
     return d.week ? d.week + '주차' : '';
   }
 
+  /* ---------- 약어 사전 (data/glossary.json) ----------
+     항목: [약어, 영문 풀네임, 한국어] 또는 [약어, [[맥락, 풀네임, 한국어], ...]] (뜻이 둘 이상).
+     교과서·요약·전체 덱 본문의 텍스트 노드에서 약어를 찾아 <abbr class="gl">로 감싸고, 누르면 아래 패널에 띄운다. */
+  var GLOSS = null, GLOSS_RE = null, GLOSS_P = null;
+  function glossLoad() {
+    if (GLOSS) return Promise.resolve(GLOSS);
+    if (GLOSS_P) return GLOSS_P;
+    GLOSS_P = fetch('data/glossary.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (arr) {
+        var map = {};
+        arr.forEach(function (e) {
+          map[e[0]] = Array.isArray(e[1]) ? e[1].map(function (s) { return { ctx: s[0], full: s[1], ko: s[2] }; }) : [{ ctx: '', full: e[1], ko: e[2] }];
+        });
+        var terms = Object.keys(map).sort(function (a, b) { return b.length - a.length; }); // 긴 약어 먼저 (eCTD > CTD, PASS > PAS)
+        var alt = terms.map(function (t) { return t.replace(/[.*+?^${}()|[\]\\/]/g, '\$&'); }).join('|');
+        // 앞: 영숫자가 아닌 글자(한글 조사·공백·괄호 등) 또는 문장 시작. 뒤: 복수형 s 허용, 그 다음은 영숫자 금지 (PAS는 PASS에 안 걸림).
+        GLOSS_RE = new RegExp('(^|[^A-Za-z0-9])(' + alt + ')(?=s?(?![A-Za-z0-9]))', 'g');
+        GLOSS = map; return map;
+      })
+      .catch(function () { GLOSS = {}; GLOSS_RE = null; return GLOSS; });
+    return GLOSS_P;
+  }
+  function glossAnnotate(root) {
+    if (!root || !GLOSS_RE) return;
+    var skip = { CODE: 1, PRE: 1, A: 1, ABBR: 1, SCRIPT: 1, STYLE: 1, BUTTON: 1, INPUT: 1 };
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+    var nodes = [], n;
+    while ((n = walker.nextNode())) {
+      var p = n.parentNode, bad = false;
+      while (p && p !== root) { if (skip[p.nodeName]) { bad = true; break; } p = p.parentNode; }
+      if (!bad && /[A-Za-z0-9]/.test(n.nodeValue)) nodes.push(n);
+    }
+    nodes.forEach(function (tn) {
+      var text = tn.nodeValue, m, last = 0, frag = null;
+      GLOSS_RE.lastIndex = 0;
+      while ((m = GLOSS_RE.exec(text))) {
+        var start = m.index + m[1].length, term = m[2];
+        if (!frag) frag = document.createDocumentFragment();
+        if (start > last) frag.appendChild(document.createTextNode(text.slice(last, start)));
+        var ab = document.createElement('abbr'); ab.className = 'gl'; ab.setAttribute('data-term', term); ab.textContent = term;
+        frag.appendChild(ab);
+        last = start + term.length;
+        GLOSS_RE.lastIndex = last;
+      }
+      if (frag) { if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last))); tn.parentNode.replaceChild(frag, tn); }
+    });
+  }
+  function glossShow(term, el) {
+    var senses = GLOSS && GLOSS[term]; if (!senses) return;
+    glossHide();
+    var pop = document.createElement('div'); pop.className = 'glpop'; pop.id = 'glpop';
+    var h = '<div class="glpop-head"><b>' + esc(term) + '</b><button class="glpop-x" type="button" aria-label="닫기">✕</button></div>';
+    senses.forEach(function (s) {
+      h += '<div class="glpop-sense">' + (s.ctx ? '<span class="glpop-ctx">' + esc(s.ctx) + '</span>' : '') +
+        '<div class="glpop-full">' + esc(s.full) + '</div>' + (s.ko ? '<div class="glpop-ko">' + esc(s.ko) + '</div>' : '') + '</div>';
+    });
+    h += '<div class="glpop-foot"><a href="#/gloss?q=' + encodeURIComponent(term) + '">사전에서 보기</a></div>';
+    pop.innerHTML = h;
+    document.body.appendChild(pop);
+    el.classList.add('gl-on');
+  }
+  function glossHide() {
+    var p = document.getElementById('glpop'); if (p) p.parentNode.removeChild(p);
+    qsa('abbr.gl.gl-on').forEach(function (a) { a.classList.remove('gl-on'); });
+  }
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t || !t.closest) return;
+    var ab = t.closest('abbr.gl');
+    if (ab) { e.preventDefault(); if (ab.classList.contains('gl-on')) glossHide(); else glossShow(ab.getAttribute('data-term'), ab); return; }
+    if (t.closest('#glpop')) { if (t.closest('.glpop-x')) glossHide(); return; }
+    glossHide();
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') glossHide(); });
+  function viewGlossary(params) {
+    APP.innerHTML = '<h1>약어 사전</h1><div class="card tight"><input type="search" id="gl-q" placeholder="약어 · 영문 풀네임 · 한국어 검색" value="' + esc(params.q || '') + '"></div>' +
+      '<div class="small muted" style="margin-bottom:8px">교과서·요약·전체 덱 본문에서 밑줄 친 약어를 누르면 같은 내용이 뜬다. 뜻이 둘 이상인 약어는 맥락별로 나뉜다.</div><div id="gl-list"></div>';
+    glossLoad().then(function (map) {
+      var terms = Object.keys(map).sort(function (a, b) { return a.toLowerCase() < b.toLowerCase() ? -1 : 1; });
+      function draw(q) {
+        q = (q || '').trim().toLowerCase();
+        var out = '', n = 0;
+        terms.forEach(function (t) {
+          var ss = map[t];
+          var hay = (t + ' ' + ss.map(function (s) { return s.ctx + ' ' + s.full + ' ' + s.ko; }).join(' ')).toLowerCase();
+          if (q && hay.indexOf(q) < 0) return;
+          n++;
+          out += '<div class="gl-row"><b>' + esc(t) + '</b>' + ss.map(function (s) {
+            return '<div class="gl-sense">' + (s.ctx ? '<span class="glpop-ctx">' + esc(s.ctx) + '</span> ' : '') + esc(s.full) + (s.ko ? ' <span class="muted">— ' + esc(s.ko) + '</span>' : '') + '</div>';
+          }).join('') + '</div>';
+        });
+        var list = qs('#gl-list'); if (!list) return;
+        list.innerHTML = '<div class="card"><div class="small muted" style="margin-bottom:6px">' + n + '개</div>' + (out || '<div class="muted">검색 결과 없음</div>') + '</div>';
+      }
+      draw(params.q || '');
+      var inp = qs('#gl-q'); if (inp) inp.oninput = function (e) { draw(e.target.value); };
+    });
+  }
+
   /* ---------- 라우팅 ---------- */
   function parseHash() {
     var h = location.hash.replace(/^#/, '') || '/';
@@ -96,10 +195,12 @@
   function render() {
     if (examTimer) { clearInterval(examTimer); examTimer = null; }
     window.scrollTo(0, 0);
+    glossHide();
     var r = parseHash();
     var head = r.segs[0] || '';
     if (!head) { setActiveNav('home'); return viewHome(); }
     if (head === 'text') { setActiveNav('text'); return r.segs[1] ? viewTextbook(r.segs[1]) : viewTextbookList(); }
+    if (head === 'gloss') { setActiveNav('text'); return viewGlossary(r.params); }
     if (head === 'flash') { setActiveNav('flash'); return viewFlash(r.params); }
     if (head === 'summary') { setActiveNav('summary'); return r.segs[1] ? viewSummaryDeck(r.segs[1]) : viewSummaryList(r.params); }
     if (head === 'deck') { setActiveNav('summary'); return viewDeckFull(r.segs[1]); }
@@ -378,7 +479,7 @@
     var d = DECK_BY_ID[id];
     if (!d) { APP.innerHTML = '<p>없는 덱</p>'; return; }
     var p = deckProgress(id);
-    var html = '<div class="small muted"><a href="#/summary">요약집</a> › ' + esc(deckShort(id)) + '</div><h1>' + esc(d.title) + '</h1>' +
+    var html = '<div id="sum-root"><div class="small muted"><a href="#/summary">요약집</a> › ' + esc(deckShort(id)) + '</div><h1>' + esc(d.title) + '</h1>' +
       '<div class="small muted" style="margin-bottom:8px">' + (d.date ? d.date + ' · ' : '') + esc(weekLabel(d)) + ' · ' + d.n + '장 · 본 카드 ' + p.seen + ' (○' + p.ok + ' ×' + p.ng + ')</div>' +
       '<div class="btnrow' + (d.textbook && textbookOf(d.textbook) ? '' : ' three') + '">' + (d.textbook && textbookOf(d.textbook) ? '<a class="btn" href="#/text/' + d.textbook + '">교과서</a>' : '') + '<a class="btn primary" href="#/flash?deck=' + id + '&shuffle=1&types=R,A,An">카드</a><a class="btn" href="#/quiz?deck=' + id + '">숏테스트</a><a class="btn" href="#/deck/' + id + '">전체 덱</a></div>';
     html += '<div class="card"><h2 style="margin:0 0 6px">' + (d.kind === 'review' ? '비교표' : '핵심 요약') + '</h2><div class="md">' + mdFull(d.summary || '_(없음)_') + '</div></div>';
@@ -389,22 +490,23 @@
       var st = cardState(c.id);
       html += '<a class="item" href="#/flash?deck=' + id + '&shuffle=0&types=R,A,An"><span class="pill">' + c.n + '</span><span class="pill">' + c.type + '</span><span class="pill">' + c.domain + '</span>' + (st.seen ? '<span class="pill ' + (st.ng && st.box === 0 ? 'bad' : (st.box >= 3 ? 'ok' : '')) + '">상자 ' + st.box + '</span>' : '') + ' ' + esc(truncate(c.front, 110)) + '</a>';
     });
-    html += '</div></div>';
+    html += '</div></div></div>';
     APP.innerHTML = html;
+    glossLoad().then(function () { qsa('#sum-root .md').forEach(glossAnnotate); });
   }
   function viewDeckFull(id) {
     var d = DECK_BY_ID[id];
     if (!d) { APP.innerHTML = '<p>없는 덱</p>'; return; }
     APP.innerHTML = '<div class="small muted"><a href="#/summary/' + id + '">요약</a> › 전체</div><div class="card md" id="deck-md">불러오는 중…</div>';
-    fetch(d.md).then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
-      .then(function (md) { qs('#deck-md').innerHTML = mdFull(md); })
+    Promise.all([fetch(d.md).then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); }), glossLoad()])
+      .then(function (res) { var el = qs('#deck-md'); if (!el) return; el.innerHTML = mdFull(res[0]); glossAnnotate(el); })
       .catch(function (e) { qs('#deck-md').innerHTML = '<p class="muted">덱 파일을 읽지 못했다 (' + esc(e.message) + '). <a href="' + d.md + '">원본 열기</a></p>'; });
   }
 
   /* ---------- 교과서 ---------- */
   function viewTextbookList() {
     var tbs = DATA.textbooks || [];
-    var html = '<h1>교과서</h1><div class="small muted" style="margin-bottom:8px">장마다 교과서를 읽고 같은 번호 덱의 요약 → 카드 → 테스트로 간다. 회색은 아직 안 쓴 장.</div><div class="card"><div class="list">';
+    var html = '<h1>교과서</h1><div class="small muted" style="margin-bottom:8px">장마다 교과서를 읽고 같은 번호 덱의 요약 → 카드 → 테스트로 간다. 회색은 아직 안 쓴 장. 본문의 밑줄 친 약어는 누르면 풀네임이 뜬다 · <a href="#/gloss">약어 사전</a></div><div class="card"><div class="list">';
     tbs.forEach(function (tb) {
       var decks = tb.decks.map(function (id) { return deckShort(id); }).join(' · ');
       var label = tb.id === 'Ch00_primer' ? 'Ch.0' : tb.id;
@@ -422,7 +524,7 @@
     var prev = null, next = null;
     for (var i = idx - 1; i >= 0; i--) { if (tbs[i].path) { prev = tbs[i]; break; } }
     for (var j = idx + 1; j < tbs.length; j++) { if (tbs[j].path) { next = tbs[j]; break; } }
-    var html = '<div class="small muted"><a href="#/text">교과서</a> › ' + esc(tb.id) + '</div><div class="card md" id="tb-md">불러오는 중…</div>';
+    var html = '<div class="small muted row"><span class="grow"><a href="#/text">교과서</a> › ' + esc(tb.id) + '</span><a href="#/gloss">약어 사전</a></div><div class="card md" id="tb-md">불러오는 중…</div>';
     if (tb.decks.length) {
       html += '<div class="card"><h2 style="margin:0 0 6px">이 장의 덱 — 읽었으면 바로</h2>';
       tb.decks.forEach(function (did) {
@@ -433,8 +535,8 @@
     }
     html += '<div class="btnrow two">' + (prev ? '<a class="btn" href="#/text/' + prev.id + '">← ' + esc(prev.id === 'Ch00_primer' ? 'Ch.0' : prev.id) + '</a>' : '<span></span>') + (next ? '<a class="btn" href="#/text/' + next.id + '">' + esc(next.id) + ' →</a>' : '<span></span>') + '</div>';
     APP.innerHTML = html;
-    fetch(tb.path).then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
-      .then(function (md) { qs('#tb-md').innerHTML = mdFull(md); })
+    Promise.all([fetch(tb.path).then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); }), glossLoad()])
+      .then(function (res) { var el = qs('#tb-md'); if (!el) return; el.innerHTML = mdFull(res[0]); glossAnnotate(el); })
       .catch(function (e) { qs('#tb-md').innerHTML = '<p class="muted">교과서 파일을 읽지 못했다 (' + esc(e.message) + ').</p>'; });
   }
 
