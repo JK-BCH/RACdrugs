@@ -142,3 +142,4 @@ Phase 3 영역 가중치를 조정할 때 이 표를 읽는다.
   · Ch31 유효기간 연장: 승인 프로토콜 + 실생산 배치 전체 유효기간 데이터면 **annual report**(NDA 314.70(d)(2)(vi); BLA도 2021 Certain Biological Products guidance, 실생산 ≥3로트). CBE-30은 승인 안 된 프로토콜·pilot 배치. textbook Ch31 3곳·P2_comparability 2곳, cards Ch31_1 카드 20·P2_comparability, anki 수정.
   · P2 506K platform 지정 응답 90일: 21 USC 356k(d)(1) "90 calendar days" → **교과서가 맞음, 감사 지적 오류**(수정 안 함).
   build_data 재실행. Anki 필드 수 검증 통과.
+- 2026-11-26 (7차): 커밋·푸시(11a6ce9 문제은행+대시보드, a361c96 교과서 오류 수정) → Pages built a361c96, 라이브 모의고사 문제은행 256·선지 한글 0 확인. 다음 문제은행(Ch07-08~Ch12) 사전 정리 — 1차 출처 확인 후 수정: M3(R2) 목차(ICH PDF)로 급성 §4·국소 내성 §8·유전독성 §9(Ch05-06·Ch07-08 교과서·덱·Anki·문제은행 Ch05-06 해설 2곳), M7(R2) 원문으로 Option 4 = "AI 미만 확신, 시험 없음"(30%는 Option 1 정기 검증·Option 3), M3(R2) §11.3 원문으로 WOCBP 150명·3개월 = 전 지역 공통 예외(미국 Phase 3 전 연기는 피임만), Ch11 EU 면제 표현을 "확인 필요"와 일치. 작성 규칙 `exams/AUTHORING.md` 신설.
