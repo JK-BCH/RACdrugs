@@ -555,17 +555,28 @@
     var options = shuffle([{ text: card.back, correct: true }].concat(picks.map(function (c) { return { text: c.back, correct: false }; })));
     return { card: card, options: options, answer: null, flagged: false };
   }
+  function pickTypeMix(items, n) { // 유형 35/50/15로 n개 고른다 (items: type 필드만 있으면 됨)
+    var byType = { R: shuffle(items.filter(function (c) { return c.type === 'R'; })), A: shuffle(items.filter(function (c) { return c.type === 'A'; })), An: shuffle(items.filter(function (c) { return c.type === 'An'; })) };
+    var want = { R: Math.round(n * 0.35), A: Math.round(n * 0.5), An: 0 }; want.An = n - want.R - want.A;
+    var chosen = [];
+    ['R', 'A', 'An'].forEach(function (k) { chosen = chosen.concat(byType[k].slice(0, want[k])); });
+    if (chosen.length < n) { var left = shuffle(items.filter(function (c) { return chosen.indexOf(c) < 0; })); chosen = chosen.concat(left.slice(0, n - chosen.length)); }
+    return shuffle(chosen);
+  }
   function buildQuestions(cards, pool, n, typeMix) {
-    var chosen;
-    if (typeMix) {
-      var byType = { R: shuffle(cards.filter(function (c) { return c.type === 'R'; })), A: shuffle(cards.filter(function (c) { return c.type === 'A'; })), An: shuffle(cards.filter(function (c) { return c.type === 'An'; })) };
-      var want = { R: Math.round(n * 0.35), A: Math.round(n * 0.5), An: 0 }; want.An = n - want.R - want.A;
-      chosen = [];
-      ['R', 'A', 'An'].forEach(function (k) { chosen = chosen.concat(byType[k].slice(0, want[k])); });
-      if (chosen.length < n) { var left = shuffle(cards.filter(function (c) { return chosen.indexOf(c) < 0; })); chosen = chosen.concat(left.slice(0, n - chosen.length)); }
-      chosen = shuffle(chosen);
-    } else chosen = shuffle(cards).slice(0, n);
+    var chosen = typeMix ? pickTypeMix(cards, n) : shuffle(cards).slice(0, n);
     return chosen.map(function (c) { return makeQuestion(c, pool); });
+  }
+  /* 문제은행(exams/bank_*.md) 문항 — 선지는 저자가 쓴 A~D 순서 그대로(해설이 글자를 참조). */
+  function makeBankQuestion(b) {
+    var card = { id: 'bank:' + b.id, deck: b.deck, n: b.n, domain: b.domain, type: b.type, front: b.stem, back: b.expl.replace(/^- /gm, '• '), bank: true };
+    var options = b.options.map(function (t, i) { return { text: t, correct: i === b.answer }; });
+    return { card: card, options: options, answer: null, flagged: false };
+  }
+  function bankForScope(scope) {
+    if (scope.indexOf('deck:') === 0) { var one = scope.slice(5); return (DATA.bank || []).filter(function (b) { return b.deck === one; }); }
+    var ids = {}; cardsForScope(scope).forEach(function (c) { ids[c.deck] = 1; });
+    return (DATA.bank || []).filter(function (b) { return ids[b.deck]; });
   }
   function optionHtml(o, idx, state) { // state: '', 'selected', 'correct', 'wrong'
     var letter = 'ABCD'[idx];
@@ -601,7 +612,7 @@
       '<div class="row" style="margin-top:10px"><label class="inline">문항 <select id="q-n" style="width:auto"><option>10</option><option>15</option><option>20</option></select></label>' +
       '<label class="inline"><input type="checkbox" id="q-R" checked> R</label><label class="inline"><input type="checkbox" id="q-A" checked> A</label><label class="inline"><input type="checkbox" id="q-An" checked> An</label></div>' +
       '<button class="btn primary block" id="q-start" style="margin-top:12px">시작</button>' +
-      '<div class="small muted" style="margin-top:8px">문항 = 카드 앞면, 보기 = 정답 뒷면 + 같은 도메인 카드 뒷면 3개. 고르면 바로 정오답과 해설(뒷면)이 보인다. 틀린 카드는 간격 반복에서 상자 0으로 내려간다.</div></div>';
+      '<div class="small muted" style="margin-top:8px">문제은행이 있는 장은 영문 지문 + 영문 선지 4개로 나오고, 고르면 바로 정오답과 한국어 해설이 보인다. 문제은행이 아직 없는 장은 카드 복습형(문항 = 카드 앞면, 보기 = 카드 뒷면 4개, 한국어)으로 나오고, 틀린 카드는 간격 반복에서 상자 0으로 내려간다.</div></div>';
     APP.innerHTML = html;
     var sc = qs('#q-scope');
     sc.onchange = function () { qs('#q-deck-wrap').style.display = sc.value === 'deck' ? '' : 'none'; };
@@ -615,8 +626,16 @@
     var cards = filterTypes(cardsForScope(scope, params.deck), (params.types || '').split(',').filter(Boolean));
     var n = Math.min(parseInt(params.n || '10', 10), cards.length);
     if (!cards.length) { APP.innerHTML = '<h1>숏테스트</h1><div class="card">카드가 없다. <a href="#/quiz">돌아가기</a></div>'; return; }
+    var label = scope === 'deck' ? deckShort(params.deck) : '범위: ' + scope;
+    var types = (params.types || '').split(',').filter(Boolean);
+    var bank = filterTypes(bankForScope(scope === 'deck' ? 'deck:' + params.deck : scope), types);
+    if (bank.length >= 5) { // 문제은행이 있으면 영문 선지 문항으로
+      var nb = Math.min(parseInt(params.n || '10', 10), bank.length);
+      quiz = { qs: shuffle(bank).slice(0, nb).map(makeBankQuestion), i: 0, label: label + ' · 문제은행', answered: false };
+      renderQuizQ(); return;
+    }
     var pool = scope === 'deck' ? DATA.cards.filter(function (c) { return DECK_BY_ID[c.deck].phase === DECK_BY_ID[params.deck].phase; }) : cards.length >= 40 ? cards : DATA.cards;
-    quiz = { qs: buildQuestions(cards, pool, n, false), i: 0, label: scope === 'deck' ? deckShort(params.deck) : '범위: ' + scope, answered: false };
+    quiz = { qs: buildQuestions(cards, pool, n, false), i: 0, label: label + ' · 카드 복습형(한국어 선지 — 문제은행 미작성 장)', answered: false };
     renderQuizQ();
   }
   function renderQuizQ() {
@@ -640,7 +659,7 @@
       b.onclick = function () {
         if (q.answer !== null) return;
         q.answer = parseInt(b.getAttribute('data-i'), 10);
-        markFromQuiz(c.id, q.options[q.answer].correct);
+        if (!c.bank) markFromQuiz(c.id, q.options[q.answer].correct);
         renderQuizQ();
       };
       if (q.answer !== null) b.disabled = true;
@@ -665,21 +684,26 @@
   var exam = null;
   function viewExam(params) {
     if (params.start === '1') { startExam(params); return; }
+    // 모의고사는 영어 시험 형식이라 문제은행(영문 지문·선지)만 쓴다. 카드 뒷면은 한국어라 선지로 쓰지 않는다.
+    var bankDecks = []; (DATA.bank || []).forEach(function (b) { if (bankDecks.indexOf(b.deck) < 0) bankDecks.push(b.deck); });
+    var scopes = [['all', '전체'], ['todate', '지금까지 나온 덱'], ['phase1', 'Phase 1 전체'], ['p2', 'Phase 2 특화만']].concat(bankDecks.map(function (d) { return ['deck:' + d, deckShort(d) + '만']; }));
+    var scopeOpts = scopes.map(function (s) { var k = bankForScope(s[0]).length; return '<option value="' + s[0] + '"' + (k < 8 ? ' disabled' : '') + (s[0] === 'all' ? ' selected' : '') + '>' + esc(s[1]) + ' (' + k + '문항)</option>'; }).join('');
     var html = '<h1>모의고사</h1><div class="card">' +
       '<label class="small muted">문항 수 · 시간(1.25분/문항)</label><select id="e-n"><option value="120">120문항 · 150분 (실전)</option><option value="60">60문항 · 75분</option><option value="30" selected>30문항 · 38분 (Phase 3 일일)</option></select>' +
-      '<label class="small muted" style="display:block;margin-top:8px">출제 범위</label><select id="e-scope"><option value="todate">지금까지 나온 덱</option><option value="phase1">Phase 1 전체</option><option value="all" selected>전체(Phase 1 + 2)</option><option value="p2">Phase 2 특화만</option></select>' +
+      '<label class="small muted" style="display:block;margin-top:8px">출제 범위 (문제은행)</label><select id="e-scope">' + scopeOpts + '</select>' +
       '<label class="inline" style="margin-top:10px"><input type="checkbox" id="e-weight" checked> 도메인 가중 27/27/13/22/11 · 유형 35/50/15</label>' +
       '<button class="btn primary block" id="e-start" style="margin-top:12px">시작</button>' +
-      '<div class="small muted" style="margin-top:8px">제출 전까지 정오답을 보여주지 않는다. 번호판에서 이동·깃발 표시 가능. 시간이 끝나면 자동 제출. 결과는 도메인·유형별로 저장된다.</div></div>';
+      '<div class="small muted" style="margin-top:8px">실제 시험처럼 영문 지문 + 영문 선지 4개. 제출 전까지 정오답을 보여주지 않는다. 번호판에서 이동·깃발 표시 가능. 시간이 끝나면 자동 제출. 제출 후 문항 검토에서 한국어 해설이 보인다. 문제은행이 있는 장: ' + esc(bankDecks.join(', ') || '없음') + '. 범위의 문항이 고른 수보다 적으면 있는 만큼만 낸다.</div></div>';
     html += '<div class="card"><h2 style="margin:0 0 6px">최근 기록</h2>' + historyTable('exam', 5) + '</div>';
     APP.innerHTML = html;
     qs('#e-start').onclick = function () { nav('#/exam?start=1&n=' + qs('#e-n').value + '&scope=' + qs('#e-scope').value + '&weight=' + (qs('#e-weight').checked ? 1 : 0)); };
   }
   function startExam(params) {
     var n = parseInt(params.n || '30', 10);
-    var cards = cardsForScope(params.scope || 'all');
-    if (cards.length < 8) { APP.innerHTML = '<h1>모의고사</h1><div class="card">범위에 카드가 너무 적다. <a href="#/exam">돌아가기</a></div>'; return; }
-    n = Math.min(n, cards.length);
+    var scope = params.scope || 'all';
+    var items = bankForScope(scope).map(function (b) { return { domain: b.domain, type: b.type, make: function () { return makeBankQuestion(b); } }; });
+    if (items.length < 8) { APP.innerHTML = '<h1>모의고사</h1><div class="card">이 범위에는 문제은행 문항이 ' + items.length + '개뿐이다. 범위를 넓혀라. <a href="#/exam">돌아가기</a></div>'; return; }
+    n = Math.min(n, items.length);
     var chosen = [];
     if (params.weight === '1') {
       var keys = Object.keys(DATA.domains); var alloc = {}; var sum = 0;
@@ -687,14 +711,13 @@
       var order = keys.slice().sort(function (a, b) { return (n * DATA.domains[b].weight / 100 % 1) - (n * DATA.domains[a].weight / 100 % 1); });
       for (var i = 0; sum < n; i++) { alloc[order[i % order.length]]++; sum++; }
       keys.forEach(function (k) {
-        var dc = cards.filter(function (c) { return c.domain === k; });
-        var pick = buildQuestions(dc, cards, Math.min(alloc[k], dc.length), true).map(function (q) { return q.card; });
-        chosen = chosen.concat(pick);
+        var dc = items.filter(function (c) { return c.domain === k; });
+        chosen = chosen.concat(pickTypeMix(dc, Math.min(alloc[k], dc.length)));
       });
-      if (chosen.length < n) { var left = shuffle(cards.filter(function (c) { return chosen.indexOf(c) < 0; })); chosen = chosen.concat(left.slice(0, n - chosen.length)); }
+      if (chosen.length < n) { var left = shuffle(items.filter(function (c) { return chosen.indexOf(c) < 0; })); chosen = chosen.concat(left.slice(0, n - chosen.length)); }
       chosen = shuffle(chosen);
-    } else chosen = shuffle(cards).slice(0, n);
-    exam = { qs: chosen.map(function (c) { return makeQuestion(c, cards); }), i: 0, secs: Math.round(n * 75), started: Date.now(), label: (params.scope || 'all') + ' · ' + n + '문항', submitted: false };
+    } else chosen = shuffle(items).slice(0, n);
+    exam = { qs: chosen.map(function (x) { return x.make(); }), i: 0, secs: Math.round(n * 75), started: Date.now(), label: scope.replace('deck:', '') + ' · ' + n + '문항', submitted: false };
     renderExamQ();
     examTimer = setInterval(function () {
       if (!exam || exam.submitted) return;
@@ -710,7 +733,7 @@
     html += '<div class="qgrid">';
     x.qs.forEach(function (q2, idx) { html += '<button data-go="' + idx + '" class="' + (idx === x.i ? 'current ' : '') + (q2.flagged ? 'flagged' : (q2.answer !== null ? 'answered' : '')) + '">' + (idx + 1) + '</button>'; });
     html += '</div>';
-    html += '<div class="small muted"><span class="pill">' + TYPE_LABEL[c.type] + '</span><span class="pill">Domain ' + c.domain + '</span></div>' +
+    html += '<div class="small muted">' + (c.bank ? '<span class="pill">문제은행</span>' : '') + '<span class="pill">' + TYPE_LABEL[c.type] + '</span><span class="pill">Domain ' + c.domain + '</span></div>' +
       '<div class="card"><b>' + esc(c.front) + '</b></div><div id="e-opts">';
     q.options.forEach(function (o, idx) { html += optionHtml(o, idx, q.answer === idx ? 'selected' : ''); });
     html += '</div><div class="btnrow three"><button class="btn" id="e-prev"' + (x.i === 0 ? ' disabled' : '') + '>이전</button><button class="btn warn" id="e-flag">' + (q.flagged ? '깃발 해제' : '깃발') + '</button><button class="btn" id="e-next"' + (x.i === x.qs.length - 1 ? ' disabled' : '') + '>다음</button></div>' +
@@ -733,7 +756,7 @@
     var x = exam; if (!x || x.submitted) return;
     x.submitted = true; if (examTimer) { clearInterval(examTimer); examTimer = null; }
     var r = scoreByDomain(x.qs);
-    x.qs.forEach(function (q) { markFromQuiz(q.card.id, q.answer !== null && q.options[q.answer].correct); });
+    x.qs.forEach(function (q) { if (!q.card.bank) markFromQuiz(q.card.id, q.answer !== null && q.options[q.answer].correct); });
     var used = Math.round((Date.now() - x.started) / 60000);
     pushHistory({ kind: 'exam', date: todayStr(), label: x.label, score: r.score, total: x.qs.length, byDomain: r.byDomain, byType: r.byType, minutes: used });
     var pct = Math.round(100 * r.score / x.qs.length);
@@ -748,8 +771,9 @@
     qsa('[data-rev]').forEach(function (b) {
       b.onclick = function () {
         var q = x.qs[parseInt(b.getAttribute('data-rev'), 10)];
-        var out = '<div><span class="pill">' + esc(deckShort(q.card.deck)) + ' #' + q.card.n + '</span><span class="pill">Domain ' + q.card.domain + '</span></div><div style="margin:6px 0"><b>' + esc(q.card.front) + '</b></div>';
+        var out = '<div><span class="pill">' + esc(deckShort(q.card.deck)) + (q.card.bank ? ' Q' : ' #') + q.card.n + '</span><span class="pill">Domain ' + q.card.domain + '</span></div><div style="margin:6px 0"><b>' + esc(q.card.front) + '</b></div>';
         q.options.forEach(function (o, idx) { out += optionHtml(o, idx, o.correct ? 'correct' : (q.answer === idx ? 'wrong' : '')); });
+        if (q.card.bank) out += '<div class="card md small" style="margin-top:8px"><b>해설</b><div style="margin-top:4px">' + mdLite(q.card.back) + '</div></div>';
         qs('#e-review').innerHTML = out; qs('#e-review').className = '';
         bindExpand(qs('#e-review'));
         qsa('#e-review .option').forEach(function (ob) { ob.onclick = function () { ob.classList.add('expanded'); }; });

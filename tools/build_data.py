@@ -16,7 +16,12 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 ANKI = ROOT / "anki"
 CARDS = ROOT / "cards"
 TEXTBOOK = ROOT / "textbook"
+EXAMS = ROOT / "exams"
 OUT = ROOT / "data" / "decks.json"
+
+BANK_Q_RE = re.compile(r"^### Q(\d+) \[(R|A|An)\]\[Domain ([IV]+)\]\s*[—-]?\s*(.*)$")
+BANK_OPT_RE = re.compile(r"^([ABCD])\. (.*)$")
+BANK_ANS_RE = re.compile(r"^\*\*정답:\*\*\s*([ABCD])\s*$")
 
 TYPE = {"Recall": "R", "Application": "A", "Analysis": "An"}
 DOMAINS = {
@@ -161,6 +166,73 @@ def parse_cards(deck_id):
     return cards
 
 
+def parse_bank(path):
+    """exams/bank_<deck>.md -> 문항 목록.
+
+    문항 블록: '### Qnn [R|A|An][Domain X] — 제목' / 영문 지문 / 'A. ..'~'D. ..' /
+    '**정답:** X' / '**해설**' + 불릿, 구분선 '---'. 선지 순서는 해설이 A~D 글자를
+    참조하므로 그대로 둔다.
+    """
+    deck_id = path.stem[len("bank_"):]
+    lines = path.read_text(encoding="utf-8").splitlines()
+    items = []
+    i = 0
+    while i < len(lines):
+        m = BANK_Q_RE.match(lines[i])
+        if not m:
+            i += 1
+            continue
+        n, ctype, domain, title = int(m.group(1)), m.group(2), m.group(3), m.group(4).strip()
+        if domain not in DOMAINS:
+            sys.exit(f"{path.name} Q{n}: bad domain '{domain}'")
+        i += 1
+        stem, options, answer, expl = [], [], None, []
+        state = "stem"
+        while i < len(lines) and lines[i].strip() != "---":
+            line = lines[i]
+            if state == "stem":
+                om = BANK_OPT_RE.match(line)
+                if om:
+                    state = "opts"
+                    continue
+                if line.strip():
+                    stem.append(line.strip())
+            elif state == "opts":
+                om = BANK_OPT_RE.match(line)
+                if om:
+                    if om.group(1) != "ABCD"[len(options)]:
+                        sys.exit(f"{path.name} Q{n}: option order broken at '{line[:30]}'")
+                    options.append(om.group(2).strip())
+                elif line.strip():
+                    am = BANK_ANS_RE.match(line)
+                    if am:
+                        answer = "ABCD".index(am.group(1))
+                        state = "expl"
+                    elif options:
+                        options[-1] += " " + line.strip()
+            elif state == "expl":
+                if line.strip() == "**해설**":
+                    pass
+                elif line.strip():
+                    expl.append(line.rstrip())
+            i += 1
+        if len(options) != 4 or answer is None or not stem:
+            sys.exit(f"{path.name} Q{n}: expected 4 options + 정답 (got {len(options)}, {answer})")
+        items.append({
+            "id": f"{deck_id}-Q{n:02d}",
+            "deck": deck_id,
+            "n": n,
+            "type": ctype,
+            "domain": domain,
+            "title": title,
+            "stem": " ".join(stem),
+            "options": options,
+            "answer": answer,
+            "expl": "\n".join(expl),
+        })
+    return items
+
+
 def main():
     deck_files = sorted(p.stem for p in ANKI.glob("*.txt")
                         if p.stem.startswith(("Ch", "Review_", "P2_")))
@@ -206,6 +278,19 @@ def main():
             seen_tb.add(tb)
             textbooks.append({"id": tb, "title": None, "path": None, "decks": [x["id"] for x in decks if textbook_id(x["id"]) == tb], "date": d["date"]})
 
+    bank = []
+    deck_ids = {d["id"] for d in decks}
+    for path in sorted(EXAMS.glob("bank_*.md")):
+        items = parse_bank(path)
+        if items and items[0]["deck"] not in deck_ids:
+            sys.exit(f"{path.name}: no deck '{items[0]['deck']}' in anki/")
+        bank.extend(items)
+    seen_q = set()
+    for b in bank:
+        if b["id"] in seen_q:
+            sys.exit(f"duplicate bank id {b['id']}")
+        seen_q.add(b["id"])
+
     data = {
         "generated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "exam": EXAM,
@@ -214,6 +299,7 @@ def main():
         "textbooks": textbooks,
         "decks": decks,
         "cards": cards,
+        "bank": bank,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")),
@@ -223,6 +309,10 @@ def main():
         by_domain[c["domain"]] = by_domain.get(c["domain"], 0) + 1
     print(f"decks={len(decks)} cards={len(cards)} -> {OUT} ({OUT.stat().st_size//1024} KB)")
     print("by domain:", dict(sorted(by_domain.items())))
+    bank_by_deck = {}
+    for b in bank:
+        bank_by_deck[b["deck"]] = bank_by_deck.get(b["deck"], 0) + 1
+    print(f"bank={len(bank)}", dict(sorted(bank_by_deck.items())))
     print("missing summary:", [d["id"] for d in decks if not d["summary"]])
     print("missing memo:", [d["id"] for d in decks if not d["memo"]])
     print("textbooks written:", [t["id"] for t in textbooks if t["path"]],
