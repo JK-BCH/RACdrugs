@@ -85,7 +85,7 @@
 
 **11. [R][Domain I]**
 *Front:* Under 21 CFR 58.195, how long are GLP records kept after (a) application approval, (b) submission to FDA?
-*Back:* (a) 승인 후 **최소 2년**, (b) 제출 후 **최소 5년** — 더 긴 쪽. 미제출 연구는 완료 후 2년. (21 CFR 58.195)
+*Back:* (a) 승인 후 **최소 2년**, (b) 제출 후 **최소 5년** — 둘 중 **가장 짧은 쪽**(58.195(b) "whichever … is shortest"). 미제출 연구는 완료 후 2년. (21 CFR 58.195)
 
 **12. [A][Domain III]**
 *Front:* A CRO organisation chart shows the QAU reporting to the study director. What is the compliance problem?

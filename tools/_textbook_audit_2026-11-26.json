@@ -1,0 +1,362 @@
+[
+ {
+  "chapter": "Ch03-04",
+  "line": 79,
+  "category": "suspected-fact-error",
+  "severity": "high",
+  "quote": "3. **보관 기간 \"2년 또는 5년\"**: 승인 후 2년 / 제출 후 5년 중 **긴 쪽**.",
+  "problem": "21 CFR 58.195(b)에는 '해당 기간 중 가장 짧은 쪽(whichever of the following periods is shortest)'이라고 적혀 있다고 알고 있다. 교과서는 방향을 거꾸로 가르치고 있고, 덱 카드 6도 '(더 긴 쪽)'이라고 같은 오류를 담고 있다. 출제 가능성이 높은 숫자 규칙이다. 1차 출처로 확인 필요(오류로 의심).",
+  "fix": "3. **보관 기간 \"2년 또는 5년\"**: 승인 후 2년 / 제출 후 5년 / 미제출 시 완료 후 2년 중 **가장 짧은 쪽**(58.195(b) \"whichever ... is shortest\"). 덱 카드 6도 같이 고칠 것."
+ },
+ {
+  "chapter": "Ch03-04",
+  "line": 26,
+  "category": "suspected-fact-error",
+  "severity": "high",
+  "quote": "기록·검체 보관 — **신청 승인 후 ≥2년** 또는 **FDA 제출 후 ≥5년**(긴 쪽); 미제출 연구는 완료·종료 후 2년.",
+  "problem": "위 항목과 같은 오류가 네 기둥 표에도 있다. 58.195(b)는 세 기간 중 가장 짧은 쪽을 적용한다. 1차 출처로 확인 필요(오류로 의심).",
+  "fix": "기록·검체 보관 — **신청 승인 후 ≥2년**, **FDA 제출 후 ≥5년**, 미제출 연구는 완료·종료 후 ≥2년 중 **가장 짧은 쪽**(58.195(b))."
+ },
+ {
+  "chapter": "Ch12",
+  "line": 35,
+  "category": "internal-conflict",
+  "severity": "high",
+  "quote": "**한국 API**라면 **식약처 발급 확인서**가 붙고, EU가 GMP 동등성을 인정한 **listed 국가**(Art 111b)는 면제된다(Ch.32: 미국·일본·스위스·호주·브라질·이스라엘·한국)",
+  "problem": "같은 문장 안에서 서로 맞지 않는다. 한국이 Art 111b 목록에 있으면(Ch32_1 덱 카드도 한국을 목록에 넣었다) Art 46b written confirmation은 면제되므로 식약처 확인서가 필요 없다. 흔한 혼동 6번(68행)과 Ch12 덱 카드 8·요약도 '한국은 식약처 확인서'로 가르친다. 한국 API가 확인서를 받아야 하는지는 그대로 시험 문제가 될 수 있다.",
+  "fix": "**한국은 Art 111b listed 국가**(미국·일본·스위스·호주·브라질·이스라엘·한국)라 written confirmation이 **면제**된다. 목록 밖 국가(예: 인도·중국)는 수출국 당국 확인서가 필요하다. 68행도 '수출국 당국(예: 인도 CDSCO), listed 국가(한국 포함) 면제'로 고칠 것. Ch12 덱 카드 8도 정정할 것."
+ },
+ {
+  "chapter": "Ch12",
+  "line": 68,
+  "category": "internal-conflict",
+  "severity": "medium",
+  "quote": "6. **Art 46b 확인서를 누가 발급?** **수출국 당국**(한국은 식약처), listed 국가 면제.",
+  "problem": "35행이 한국을 listed 국가로 소개하므로, 한국을 '식약처가 확인서를 발급하는 나라'의 예로 드는 것은 그와 모순된다.",
+  "fix": "6. **Art 46b 확인서를 누가 발급?** **수출국 당국**(예: 인도 CDSCO·중국 NMPA). 한국을 포함한 Art 111b listed 국가는 면제."
+ },
+ {
+  "chapter": "Ch07-08",
+  "line": 65,
+  "category": "suspected-fact-error",
+  "severity": "medium",
+  "quote": "**Option 4** 규격 시험 없음 — **공정 이해와 purge factor로 불순물이 AI의 30% 미만**임을 과학적으로 입증할 때.",
+  "problem": "M7(R2)에서 '30%'는 Option 1에서 정기 검증 시험(periodic verification testing)을 정당화하는 기준(연속 배치에서 AI의 30% 미만)으로 알고 있다. Option 4의 기준은 fate/purge 이해로 원료의약품 중 농도가 'AI 미만'이라는 충분한 확신이다. 숫자표(83행)와 덱 카드 17도 같은 내용이다. 1차 출처로 확인 필요(오류로 의심).",
+  "fix": "**Option 4** 규격 시험 없음 — 공정 파라미터·fate/purge 이해로 원료의약품 중 불순물이 **AI 미만**으로 유지된다는 충분한 확신을 입증할 때. (30% 기준은 Option 1의 정기 검증 시험 정당화 조건 — 1차 출처로 확인)"
+ },
+ {
+  "chapter": "Ch01",
+  "line": 98,
+  "category": "deck-conflict",
+  "severity": "medium",
+  "quote": "4. **PMR vs PMC**: 505(o)(3) 근거면 PMR, \"서면 동의\"면 PMC. 보고 의무(506B)는 둘 다 있다(Ch.29).",
+  "problem": "덱 카드 17은 'PMC와 달리 PMR에는 이행 보고 의무가 따라와'라고 해서 교과서와 반대로 말한다. 506B 조문 번호는 Ch01 덱 어디에도 없다(unsupported). 실제 규정상으로는 PMR과 일부(506B 대상) PMC 모두 연례 상태 보고 대상이라 교과서 쪽이 더 정확해 보인다. 이 경우 덱 카드 17을 고쳐야 한다.",
+  "fix": "4. **PMR vs PMC**: 505(o)(3) 근거면 PMR, \"서면 동의\"면 PMC. 연례 상태 보고(506B, 314.81(b)(2)(vii))는 PMR과 506B 대상 PMC 모두에 적용된다(Ch.29). 덱 카드 17의 'PMC와 달리' 문구를 정정할 것."
+ },
+ {
+  "chapter": "Ch11",
+  "line": 85,
+  "category": "unsupported",
+  "severity": "medium",
+  "quote": "MSC-EV 자체는 두 지역 모두 자연 유래 범주로 가지만, **배지 잔류 소분자·항생제·동결보존제**를 성분표에서 확인해 정당화 문서를 준비한다.",
+  "problem": "EU 면제 범주는 52행과 덱 카드 13이 '(확인 필요)'로 표시한 사항이다. 그런데 여기서는 EU도 자연 유래 범주로 간다고 확정해서 말한다.",
+  "fix": "MSC-EV 자체는 미국에선 25.31(c) 자연 발생 물질 exclusion, EU에선 면제·간략화 범주로 갈 가능성이 높지만 Rev. 1 범위는 확인 필요다. 어느 쪽이든 **배지 잔류 소분자·항생제·동결보존제**는 성분표로 확인해 정당화 문서를 준비한다."
+ },
+ {
+  "chapter": "Ch09-10",
+  "line": 48,
+  "category": "suspected-fact-error",
+  "severity": "medium",
+  "quote": "**미국**: **피임 조치**(임신검사·효과적 피임) 하에 EFD를 **Phase 3 전**까지 연기 가능(예비 EFD 등 조건) — Phase 2에 WOCBP 150명·3개월 노출 추정이 위험 논의 근거",
+  "problem": "M3(R2) §11에서 '예비 EFD(두 종) 데이터가 있으면 WOCBP 최대 150명을 최대 3개월 투여할 수 있다'는 조항은 모든 ICH 지역에 적용되는 예외로 알고 있다. 미국의 'Phase 3 전 연기'는 피임 조치만 조건이고 예비 EFD 조건은 없다. 교과서처럼 150명·3개월을 미국 칸에만 넣으면 'EU·일본은 예외 없이 노출 전 definitive EFD'로 잘못 읽힌다. 1차 출처로 확인 필요(오류로 의심).",
+  "fix": "**미국**: 피임 조치 하에 EFD를 Phase 3 전까지 연기 가능 / **EU·일본**: WOCBP 노출 전 definitive EFD 완료가 원칙. **모든 지역 공통 예외**: 두 종 예비 EFD 데이터가 있으면 WOCBP 최대 150명·최대 3개월 투여 가능(M3(R2) §11, 1차 출처로 확인)."
+ },
+ {
+  "chapter": "Ch07-08",
+  "line": 14,
+  "category": "suspected-fact-error",
+  "severity": "low",
+  "quote": "**M3(R2) §11**: 국소 내성은 **일반 독성시험의 일부로, 임상 투여 경로를 써서** 접촉 부위를 평가한다.",
+  "problem": "M3(R2)에서 §11은 생식독성이다(Ch09-10이 DART 타이밍을 '§11'로 인용해 장 사이에서도 충돌한다). 국소 내성은 §8로 알고 있다. 같은 오인용이 4행·73행·113행에도 있다. 1차 출처로 확인 필요(오류로 의심).",
+  "fix": "**M3(R2) §8**(Local Tolerance Studies): 국소 내성은 … (4·73·113행의 '§11'도 '§8'로)"
+ },
+ {
+  "chapter": "Ch07-08",
+  "line": 33,
+  "category": "suspected-fact-error",
+  "severity": "low",
+  "quote": "### 2.1 시점(M3(R2) §8)",
+  "problem": "M3(R2)에서 유전독성은 §9이고 §8은 국소 내성으로 알고 있다. 같은 인용이 4행·78행·113행에도 있다. 1차 출처로 확인 필요(오류로 의심).",
+  "fix": "### 2.1 시점(M3(R2) §9) — 4·78·113행의 유전독성 인용도 '§9'로"
+ },
+ {
+  "chapter": "Ch05-06",
+  "line": 54,
+  "category": "suspected-fact-error",
+  "severity": "low",
+  "quote": "- **별도 급성 치사 시험(LD50)은 하지 않는다**(M3(R2) §5).",
+  "problem": "M3(R2)에서 급성 독성 시험은 §4이고 §5는 반복투여 독성(표 1)으로 알고 있다. 숫자표 73행과 100행 출처 목록의 '§5'도 같은 문제다. 1차 출처로 확인 필요(오류로 의심).",
+  "fix": "- **별도 급성 치사 시험(LD50)은 하지 않는다**(M3(R2) §4). 73행 근거도 '§4'로, 100행은 '(표 1·§1.5·§4·§7)'로."
+ },
+ {
+  "chapter": "Ch20",
+  "line": 18,
+  "category": "suspected-fact-error",
+  "severity": "high",
+  "quote": "| **B(EOP)** | **70일** | EOP1(특정 제품)·EOP2 | 30일 전 | 5일 전 |",
+  "problem": "덱 메모와 카드에는 'B = 회의 30일 전'만 있고 Type B(EOP)의 패키지 시점은 없다. 그러니 교과서의 '30일 전'은 덱 근거가 없는 숫자다. 내 기억으로 FDA 2023 PDUFA VII Formal Meetings guidance에서는 Type B(EOP) 패키지 기한이 회의 50일 전이다(PDUFA VI부터 유지). 출제 가능한 시한이므로 원문 대조가 필요하다(suspected, verify against primary source).",
+  "fix": "| **B(EOP)** | **70일** | EOP1(특정 제품)·EOP2 | **회의 50일 전**(1차 출처 확인) | 5일 전 | — 숫자표 '패키지' 행도 'B = 30일 전, B(EOP) = 50일 전; A·C·D·INTERACT = 요청과 함께'로 맞춘다."
+ },
+ {
+  "chapter": "Ch20",
+  "line": 17,
+  "category": "internal-conflict",
+  "severity": "medium",
+  "quote": "| **B** | **60일** | pre-IND, EOP1(일부), EOP2, pre-NDA/BLA | **회의 30일 전** | 2일 전 |",
+  "problem": "EOP2와 EOP1이 Type B 행(60일, 2일 전 preliminary)과 바로 아래 Type B(EOP) 행(70일, 5일 전) 양쪽에 들어가 있다. 그래서 EOP2 회의의 응답 시한과 preliminary response 시점이 표 안에서 둘로 갈린다. PDUFA VII에서 EOP2는 Type B(EOP)에 속한다. 덱 메모와 카드 1도 같은 중복을 담고 있다.",
+  "fix": "| **B** | **60일** | pre-IND, pre-NDA/BLA 등(EOP 회의 제외) | 회의 30일 전 | 2일 전 | — EOP1(해당 제품)·EOP2는 Type B(EOP) 행에만 둔다."
+ },
+ {
+  "chapter": "Ch20",
+  "line": 68,
+  "category": "calc-error",
+  "severity": "medium",
+  "quote": "2027-06 제출 계획이면: 2026-11 eligibility·rapporteur, 2026-12~2027-01 pre-submission meeting",
+  "problem": "pre-submission meeting은 제출 6–7개월 전이라고 쓰여 있다(같은 장 59행·91행). 2027-06 기준으로 6–7개월 전은 2026-11~2026-12다. 교과서의 2026-12~2027-01은 5–6개월 전에 해당한다. 덱 카드 13도 같은 오류다.",
+  "fix": "2027-06 제출 계획이면: 2026-11 eligibility·rapporteur, 2026-11~12 pre-submission meeting(6–7개월 전), …"
+ },
+ {
+  "chapter": "Ch14",
+  "line": 53,
+  "category": "suspected-fact-error",
+  "severity": "medium",
+  "quote": "블라인딩용 재포장·재라벨은 **GMP 활동**이라 **제조 허가(Art 61) 보유 시설**에서 하고 **QP 인증**을 거쳐야 한다 — 현장 임의 재라벨 불가.",
+  "problem": "CTR Art 61(5)(a)는 병원·보건소·클리닉에서 약사 등 법적 권한자가 하는 재라벨·재포장을 제조 허가 대상에서 뺀다. 조건은 같은 회원국의 같은 시험 참여 기관에서만 쓰는 IMP일 때다. 그런데 교과서는 '현장 재라벨은 언제나 제조 허가 시설과 QP가 필요하다'로 단정해서 이 예외를 지운다(suspected, verify against primary source).",
+  "fix": "블라인딩용 재포장·재라벨은 원칙적으로 제조 허가(Art 61) 시설에서 하고 QP 인증을 거친다. 단 Art 61(5)(a)에 따라 병원 등에서 약사(또는 법적 권한자)가 같은 회원국의 같은 시험 참여 기관용으로 하는 재라벨·재포장은 허가 예외다. 임의 재라벨은 불가."
+ },
+ {
+  "chapter": "Ch18",
+  "line": 23,
+  "category": "suspected-fact-error",
+  "severity": "medium",
+  "quote": "**장기 추적**(FDA는 제품별 — 덱 요약 기준 유전자치료 15년, 세포치료 최소 5년 등)",
+  "problem": "FDA 장기추적(LTFU) guidance(2020)는 유전자치료 제품만 다룬다. 기간은 위험 기반이다: 통합형 벡터·유전체 편집은 최대 15년, AAV 같은 비통합형은 최대 5년. '세포치료 최소 5년'이라는 일반 요건은 없다. '유전자치료 15년'도 모든 유전자치료에 해당하는 것처럼 일반화돼 있다. 덱 요약을 그대로 옮긴 오류다(suspected, verify against primary source).",
+  "fix": "**장기 추적**(FDA LTFU guidance: 유전자치료는 위험 기반으로 통합형 벡터·유전체 편집 최대 15년, AAV 등 비통합형 최대 5년)"
+ },
+ {
+  "chapter": "Ch16",
+  "line": 4,
+  "category": "unsupported",
+  "severity": "low",
+  "quote": "Potency Assurance 초안(2023-12)은 P2 ④ 덱 메모에 따르면 **2026-11-02 최종화 = 기준일 이후**",
+  "problem": "Ch16 덱 메모는 Potency Assurance 최종화 여부를 '?'로 두고, 카드 13도 '(확인 필요)'다. 교과서는 다른 덱(P2 ④)을 근거로 최종화 날짜를 확정 사실처럼 숫자표(102행)와 흔한 혼동(112행)에까지 넣었다. 기준일 이후로 표시한 결론 자체는 시험에 무해하다. 다만 자기 덱과 상태가 어긋나 있다.",
+  "fix": "Potency Assurance 초안(2023-12): Ch16 덱 기준 최종화 '?'(P2 ④ 메모상 2026-11-02 최종화 = 기준일 이후·시험 비적용, 확인 필요)"
+ },
+ {
+  "chapter": "Ch27",
+  "line": 64,
+  "category": "suspected-fact-error",
+  "severity": "high",
+  "quote": "substantially complete 아니면 refuse-to-receive — **major deficiency ≥1**(BE 누락·라벨·DMF LOA) 또는 **minor >10**; minor ≤10은 7일 내 보완 기회",
+  "problem": "추정 오류이니 1차 출처로 확인 필요. FDA의 ANDA Refuse-to-Receive Standards guidance 기준으로는 major 결함이 1개 이상이거나 minor 결함이 '10개 이상(≥10)'이면 RTR이고, 7일(calendar days) 보완 기회는 minor 결함이 '10개 미만(≤9)'일 때 주어진다. 교과서는 '>10 / ≤10'이라 정확히 10개일 때 결론이 뒤바뀐다. 숫자표 92행 'minor >10'과 덱 Ch27_2 카드 10 뒷면도 같은 표현이라 함께 고쳐야 한다.",
+  "fix": "major deficiency 1개 이상 또는 minor deficiency **10개 이상**이면 RTR; minor가 10개 미만(9개 이하)이면 7일 내 보완 기회 (숫자표 92행과 Ch27_2 카드 10도 같이 수정)"
+ },
+ {
+  "chapter": "Ch25",
+  "line": 114,
+  "category": "ref-date",
+  "severity": "medium",
+  "quote": "CAP **선택 2025-12-22**(기준일 이후) → **권고 2027 Q1** → **의무 2028 Q1**",
+  "problem": "2025-12-22는 기준일 2026-09-01보다 앞선 날짜다. 그런데 '(기준일 이후)'로 표시돼 있다. 같은 장 116행('선택 — v4.0')과 덱 Ch25_2 카드 20('EU CAP 2025-12~' 선택)은 기준일에 이미 선택 제출이 가능하다고 보는데, 이 표시가 그 내용과 모순된다. 덱 Ch25_1 카드 8 뒷면에도 같은 잘못된 표시('선택 2025-12-22(기준일 이후)')가 있다.",
+  "fix": "CAP **선택 2025-12-22**(기준일 전 — 기준일엔 선택 제출 가능) → **권고 2027 Q1** → **의무 2028 Q1** (Ch25_1 카드 8의 '(기준일 이후)'도 삭제)"
+ },
+ {
+  "chapter": "Ch27",
+  "line": 51,
+  "category": "suspected-fact-error",
+  "severity": "medium",
+  "quote": "| **ISS/ISE**(314.50(d)(5)(vi)(a)) | 5.3.5.3 + 2.7 |",
+  "problem": "추정 오류이니 1차 출처로 확인 필요. 21 CFR 314.50(d)(5)(vi)(a)는 안전성 통합 요약(ISS) 조항이다. 효능 통합 요약(ISE)의 근거는 314.50(d)(5)(v)다. 덱 Ch27_2 카드 2도 'ISE 누락은 314.50(d)(5)(vi)(a) 요건 위반'이라고 써서 ISE를 같은 조항에 묶고 있다.",
+  "fix": "| **ISS**(314.50(d)(5)(vi)(a)) / **ISE**(314.50(d)(5)(v)) | 5.3.5.3 + 2.7 |"
+ },
+ {
+  "chapter": "Ch23",
+  "line": 86,
+  "category": "suspected-fact-error",
+  "severity": "low",
+  "quote": "PSUR 결과 반영은 간소화 카테고리(**C.I.3**, IAIN/IB), 새 안전성 정보는 **Type IB/II**(C.I.z 등)",
+  "problem": "추정 오류이니 1차 출처로 확인 필요. EC Variations Guidelines의 C.I.3은 두 가지로만 나뉜다. (a) 당국이 합의한 문구를 그대로 이행하면 Type IAIN, (b) MAH가 새 추가 데이터로 뒷받침해야 하면 Type II다. IB 선택지는 없다. 덱 Ch23_2 카드 11('Type IB/IAIN 또는 C.I.3')도 같다.",
+  "fix": "PSUR 결과 반영은 **C.I.3**(합의 문구 그대로 이행 = IAIN, 새 데이터로 뒷받침 필요 = Type II), 그 밖의 새 안전성 정보는 **Type IB/II**(C.I.z 등)"
+ },
+ {
+  "chapter": "Ch23",
+  "line": 49,
+  "category": "internal-conflict",
+  "severity": "low",
+  "quote": "### 4.1 Title V (Arts 54–63)",
+  "problem": "같은 장 안에서 Title V의 조항 범위가 서로 다르다. 10행·49행은 'Arts 54–63', 143행(1차 출처)과 덱 Ch23_1 메모·핵심요약은 'Arts 54–69'다. Dir 2001/83 Title V는 실제로 Art 54–69이고, 54–63은 그중 이 장에서 다루는 조항만 고른 것이다.",
+  "fix": "### 4.1 Title V (Arts 54–69; 이 장은 54–63 중심) — 학습목표 10행도 'Title V(Arts 54–69)'로 수정"
+ },
+ {
+  "chapter": "Ch28",
+  "line": 54,
+  "category": "suspected-fact-error",
+  "severity": "high",
+  "quote": "| **4.105 정보 공유**(복수 신청자, cross-labeled 등) | 인지 후 **5 영업일** 내 상대 신청자에 | 4.105 |",
+  "problem": "Suspected error; check against the primary source (eCFR Part 4 Subpart B). Information sharing between constituent part applicants is 21 CFR 4.103, not 4.105 (4.105 is the recordkeeping section). The deadline is 5 calendar days after receipt, not 5 business days. The deck repeats the same wording (Ch28_2 memo, cards 2 and 17), so this is shared by deck and textbook. The same wording also appears in textbook lines 8, 57 (B → A 5 영업일 공유), 77 and 90.",
+  "fix": "| **4.103 정보 공유**(복수 신청자, cross-labeled 등) | 정보 수령 후 **5 calendar days** 내 상대 신청자에 | 4.103 | — 57·90행 등도 같이 고치고, 덱 Ch28_2 메모와 카드 2·17도 고칠 것"
+ },
+ {
+  "chapter": "Ch31",
+  "line": 17,
+  "category": "deck-conflict",
+  "severity": "high",
+  "quote": "| **(c) CBE-30** | **중등도(moderate)** | 제출 후 **30일** 경과(FDA 이의 없으면) | 비무균 제조소 변경, 분석법 변경(동등), 비무균 용기, 승인 프로토콜 내 유효기간 연장 |",
+  "problem": "The table gives 'shelf-life extension within the approved protocol' as a CBE-30 example. The deck says otherwise: Ch31_1 card 20 and Ch31_2 card 2 say CBE-30, or AR when the extension follows the approved stability protocol. The 2004 Changes guidance also lists extension based on full shelf-life data under an approved protocol as an annual report item. Line 97 has the same problem: the scenario says '승인 프로토콜대로' but gives 'CBE-30(또는 승인 프로토콜이면 AR)' as if CBE-30 were the main answer.",
+  "fix": "CBE-30 예시에서 '승인 프로토콜 내 유효기간 연장'을 빼고, (d) annual report 예시에 '승인 안정성 프로토콜에 따른 실시간 데이터 기반 유효기간 연장'을 넣는다. 97행: 'US **AR**(승인 프로토콜대로이므로; 프로토콜 밖이면 CBE-30/PAS)'"
+ },
+ {
+  "chapter": "Ch31",
+  "line": 25,
+  "category": "deck-conflict",
+  "severity": "medium",
+  "quote": "scale-up **10배 이하 Level 1**(annual report), **10배 초과 Level 2**(CBE + 용출 비교 + 안정성 1배치)",
+  "problem": "The textbook is correct (≤10× is Level 1). The deck contradicts it: Ch31_1 card 16 asks about a batch size increase of exactly 10× and answers 'Level 2 → CBE', then says in the same back that exactly 10× is the top of Level 1. Flashcard study from that card would lead to a wrong exam answer.",
+  "fix": "교과서는 그대로 둔다. 덱 Ch31_1 카드 16 정답을 'SUPAC-IR **Level 1**(10배 이하) → **annual report**; 10배를 넘으면 Level 2(CBE + 용출 비교 + 안정성 1배치)'로 고치고, Anki 파일도 같이 고친다"
+ },
+ {
+  "chapter": "Ch33",
+  "line": 52,
+  "category": "unsupported",
+  "severity": "medium",
+  "quote": "24개월 미경과 재고 **재라벨(correction = 리콜)**·경과 재고 removal, retail depth, 라벨 변경 CBE-0 즉시",
+  "problem": "The textbook states 'shelf-life shortening → CBE-0 immediately' as certain. The source card (Ch33_2 card 18) marks this uncertain ('314.70(c)(6)(iii)?') and contradicts itself: it says shortening is an annual report item, then says it is reflected immediately via CBE-0. The textbook has no single clear deck basis for its claim.",
+  "fix": "'유효기간 단축 라벨 변경의 보충 카테고리(CBE-0 vs AR)는 2004 Changes guidance로 확인 필요 — 안전 쪽(단축)이므로 지체 없이 반영'으로 바꾸거나 '(확인 필요)'를 붙인다. 덱 카드 18의 모순된 문장도 정리한다"
+ },
+ {
+  "chapter": "Ch32",
+  "line": 53,
+  "category": "internal-conflict",
+  "severity": "medium",
+  "quote": "- **EU-US MRA**(GMP Annex 2017 개정): 인체용 **2019-07-11** 전 회원국 인정",
+  "problem": "The header memo (line 4) flags the MRA date as 'Ch.2 덱은 07-12로 표기 — 날짜 확인 필요'. The body (line 53), the reference-date summary (line 78) and the number table (line 90) still give 2019-07-11 as certain. This is the tracked 07-11 vs 07-12 inconsistency, but here one date is asserted as certain.",
+  "fix": "53·78·90행의 날짜를 '2019-07-11(Ch.2 덱은 07-12 — 확인 필요)'로 표기하거나, 1차 출처(EMA/FDA MRA 공지)로 하나로 정한 뒤 Ch.2와 Ch.32를 같은 날짜로 맞춘다"
+ },
+ {
+  "chapter": "Ch31",
+  "line": 82,
+  "category": "unsupported",
+  "severity": "low",
+  "quote": "| +1년 시장 보호 | 1.5.3, 첫 8년 내 |",
+  "problem": "The condition 'within the first 8 years' does not appear in either deck. Ch31_2 memo and cards 4 and 16 only say '+1년 시장 보호 신청(Art 10(1), 1.5.3, significant clinical benefit)'. The rule itself is correct under Art 10(1), but the deck does not support it.",
+  "fix": "덱 메모에 'Art 10(1): 데이터 보호 첫 8년 내 승인된 새 적응증(significant clinical benefit)'을 추가하거나, 교과서를 '1.5.3, significant clinical benefit'으로 바꾼다"
+ },
+ {
+  "chapter": "Ch34",
+  "line": 39,
+  "category": "suspected-fact-error",
+  "severity": "medium",
+  "quote": "승인 후 REMS는 \"new safety information\" 근거 → 60일 내 제안",
+  "problem": "Suspected, verify against primary source: FD&C 505-1(a)(2) gives the holder 120 days after FDA notification to submit a proposed REMS (or another timeframe FDA sets), not 60 days. Deck card Ch34_2 #3 carries the same 60-day figure, so the textbook copied it; line 87 (\"60일 내 제안·협의\") repeats it.",
+  "fix": "승인 후 REMS는 \"new safety information\" 근거 → FDA 통지 후 120일 내(또는 FDA가 정한 기한) 제안 — 덱 카드 Ch34_2 #3과 87행도 함께 수정"
+ },
+ {
+  "chapter": "Ch34",
+  "line": 54,
+  "category": "suspected-fact-error",
+  "severity": "medium",
+  "quote": "**QPPV 사임·PSMF 이전**: **Type IAIN C.I.8** 모든 MA + **Art 57 DB** 갱신",
+  "problem": "Suspected, verify against primary source (EMA post-authorisation Q&A on QPPV/PSMF changes): once the Article 57 (xEVMPD) database was in place, EMA said changes of QPPV, QPPV contact details or PSMF location are notified through the Art 57 database only, with no variation. C.I.8 stays for introducing or replacing the PV system summary. The textbook makes C.I.8 IAIN the required route and repeats it in 흔한 혼동 #12 (line 125, \"IAIN C.I.8 + Art 57\"). That would give a wrong exam answer.",
+  "fix": "**QPPV 사임·PSMF 이전**: **Art 57 DB(xEVMPD) 갱신**으로 통지(현재 EMA 입장상 QPPV·PSMF 위치 변경만으로는 variation 불요, C.I.8은 PV 시스템 요약 도입·변경 시 — 1차 출처 확인) + PSMF logbook…"
+ },
+ {
+  "chapter": "P2_351vs361",
+  "line": 17,
+  "category": "suspected-fact-error",
+  "severity": "low",
+  "quote": "④ 최소 조작 골수(같은 수술 등 조건)",
+  "problem": "Suspected, verify against primary source: 21 CFR 1271.3(d)(4) excludes \"minimally manipulated bone marrow for homologous use and not combined with another article\". The conditions are homologous use and no combination, not same surgery (same surgery belongs to the separate 1271.15(b) exception). The deck memo and card 1 have the same wording.",
+  "fix": "④ 최소 조작 골수(동종 사용·다른 물품과 비결합 조건)"
+ },
+ {
+  "chapter": "P2_351vs361",
+  "line": 35,
+  "category": "suspected-fact-error",
+  "severity": "low",
+  "quote": "변경 **6개월 내**, 소유·소재 변경 즉시",
+  "problem": "Suspected, verify against primary source: 21 CFR 1271.26 requires a registration amendment within 30 calendar days of a change in ownership or location, not \"immediately\" (즉시). Deck card 17 says the same thing. Line 41 (첫해 달력) inherits it.",
+  "fix": "변경 6개월 내(HCT/P 목록은 6월·12월 갱신 또는 변경 시), 소유·소재 변경은 30일 내 등록 수정(1271.26)"
+ },
+ {
+  "chapter": "Ch36",
+  "line": 65,
+  "category": "internal-conflict",
+  "severity": "low",
+  "quote": "G-BA dossier → **IQWiG 3개월** → **G-BA 6개월** 추가 편익 등급",
+  "problem": "Read in sequence, \"IQWiG 3개월 → G-BA 6개월\" suggests 9 months in total. The 숫자표 (line 112) and deck card 8 give \"IQWiG 3 + G-BA 3 = 6개월\" (G-BA decides within 6 months of launch). A reader could take the wrong timeline.",
+  "fix": "G-BA dossier → **IQWiG 평가 3개월** → **G-BA 결정(출시 후 6개월, IQWiG 3 + G-BA 3)** 추가 편익 등급"
+ },
+ {
+  "chapter": "P2_RMAT",
+  "line": 46,
+  "category": "suspected-fact-error",
+  "severity": "high",
+  "quote": "플랫폼 변경 심사 가속, 조기 소통; FDA **90일** 응답; 초안 2024-05, 최종 미발행.",
+  "problem": "Suspected, verify against primary source. FD&C 506K (FDORA §2503) and the 2024-05 draft guidance set FDA's response to a platform designation request at 60 calendar days, not 90. The deck (card 9, '90일 응답(법정)') carries the same number, so the error comes from the deck. The 숫자표 at line 71 ('506K 응답 | 90일') repeats it.",
+  "fix": "FDA는 지정 요청 접수 후 **60일** 내 결정(506K, 초안 guidance 2024-05)으로 고치고, 71행 숫자표도 '506K 응답 | 60일'로 바꾼다. 덱 카드 9와 Anki도 같이 고친다(1차 출처 확인 후)."
+ },
+ {
+  "chapter": "P2_OTP",
+  "line": 84,
+  "category": "unsupported",
+  "severity": "medium",
+  "quote": "| 506K 응답 | 90일 |",
+  "problem": "The P2_OTP deck never gives a 506K response time; none of its memo or cards 8/12 mention 90 days. The same '90일' also appears at line 67 ('506K Platform(90일 응답)'). The number is also suspected wrong: the statute and the draft guidance say 60 calendar days. Suspected, verify against primary source.",
+  "fix": "1차 출처를 확인하고 '506K 응답 | 60일'로 고친다. 67행도 '506K Platform(60일 응답)'으로 고친다. 확인 전이라면 '(확인 필요)'를 붙인다."
+ },
+ {
+  "chapter": "P2_RMAT",
+  "line": 40,
+  "category": "suspected-fact-error",
+  "severity": "medium",
+  "quote": "④ **판촉 사전 제출**(601.45: 승인 전 120일 내 사용분 30일 전, 승인 후 30일 전)",
+  "problem": "Suspected, verify against primary source. Under FDORA, AA promotional materials meant for use in the first 120 days AFTER approval must be submitted during the pre-approval review period. After that 120-day window, materials go in at least 30 days before first use. The text says '승인 전 120일 내 사용분 30일 전', which gets both the window and the deadline wrong. The deck card 6 has the same wording.",
+  "fix": "④ 판촉 사전 제출(601.45/FDORA): 승인 후 120일 내 쓸 자료는 승인 전 심사 기간 중 제출, 그 이후 자료는 첫 사용 30일 전 제출"
+ },
+ {
+  "chapter": "P2_potency",
+  "line": 66,
+  "category": "suspected-fact-error",
+  "severity": "medium",
+  "quote": "**EU = Type II**(B.II.d.1.b 생물), grouping, PRAC 영향 확인, QP·PQR.",
+  "problem": "Suspected, verify against primary source. In the EC Variations Guidelines, widening a finished-product specification limit beyond the approved range is B.II.d.1.e (Type II). B.II.d.1.b is tightening limits for products under Official Control Authority Batch Release, which is the opposite direction. The 숫자표 at line 80 ('EU Type II(B.II.d.1.b)') repeats this, and the deck card 17 has the same code.",
+  "fix": "EU = Type II(B.II.d.1.e — 승인된 규격 범위 밖으로 변경). 80행도 'EU Type II(B.II.d.1.e)'로 고친다."
+ },
+ {
+  "chapter": "P2_comparability",
+  "line": 49,
+  "category": "suspected-fact-error",
+  "severity": "low",
+  "quote": "바이오시밀러 관행 — FDA 통계 guidance 2019 철회, 사례별",
+  "problem": "Suspected, verify against primary source. FDA withdrew the draft 'Statistical Approaches to Evaluate Analytical Similarity' in June 2018. What appeared in 2019 was the replacement draft on comparative analytical assessment. The deck card 9 also says 2019.",
+  "fix": "바이오시밀러 관행 — FDA 통계 초안 guidance는 2018 철회(2019 comparative analytical assessment 초안으로 대체), 사례별"
+ },
+ {
+  "chapter": "P2_EU_ATMP",
+  "line": 61,
+  "category": "deck-conflict",
+  "severity": "low",
+  "quote": "미국 대응: LTFU 2020(통합 15년·AAV 5년), 레지스트리 PMR(506(g)(7)), REMS",
+  "problem": "The deck card 12 says AAV LTFU is 'up to 5 years' (최대 5년), and P2_OTP also says '최대 5년'. Writing a flat 'AAV 5년' turns a maximum into a fixed requirement.",
+  "fix": "미국 대응: LTFU 2020(통합 벡터·편집 15년·AAV 최대 5년), 레지스트리 PMR(506(g)(7)), REMS"
+ },
+ {
+  "chapter": "P2_OTP",
+  "line": 81,
+  "category": "unsupported",
+  "severity": "low",
+  "quote": "| INTERACT / pre-IND / IND / Type B(EOP) / C / D | 75 / 60 / 30 / 70 / 75 / 50일 |",
+  "problem": "The P2_OTP deck gives only INTERACT 75, pre-IND 60, IND 30 and Type B 70. It never states Type C 75 or Type D 50 days, and the same applies to 'pre-BLA(60일)' at line 25. The values are correct and appear in the P2_RMAT deck, but they are outside this chapter's own fact source.",
+  "fix": "Type C/D 시계와 pre-BLA 60일을 P2_OTP 덱 메모에 추가하거나, 본문에 'P2_RMAT 참조'를 표기한다."
+ }
+]

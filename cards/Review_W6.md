@@ -50,7 +50,7 @@
 
 **2. [A][Domain II]**
 *Front:* Two cross-labeled constituent applicants: one learns of a reportable event. How fast must it share with the other?
-*Back:* **5 영업일** 내 공유(4.105). (21 CFR 4.105)
+*Back:* **5 calendar days** 내 공유(4.103). (21 CFR 4.103)
 
 **3. [An][Domain I]**
 *Front:* Why does the EU route a heparin-coated catheter through the MDR with a consultation, while a prefilled syringe goes through medicinal product law?

@@ -82,7 +82,7 @@
 
 **10. [A][Domain I]**
 *Front:* A Korean API site ships to an EU manufacturer. Customs asks for a document under Directive 2001/83. Which, since when, and who issues it?
-*Back:* **Art 46b written confirmation**(2013-07-02~) — **수출국 당국(식약처)** 이 제조소·물질별로 EU 동등 GMP·사찰·정보 통보를 확인하는 문서. EU listed 국가면 면제. (Dir 2001/83 Art 46b)
+*Back:* 원칙은 **Art 46b written confirmation**(2013-07-02~, 수출국 당국이 제조소·물질별로 EU 동등 GMP·사찰·정보 통보를 확인하는 문서)이지만, **한국은 Art 111b listed 국가라 면제** — 확인서가 필요 없다. 목록 밖 국가(중국·인도 등)면 그 나라 당국이 발급한다. (Dir 2001/83 Art 46b, 111b)
 
 **11. [A][Domain V]**
 *Front:* A CEP was issued in 2021. What must happen in 2026, and what happens after?
