@@ -78,8 +78,8 @@ D. Type V, because colorants need FDA acceptance before they can be referenced.
 
 ---
 
-### Q05 [R][Domain II] — DMF is not approved
-Which statement describes how FDA handles a Type II DMF?
+### Q05 [A][Domain II] — DMF is not approved
+A generic firm's new regulatory associate tells management that its API supplier's Type II DMF was "approved by FDA" and can be described that way in investor materials. The regulatory lead wants to correct this. Which statement describes how FDA handles a Type II DMF?
 
 A. FDA reviews it once, and the result binds each later application that references it.
 B. FDA approves the DMF on its own, and referencing applications then rely on that approval.
@@ -115,7 +115,7 @@ D. A Letter of Access and the Applicant's Part, both supplied by the holder.
 ---
 
 ### Q07 [A][Domain V] — holder obligations after a change
-A Type II DMF holder changes one synthesis step. What are the holder's obligations?
+Helix API Ltd holds a Type II DMF that several ANDAs reference. Its process team replaces one synthesis step with a new reagent route to improve yield, and the regulatory team must plan the filings. As the DMF holder, what are its obligations?
 
 A. File a supplement under 21 CFR 314.70 on behalf of the applicants that reference the DMF.
 B. Notify FDA at the next annual report alone, because a DMF is not an approved document.
@@ -151,7 +151,7 @@ D. Assess the impact on its own product and file under the 21 CFR 314.70 categor
 ---
 
 ### Q09 [An][Domain V] — DMF change: wrong statement
-A DMF holder changes a synthesis step. Which statement about the consequences is NOT correct?
+Orion Chemicals, a Type II DMF holder, changes a synthesis step in the API it supplies to two US generic firms. Its regulatory team drafts a customer briefing on what happens next for each party. Which statement about the consequences is NOT correct?
 
 A. The holder's amendment satisfies the applicant's own reporting duty for the change.
 B. The applicant may need a PAS, a CBE-30 or an annual report, depending on impact.
@@ -168,8 +168,8 @@ D. Each applicant evaluates how the change affects its own drug product.
 
 ---
 
-### Q10 [R][Domain II] — nature of the Completeness Assessment
-Under GDUFA, what is the Completeness Assessment (CA) of a Type II API DMF?
+### Q10 [A][Domain II] — nature of the Completeness Assessment
+A start-up API supplier has filed its first Type II DMF and paid the GDUFA fee. Its CEO assumes the coming Completeness Assessment (CA) will judge whether the process is scientifically sound. How should the regulatory lead describe what the CA of a Type II API DMF actually is?
 
 A. A pre-approval inspection of the API site, scheduled before the DMF is listed.
 B. A full scientific review of the process that FDA reuses across each ANDA.
@@ -240,8 +240,8 @@ D. The CA replaces foreign inspections of API sites, which FDA could not fund be
 
 ---
 
-### Q14 [R][Domain II] — meaning of the Available for Reference list
-A Type II DMF appears on FDA's "List of Type II DMFs Available for Reference." What does this listing mean?
+### Q14 [A][Domain II] — meaning of the Available for Reference list
+A generic firm is screening API vendors for a new ANDA. One vendor points out that its Type II DMF now appears on FDA's "List of Type II DMFs Available for Reference" and calls this an FDA endorsement. What does this listing actually mean?
 
 A. FDA has approved the API process described in the DMF.
 B. The API site passed a pre-approval inspection by FDA staff.
@@ -277,7 +277,7 @@ D. Issue LOAs first, then file the DMF and pay an annual fee for each customer.
 ---
 
 ### Q16 [A][Domain IV] — US use of an API that has only a CEP
-A US applicant wants to use an API whose supplier holds an EU CEP but no US DMF. What is the regulatory path?
+Northbay Generics, a US applicant, wants to use an API made by an Italian supplier that holds an EU CEP for the substance but has never filed anything with FDA. Its launch plan depends on choosing the right US filing route early. What is the regulatory path?
 
 A. File the EDQM assessment report, which FDA treats as an already completed DMF review.
 B. The supplier files a Type II DMF, or the applicant submits full 3.2.S data itself.
@@ -329,8 +329,8 @@ D. Supplier contracts and the cost of the starting materials.
 
 ---
 
-### Q19 [R][Domain II] — ASMF Restricted Part
-Who can see the Restricted Part of an ASMF?
+### Q19 [A][Domain II] — ASMF Restricted Part
+A Korean API maker supports a German MAA through an ASMF. The MAA applicant's CMC team asks to review the full manufacturing process description so it can answer assessor questions directly. Who can see the Restricted Part of an ASMF?
 
 A. The EDQM alone, which assesses it for the certificate it issues.
 B. The applicant's QP alone, as the basis for the QP declaration.
@@ -348,7 +348,7 @@ D. The authorities only; it holds manufacturing process details.
 ---
 
 ### Q20 [A][Domain II] — what the holder sends to whom
-An API maker supplies an EU MAA applicant through an ASMF. What does the holder provide, and to whom?
+Lumen Pharma, an API maker, will supply a generic firm that is filing an MAA in the EU, and it wants to keep its process confidential through an ASMF. Its regulatory team is now preparing the paperwork. What does the holder provide, and to whom?
 
 A. A letter of authorization to the authority, and the full ASMF to the EDQM.
 B. A Letter of Access to the applicant, and the complete ASMF to the authority.
@@ -419,8 +419,8 @@ D. Separate ASMFs for each customer, since the Restricted Part must be tailored 
 
 ---
 
-### Q24 [R][Domain II] — what a CEP certifies
-What does a Certificate of Suitability (CEP) certify?
+### Q24 [A][Domain II] — what a CEP certifies
+An EU MAA applicant's API supplier holds a valid CEP. A junior CMC writer drafts a sentence saying the CEP shows that the supplier's site follows EU GMP. Before correcting the draft, the reviewer checks the basics. What does a Certificate of Suitability (CEP) certify?
 
 A. That the MAA holder has audited the API site and declared GMP compliance.
 B. That the API site complies with EU GMP, as confirmed by an EDQM site inspection.
@@ -438,7 +438,7 @@ D. That the substance's quality is suitably controlled by the Ph. Eur. monograph
 ---
 
 ### Q25 [A][Domain II] — CEP in Module 3
-An EU MAA cites a valid CEP for its API. How does the CEP affect Module 3?
+A generic firm is compiling the EU MAA for a tablet whose API supplier holds a valid CEP for that substance. The CMC writer asks how much of the drug substance part of the dossier still needs to be written. How does the CEP affect Module 3?
 
 A. It replaces the 3.2.P section, since the API quality is already certified.
 B. It replaces the QP declaration, since the certificate covers the site GMP.
@@ -456,7 +456,7 @@ D. It replaces a large part of the 3.2.S data, so an ASMF is not needed.
 ---
 
 ### Q26 [R][Domain V] — CEP validity
-What is the validity rule for an EDQM CEP?
+A supply-chain manager is building a tracker for the EDQM certificates held by the company's API suppliers and must decide which renewal dates to schedule for each CEP. To set up the tracker logic correctly, what is the validity rule for an EDQM CEP?
 
 A. Valid for three years, renewed once, then reviewed at five-year intervals.
 B. Valid for five years, renewed at each five-year interval while it is used.
@@ -528,7 +528,7 @@ D. 14 September 2023.
 ---
 
 ### Q30 [A][Domain V] — existing CEP and CEP 2.0
-A CEP was first issued in 2021 under the earlier format. How does it move into the CEP 2.0 scheme?
+A supplier's CEP was first issued in 2021 under the earlier format. The MAA holder's quality team asks whether the certificate must be converted now that the CEP 2.0 scheme is in force, and who triggers the change. How does it move into the CEP 2.0 scheme?
 
 A. It stays in the earlier format, since CEP 2.0 applies to new substances alone.
 B. At its renewal the dossier is updated to CEP 2.0 and a CEP 2.0 is issued.
@@ -582,7 +582,7 @@ D. After renewal, the CEP is renewed again every five years.
 ---
 
 ### Q33 [A][Domain II] — QP declaration despite a CEP
-An MAA relies on a CEP for its API. The assessor still asks for a QP declaration. Why?
+A generic firm's EU MAA relies on a CEP for its API, made by a long-standing supplier. During the review, the assessor still asks for a QP declaration on the API manufacturer, and the project manager thinks the CEP should be enough. Why does the assessor still ask?
 
 A. The CEP certifies quality against the monograph, but it does not assure GMP compliance.
 B. The declaration replaces the Applicant's Part, which a CEP does not provide.
@@ -599,8 +599,8 @@ D. The declaration is needed solely when the API comes from a country outside th
 
 ---
 
-### Q34 [R][Domain II] — who signs the QP declaration
-Who signs the QP declaration on GMP compliance of the API manufacturer?
+### Q34 [A][Domain II] — who signs the QP declaration
+A Danish company imports finished tablets into the EU, and the MAA needs a QP declaration on GMP compliance of the API manufacturer, which holds a CEP. The API supplier offers to have its own qualified person sign it. Who signs the QP declaration on GMP compliance of the API manufacturer?
 
 A. An EDQM assessor, after reviewing the CEP dossier submitted by the holder.
 B. The QP of the finished-product manufacturing or import authorisation holder.
@@ -690,7 +690,7 @@ D. A written confirmation issued by EDQM after a site inspection.
 ---
 
 ### Q39 [A][Domain I] — Chinese API site
-An EU MAH sources its API from a site in China. Under Art 46b, who issues the written confirmation that must accompany the API?
+Aster Pharma, an EU MAH, adds a new API source at a site in China to secure supply. Its quality team is preparing for the first import shipment and needs the Art 46b paperwork in place before the API arrives. Who issues the written confirmation that must accompany the API?
 
 A. The EU member state that granted the MAA.
 B. The EDQM, as part of the CEP for the API.
@@ -708,7 +708,7 @@ D. The competent authority of China.
 ---
 
 ### Q40 [A][Domain I] — scope of a written confirmation
-An Indian manufacturer makes three APIs at two sites for the EU. How is the Art 46b written confirmation scoped?
+An Indian manufacturer makes three APIs at two sites and plans to export all of them to EU customers. Its export manager hopes a single document will cover the whole company and save time. How is the Art 46b written confirmation scoped?
 
 A. One confirmation for India, covering each exporter in the country.
 B. One confirmation for the company, covering each of its sites and substances.
@@ -867,8 +867,8 @@ D. Art 46b written confirmation in both regions; addressed by moving the site to
 
 ---
 
-### Q49 [R][Domain III] — where Q7 GMP begins
-From which point in an API synthesis does ICH Q7 GMP apply?
+### Q49 [A][Domain III] — where Q7 GMP begins
+A contract manufacturer runs a long synthesis that begins with bulk commodity chemicals, passes through the designated API starting material, and ends with crystallisation and packaging of the API. An auditor asks where the GMP boundary lies. From which point does ICH Q7 GMP apply?
 
 A. From the final crystallisation step that yields the API.
 B. From the first raw material that enters the plant.
@@ -885,7 +885,7 @@ D. From the step that forms the last isolated intermediate.
 ---
 
 ### Q50 [A][Domain III] — who designates the starting material
-A sponsor wants to fix the starting material for its new API. Who makes that designation?
+A biotech sponsor developing a new small-molecule API wants to fix the starting material early, so that its CMO can lock the upstream steps. The CMO asks how the designation is made and who is involved. Who makes that designation?
 
 A. ICH, which publishes a list of accepted starting materials for each class of API.
 B. The authority sets it at pre-submission, and the applicant must follow it.
@@ -1047,7 +1047,7 @@ D. Q3D(R2); by showing the API concentration stays below a fixed ppm limit, set 
 ---
 
 ### Q59 [An][Domain II] — role of the API limit under Q3D
-Under Q3D(R2), how is an elemental impurity limit in the API specification set?
+A drug-product team notices that its API supplier's DMF states an elemental impurity limit, and it wants to copy that figure into its own API specification. It asks the regulatory lead whether that is the right basis. Under Q3D(R2), how is an elemental impurity limit in the API specification set?
 
 A. It comes from the Q3C class of the element, applied as a concentration limit.
 B. It is copied from the PDE, expressed directly as a ppm value for the API.

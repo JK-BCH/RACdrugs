@@ -23,8 +23,8 @@ D. "Investigational product—to be dispensed by the investigator under an effec
 
 ---
 
-### Q02 [R][Domain II] — 312.6 prohibited content
-Which content does 21 CFR 312.6 prohibit on the label of an investigational drug?
+### Q02 [A][Domain II] — 312.6 prohibited content
+A sponsor's marketing team drafts the immediate-container label for a US Phase 2 investigational drug and adds a line calling it "a safe and effective new option for migraine". The regulatory reviewer flags the draft. Which content does 21 CFR 312.6 prohibit on the label of an investigational drug?
 
 A. Storage and handling instructions, which belong in the investigator brochure rather than on the label.
 B. False or misleading statements, or claims that the drug is safe or effective for the investigated use.
@@ -41,8 +41,8 @@ D. The name of the sponsor and the protocol number, because these could break th
 
 ---
 
-### Q03 [R][Domain II] — 312.7(a) promotion
-Which activity does 21 CFR 312.7(a) prohibit?
+### Q03 [A][Domain II] — 312.7(a) promotion
+During a Phase 2 trial, a sponsor's medical-affairs staff present slides at a physician dinner describing the investigational drug as "proven safe and effective" for its target disease. Compliance asks which rule this breaches. Which activity does 21 CFR 312.7(a) prohibit?
 
 A. Promoting the drug or representing it as safe or effective for its use.
 B. Exporting the drug without written approval from the importing country.
@@ -96,7 +96,7 @@ D. IRB approval of the price, which takes the place of FDA authorization.
 ---
 
 ### Q06 [A][Domain IV] — recoverable costs
-FDA has authorized charging in a clinical trial. Which cost may the sponsor include in the price?
+FDA has authorized a sponsor to charge subjects for its investigational drug in a Phase 3 trial. The finance team now builds the per-unit price and lists several cost items it would like to include. Which cost may the sponsor include in the price?
 
 A. A margin set aside to fund development of the next indication.
 B. Research and development costs incurred before the IND was filed.
@@ -130,7 +130,7 @@ D. Evidence that the drug has a potential clinical benefit.
 ---
 
 ### Q08 [A][Domain V] — investigator close-out
-A Phase 2 site has 40 unused kits after study close-out. What must the investigator do under 21 CFR 312.62(a)?
+At close-out of a Phase 2 study, a hospital site still holds 40 unused kits of the investigational drug. The pharmacy manager suggests keeping them in stock for other patients. What must the investigator do under 21 CFR 312.62(a)?
 
 A. Transfer the kits to the hospital pharmacy stock for use in compassionate patients.
 B. Hold the kits at the site until an FDA inspector authorizes their destruction.
@@ -201,8 +201,8 @@ D. The consignee is the IND sponsor or its agent, and the IND is in effect.
 
 ---
 
-### Q12 [R][Domain II] — export from the US
-Under 21 CFR 312.110, what governs the export of an investigational drug from the US?
+### Q12 [A][Domain II] — export from the US
+A US sponsor with an active IND wants to ship investigational drug from its US plant to trial sites in a country outside the US. Its logistics team assumes the US IND alone covers the shipment. Under 21 CFR 312.110, what governs the export of an investigational drug from the US?
 
 A. Export needs nothing beyond an IND that is in effect in the US.
 B. Export requires a QP certificate issued at the US sponsor's site.
@@ -417,8 +417,8 @@ D. Art 63 — certification of each batch by a Qualified Person.
 
 ---
 
-### Q24 [R][Domain II] — Art 62 before administration
-Under CTR Art 62, what must happen before an IMP batch may be administered in the EU?
+### Q24 [A][Domain II] — Art 62 before administration
+A batch of IMP has passed QC testing at an EU contract site and is ready to ship to trial sites in France and Spain. The clinical team wants to dose the first subjects as soon as it arrives. Under CTR Art 62, what must happen before an IMP batch may be administered in the EU?
 
 A. A Qualified Person certifies that individual batch for release.
 B. The national competent authority tests a batch sample.
@@ -562,7 +562,7 @@ D. The marketing authorisation number of an EU reference product for each IMP.
 ---
 
 ### Q32 [A][Domain II] — Annex VI relaxations
-A sponsor's IMP comes in very small ampoules, and the trial is double-blind. Which Annex VI feature is relevant?
+A sponsor's IMP for an EU trial comes in very small ampoules, and the trial is double-blind with a placebo of identical appearance. The packaging team worries that the full label text will not fit on each ampoule. Which Annex VI feature is relevant?
 
 A. Annex VI provides relaxations for blinding and small containers.
 B. Annex VI waives labelling for blinded supplies until unblinding.
@@ -579,8 +579,8 @@ D. Annex VI moves small-container rules back to the old Annex 13.
 
 ---
 
-### Q33 [R][Domain II] — scope of Annex VI
-Which products does CTR Annex VI labelling cover?
+### Q33 [A][Domain II] — scope of Annex VI
+An EU asthma trial supplies the IMP together with a marketed short-acting bronchodilator that subjects may take as rescue medication. The packaging team asks which of these supplies must carry trial labelling under the CTR. Which products does CTR Annex VI labelling cover?
 
 A. Comparators, and then just when they are repackaged.
 B. IMPs, while auxiliaries keep their marketed labels.
@@ -666,8 +666,8 @@ D. A diagnostic agent given to confirm the study endpoint at visits.
 
 ---
 
-### Q38 [R][Domain I] — the auxiliary concept in the US
-How does US regulation treat the "auxiliary medicinal product" concept?
+### Q38 [A][Domain I] — the auxiliary concept in the US
+A sponsor runs the same asthma trial in the EU and the US. The EU sites treat a marketed rescue inhaler as an auxiliary medicinal product, and the US team asks how to classify it in its own filings. How does US regulation treat the "auxiliary medicinal product" concept?
 
 A. The US lacks the category; comparator sourcing sits within the IND.
 B. The US treats auxiliaries as IMPs that require QP batch certification.
@@ -775,7 +775,7 @@ D. Delegated Reg 2017/1569
 ---
 
 ### Q44 [A][Domain III] — who may relabel under the exemption
-A clinic wants to rely on Art 61(5)(a) for relabelling comparator packs. Who may carry out the relabelling?
+A university hospital clinic in an EU comparator-controlled trial wants to rely on Art 61(5)(a) for relabelling comparator packs for its own trial subjects. The site manager asks which staff member can do the work. Who may carry out the relabelling?
 
 A. The sponsor's clinical monitor, during a routine monitoring visit.
 B. The investigator, being the person responsible for site accountability.
@@ -811,7 +811,7 @@ D. A notice to investigators is enough; labels need not change.
 ---
 
 ### Q46 [A][Domain III] — unmodified marketed comparator
-A sponsor will use an EU-authorised comparator in its marketed packs, without modification. Which statement fits?
+In an EU trial, a sponsor will dispense an EU-authorised comparator to subjects in its marketed packs, without repackaging or any other modification. The supply team asks whether any IMP rules still apply to it. Which statement fits?
 
 A. It becomes an auxiliary product and leaves the IMP rules altogether.
 B. It needs full remanufacture under an Art 61 authorisation before use.
@@ -919,7 +919,7 @@ D. Manufacture, packaging, labelling, coding, supply, storage, and recall or ret
 ---
 
 ### Q52 [A][Domain III] — site accountability
-At a site, who is responsible under E6(R3) for keeping accountability of the investigational product dispensed to subjects?
+At a busy trial site, subjects receive kits of investigational product at each visit, and a CRO monitor reconciles the kits during monitoring visits. An inspector asks who holds the duty for this record. Under E6(R3), who is responsible for site accountability of the dispensed product?
 
 A. The ethics committee, which oversees that site.
 B. The sponsor's QP, who certifies each released batch.
@@ -971,8 +971,8 @@ D. Releasing API without testing if the drug product is tested.
 
 ---
 
-### Q55 [R][Domain III] — GLP test article documentation
-Under 21 CFR 58.105, what must be documented for a GLP test article?
+### Q55 [A][Domain III] — GLP test article documentation
+Before starting a GLP toxicity study, a CRO receives a batch of test article from a biotech sponsor developing an MSC-EV product. The study director checks what must be on file about the material before dosing begins. Under 21 CFR 58.105, what must be documented for a GLP test article?
 
 A. Clinical efficacy data from Phase 1 studies.
 B. QP batch certification under the EU CTR Art 62.
@@ -1023,7 +1023,7 @@ D. The IND is withdrawn and resubmitted.
 ---
 
 ### Q58 [A][Domain V] — temperature excursion on arrival
-A cryopreserved cell product arrives at an EU site with a temperature excursion recorded. What should happen?
+A shipment of a cryopreserved macrophage cell therapy arrives at an EU trial site, and the data logger shows a temperature excursion during transit. The site pharmacist notes that the product looks normal. What should happen?
 
 A. The ethics committee is asked to approve use of the affected units.
 B. The site quarantines it; the sponsor decides on use after QP/QA assessment.
@@ -1041,7 +1041,7 @@ D. The site pharmacist reviews the logger trace and dispenses it if values look 
 ---
 
 ### Q59 [R][Domain V] — excursion documentation
-Which set of documents does the textbook list for a temperature excursion on a cell product shipment?
+A cryopreserved cell product shipment to a trial site records a temperature excursion, and the sponsor's quality lead must assemble the file for the event. Which set of documents does the textbook list for a temperature excursion on a cell product shipment?
 
 A. A batch record copy, the certificate of analysis, a new QP certificate and a recall notice.
 B. Investigator brochure update, an IND safety report, a protocol amendment and new consent forms.
@@ -1075,7 +1075,7 @@ D. Not feasible; supply expires 3 months before the first site opens.
 ---
 
 ### Q61 [An][Domain V] — basis for extending expiry
-Which statement about extending an IMP's expiry date is consistent with the textbook?
+An IMP already at EU sites is approaching its labelled expiry date, and the sponsor would rather keep it in use than resupply. Team members propose different justifications for a later date. Which statement about extending an IMP's expiry date is consistent with the textbook?
 
 A. It may rest on the investigator's view that the product looks intact.
 B. It must rest on stability data, and the labels are then updated.

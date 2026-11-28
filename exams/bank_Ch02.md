@@ -146,8 +146,8 @@ D. HSA, MFDS, Swissmedic — 2023-10-31.
 
 ---
 
-### Q09 [R][Domain II] — what the EU–US MRA covers
-What does the pharmaceutical annex of the EU–US Mutual Recognition Agreement cover?
+### Q09 [A][Domain II] — what the EU–US MRA covers
+Your EU affiliate's QA head is preparing a briefing for a US partner whose site will supply a biologic to the EU. She wants a one-line description of what the pharmaceutical annex of the EU–US Mutual Recognition Agreement actually covers. Which description is correct?
 
 A. Mutual acceptance of GLP nonclinical study data between FDA and EU national authorities.
 B. Reliance on each other's GMP inspection outcomes, fully operational in July 2019.
@@ -237,7 +237,7 @@ D. Correct — WLA status obliges other WLAs, including FDA, to rely on each oth
 ---
 
 ### Q14 [A][Domain I] — "coming but not final" as of September 2026
-As of 1 September 2026 the dossier team asks which CTD-Quality guideline to write to. Which is correct?
+On 1 September 2026, a cell-therapy company is drafting the Quality module of its CTD for a macrophage product. The team has seen ICH news about M4Q(R2) and asks which CTD-Quality guideline the Quality module should be written to now. Which is correct?
 
 A. M8, because the eCTD v4 specification supersedes M4Q content requirements.
 B. M4Q(R1), because M4Q(R2) is still a draft not yet at Step 4.
@@ -505,7 +505,7 @@ D. M14 — Step 4 reached on 4 September 2025, now in Step 5.
 ---
 
 ### Q29 [A][Domain I] — model-informed drug development
-Which ICH guideline gives general principles for model-informed drug development, and what is its status as of 1 September 2026?
+A pharmacometrics lead plans to support dose selection for an MSC-EV product with exposure–response modelling. Before citing an ICH text in a briefing package on 1 September 2026, she asks which ICH guideline gives general principles for model-informed drug development and what its status is. Which is correct?
 
 A. M15 — Step 4 January 2026, now in Step 5 implementation.
 B. M15 — Step 3 draft, not yet adopted at Step 4 by the Regulatory Members.
@@ -541,7 +541,7 @@ D. January 2026.
 ---
 
 ### Q31 [A][Domain I] — drug–drug interaction guideline
-A clinical pharmacology colleague asks which ICH guideline covers drug–drug interaction studies and whether it is final. Which answer is correct?
+A clinical pharmacology colleague is planning interaction studies for a small-molecule drug that patients will take alongside your cell therapy. She asks which ICH guideline covers drug–drug interaction studies and whether it is final or still a draft. Which answer is correct?
 
 A. M12 — Step 4 reached in 2024; check regional guidance.
 B. M12 — still a Step 3 draft, with Step 4 expected after the reference date.
@@ -773,7 +773,7 @@ D. It began in 2001 and lists products eligible for UN procurement after dossier
 ---
 
 ### Q44 [A][Domain IV] — the applicant's role in CRP
-Your company wants to use the WHO Collaborative Registration Procedure for an EMA-approved product in several participating countries. What does the applicant do in this procedure?
+Your company holds an EMA centralised approval for a product and wants faster registrations in several countries that take part in the WHO Collaborative Registration Procedure. The project manager asks what the company, as applicant, has to do in this procedure. Which is correct?
 
 A. Applies for inclusion on the Essential Medicines List, which triggers national registration in those countries.
 B. Requests that WHO benchmark the participating authorities at ML3 before registration can proceed.
@@ -917,7 +917,7 @@ D. Treat it as a biologic outside the waiver, so full re-testing is required on 
 ---
 
 ### Q52 [A][Domain V] — QP certification under the waiver
-A QA manager says: "Since the MRA batch-testing waiver applies to our in-scope US-made product, QP certification is no longer needed on EU import." Which is correct?
+During an import-readiness review for a US-made biologic that falls within the scope of the EU–US MRA, a QA manager says: "Since the MRA batch-testing waiver applies to our in-scope US-made product, QP certification is no longer needed on EU import." Which is correct?
 
 A. Incorrect — the waiver removes QP certification but requires full re-testing.
 B. Incorrect — the waiver covers re-testing; QP certification of each batch remains.
@@ -970,7 +970,7 @@ D. GLP data = OECD MAD; GMP inspection reliance = PIC/S and MRAs; development gu
 ---
 
 ### Q55 [A][Domain IV] — tender that explicitly requires PQ
-A UN tender states that products must be "WHO-prequalified." Your product holds an EMA centralised approval. What should the access team conclude?
+Your company's macrophage cell therapy holds an EMA centralised approval, and the access team is preparing a bid for a UN procurement tender. The tender documents state that products must be "WHO-prequalified." What should the access team conclude?
 
 A. The tender requirement is void because EMA holds GBT ML4.
 B. EMA approval does not substitute; PQ must be obtained as a separate procedure.
@@ -988,7 +988,7 @@ D. EMA approval satisfies the requirement because EMA is a WHO-Listed Authority,
 ---
 
 ### Q56 [A][Domain I] — WHO's role in an ICH Working Group
-WHO wishes to place an expert on an ICH Expert Working Group. Which statement is correct?
+ICH is forming an Expert Working Group on a new topic, and WHO wishes to place one of its experts on it. A regulatory trainee preparing a briefing note asks what WHO may and may not do within ICH in this situation. Which statement is correct?
 
 A. WHO can nominate an expert and also vote in the Assembly because it is a Standing Observer.
 B. WHO can nominate an expert as a Standing Observer, but it does not vote in the Assembly.

@@ -42,8 +42,8 @@ D. Because the approval is a federal action, and NEPA requires federal actions t
 
 ---
 
-### Q03 [R][Domain I] — 25.31(b) criterion
-Which criterion allows a drug application to claim the categorical exclusion in 21 CFR 25.31(b)?
+### Q03 [A][Domain I] — 25.31(b) criterion
+Northbrook Therapeutics is preparing a US NDA for an oral small molecule, and its forecasts show that approval will increase use of the active moiety. The regulatory lead wants to avoid an Environmental Assessment if the rules allow it. Which criterion allows the application to claim the categorical exclusion in 21 CFR 25.31(b)?
 
 A. The active ingredient has a log Kow of 4.5 or less, so that bioaccumulation is not expected.
 B. The application does not increase use of the active moiety compared with the reference product.
@@ -61,7 +61,7 @@ D. The predicted concentration in surface water, using a default market penetrat
 ---
 
 ### Q04 [A][Domain I] — EIC 0.3 ppb
-An NDA for a new antidepressant estimates an EIC of 0.3 ppb, and there are no extraordinary circumstances. What environmental documentation does FDA expect?
+Halden Pharma is filing a US NDA for a new antidepressant. Its environmental scientist estimates an EIC of 0.3 ppb at the point of entry into the aquatic environment, and an internal screen finds no extraordinary circumstances. What environmental documentation does FDA expect?
 
 A. A 25.31(b) exclusion claim with the EIC basis and a statement of absent extraordinary circumstances.
 B. An Environmental Assessment, because a new molecular entity always requires one.
@@ -96,8 +96,8 @@ D. A PEC/PNEC ratio below 1, derived from algae, daphnia and fish studies, plus 
 
 ---
 
-### Q06 [R][Domain II] — US placement
-Where in the US eCTD does the environmental analysis (categorical exclusion claim or EA) belong?
+### Q06 [A][Domain II] — US placement
+A regulatory operations specialist is publishing the original US BLA for an autologous macrophage cell therapy. The sponsor's categorical exclusion claim is final, but the eCTD placement plan still leaves its location blank. Where in the US eCTD does the environmental analysis (categorical exclusion claim or EA) belong?
 
 A. Module 1.12.14, Environmental analysis.
 B. Module 1.6, Environmental Risk Assessment.
@@ -149,8 +149,8 @@ D. A 25.31(c) claim for each, citing it and stating that extraordinary circumsta
 
 ---
 
-### Q09 [R][Domain I] — extraordinary circumstances
-Under 21 CFR 25.21, which situation is an example of extraordinary circumstances?
+### Q09 [A][Domain I] — extraordinary circumstances
+A US regulatory team is about to sign the statement that no extraordinary circumstances apply to its product's categorical exclusion claim. Before signing, the lead reviews four facts raised in internal meetings. Under 21 CFR 25.21, which situation is an example of extraordinary circumstances?
 
 A. The product is a recombinant protein with a long manufacturing process.
 B. The product has hormonal activity that could significantly affect the environment.
@@ -168,7 +168,7 @@ D. The sponsor has filed the same product in the EU, where Phase II was triggere
 ---
 
 ### Q10 [A][Domain I] — effect of extraordinary circumstances
-A product meets the 25.31(b) EIC criterion, but the review identifies extraordinary circumstances. What follows?
+Corvane Bio's US NDA meets the 25.31(b) EIC criterion, and the regulatory writer has drafted a routine categorical exclusion claim. Late in preparation, the environmental review identifies extraordinary circumstances for the product. What follows?
 
 A. The exclusion cannot be used, and an Environmental Assessment must be submitted.
 B. The exclusion applies, but FDA issues an EIS to document the special situation.
@@ -204,7 +204,7 @@ D. FDA requires the data from every applicant, as part of a harmonised ICH envir
 ---
 
 ### Q12 [A][Domain I] — OTC switch supplement
-An approved antidepressant later files a supplement for an OTC switch that is expected to raise the EIC above 1 ppb. What changes?
+An antidepressant was approved in the US with a categorical exclusion claim. The sponsor now plans a supplement for an OTC switch, and its updated forecast shows that the wider use will raise the EIC above 1 ppb. What changes for the environmental documentation?
 
 A. The sponsor files a new exclusion claim under 25.31(c), because the active moiety is already marketed.
 B. The supplement must include an EIS, because the switch increases use beyond the original approval.
@@ -258,7 +258,7 @@ D. A PEC/PNEC conclusion, followed by Tier B testing where it is 1 or more.
 ---
 
 ### Q15 [A][Domain I] — US ANDA
-A US generic applicant asks whether an ANDA is exempt from environmental documentation. What is correct?
+Kestrel Generics is preparing its first US ANDA for an oral tablet that copies a marketed reference drug. A new hire believes generics are exempt from environmental documentation altogether, and the regulatory lead asks the team to confirm the rule before filing. What is correct?
 
 A. ANDAs must submit an EA, because the exclusions apply to new drug applications.
 B. ANDAs may claim the 25.31(b) exclusion, which applies to them as to NDAs.
@@ -366,7 +366,7 @@ D. Adopted 2023-09-01; in effect from 2024-02-15.
 ---
 
 ### Q21 [A][Domain II] — which version applies
-A sponsor will submit an EU MAA in 2026. A consultant proposes structuring the ERA on the previous version of the EMA guideline. What is correct?
+Arden Biologics will submit an EU MAA in 2026 for a new active substance. A consultant proposes structuring the ERA on the previous version of the EMA guideline, because the team's templates were built on it. The regulatory lead must decide which version to use. What is correct?
 
 A. Rev. 1 applies to new active substances, while the previous version remains for generics.
 B. The previous version applies, because Rev. 1 covers applications started after its effective date only.
@@ -438,7 +438,7 @@ D. A PEC_surface water of 0.01 µg/L or more.
 ---
 
 ### Q25 [A][Domain I] — log Kow 5.2, PEC 0.004 µg/L
-A new active substance has a log Kow of 5.2 and a PEC_sw of 0.004 µg/L. What ERA work is required under Rev. 1?
+A sponsor's new active substance, a lipophilic oral small molecule, has a measured log Kow of 5.2. Its Phase I calculation gives a PEC_sw of 0.004 µg/L, and the team must plan the EU ERA before the MAA is submitted. What ERA work is required under Rev. 1?
 
 A. Phase II Tier A, because the log Kow above 4.5 overrides the action limit.
 B. Neither Phase II nor PBT screening, because the PEC is below the action limit.
@@ -456,7 +456,7 @@ D. Phase II risk assessment is not needed, but PBT/vPvB screening is performed.
 ---
 
 ### Q26 [A][Domain I] — PEC above the limit, low Kow
-A new active substance has a PEC_sw of 0.05 µg/L and a log Kow well below 4.5. What does Rev. 1 require?
+A sponsor is planning the EU ERA for a new active substance. The Phase I calculation gives a PEC_sw of 0.05 µg/L, and the measured log Kow is well below 4.5. The team asks which studies it must budget for before the MAA. What does Rev. 1 require?
 
 A. A refined Phase I using a lower Fpen, which removes the need for any Phase II work on the substance.
 B. Phase II Tier A testing leading to a PEC/PNEC ratio; PBT screening is not triggered.
@@ -510,7 +510,7 @@ D. When the substance is concluded to be PBT or vPvB.
 ---
 
 ### Q29 [A][Domain I] — PBT conclusion with low PEC
-A substance with a PEC_sw below the action limit is concluded to be PBT after screening. What is the consequence under Rev. 1?
+During screening for an EU MAA, a sponsor's active substance is concluded to be PBT, although its PEC_sw is below the action limit. The project team fears that this result will force further testing or block the authorisation. What is the consequence under Rev. 1?
 
 A. Phase II Tier A becomes mandatory, because a PBT conclusion replaces the PEC trigger.
 B. The substance cannot receive an MA until environmental monitoring data are generated.
@@ -546,7 +546,7 @@ D. PBT screening applies to generics only, while the PEC-based conclusion applie
 ---
 
 ### Q31 [A][Domain IV] — strategy after a PBT flag
-An EU dossier will carry a PBT flag for the active substance, although the PEC is below the action limit. What should the regulatory lead prepare?
+An EU dossier for a new active substance will carry a PBT flag after screening, although the PEC is below the action limit. Senior management asks for a preparation plan before the MAA goes in. What should the regulatory lead prepare?
 
 A. A Phase II Tier B package, since a PBT flag escalates the assessment beyond Tier A.
 B. A withdrawal plan, since a PBT flag leads to refusal under Article 8(3)(ca).
@@ -582,7 +582,7 @@ D. Module 1.6; it is an item on the validation checklist.
 ---
 
 ### Q33 [A][Domain II] — EU generic under Art 10(1)
-A generic MAA under Article 10(1) of Directive 2001/83/EC is being prepared. What does the dossier need regarding environmental risk?
+Lindgren Generics is preparing an EU generic MAA under Article 10(1) of Directive 2001/83/EC for a widely used tablet. The project manager assumes that the reference product's ERA covers everything and proposes leaving Module 1.6 empty. What does the dossier need regarding environmental risk?
 
 A. Nothing, because the reference product's ERA already covers the active substance.
 B. A US-style categorical exclusion claim, because Article 10(1) mirrors 21 CFR 25.31(b).
@@ -779,7 +779,7 @@ D. 100%, as a worst case.
 ---
 
 ### Q44 [A][Domain II] — missing Module 1.6
-An EU MAA is submitted without Module 1.6 because the team planned to provide the ERA during the procedure. What is the likely consequence?
+A sponsor submits an EU MAA without Module 1.6, because the team planned to provide the ERA during the procedure while the report was still being finalised. Management asks how the gap will affect the start of the procedure. What is the likely consequence?
 
 A. The application proceeds, and CHMP adds a post-authorisation condition for the ERA.
 B. The ERA is requested at the first clock stop, as it does not affect the decision.
@@ -797,7 +797,7 @@ D. The application stalls at validation, because the ERA is a validation checkli
 ---
 
 ### Q45 [A][Domain V] — ordering Tier A
-The EU MAA is 10 months away, and the API's PEC_sw is 0.05 µg/L. What should the regulatory lead do now?
+The EU MAA for a new oral small molecule is 10 months away, and the Phase I calculation gives a PEC_sw of 0.05 µg/L for the API. No environmental studies have been ordered yet. What should the regulatory lead do now?
 
 A. Order Tier B studies now, because Tier A is skipped once the action limit is exceeded.
 B. Wait for the CHMP's questions, because Phase II data can follow at the first clock stop.
@@ -884,7 +884,7 @@ D. A 25.31(b) claim, supported by an EIC calculation from expected production an
 ---
 
 ### Q50 [A][Domain III] — the component not to forget
-The CMC team believes the ERA for an MSC-EV product needs no attention beyond the vesicles. Which point should the regulatory lead raise?
+The CMC team for an MSC-EV product, preparing its US and EU dossiers, believes the ERA needs no attention beyond the vesicles themselves. The regulatory lead is reviewing the draft environmental sections before they are finalised. Which point should the regulatory lead raise?
 
 A. The US claim for the vesicles must be an EA, because cell-derived products carry extraordinary circumstances by default.
 B. The vesicles themselves need Phase II Tier A testing in the EU, because biological material has a log Kow above 4.5.
@@ -937,7 +937,7 @@ D. A PEC/PNEC ratio for surface water.
 ---
 
 ### Q53 [A][Domain I] — supplement that increases use
-An approved NDA files a supplement for a new formulation expected to increase use of the active moiety. How is the environmental requirement handled?
+A small-molecule drug was approved in the US with a 25.31(b) exclusion claim. The sponsor now files a supplement for a new formulation that is expected to increase use of the active moiety, and the writer must decide what the supplement needs. How is the environmental requirement handled?
 
 A. An EIS is required, because a second approval compounds the earlier exposure.
 B. Supplements are outside 21 CFR Part 25, which applies to original applications.
@@ -1009,7 +1009,7 @@ D. The US refuses after an unfavourable EA; the EU keeps ERA outside benefit-ris
 ---
 
 ### Q57 [A][Domain III] — "biologics file nothing"
-A colleague says that a recombinant protein BLA needs no environmental section because it is a biologic. What is the correct advice?
+A colleague preparing a US BLA for a recombinant protein says the dossier needs no environmental section because the product is a biologic. Publishing starts next week, and the regulatory lead must respond before the dossier is assembled. What is the correct advice?
 
 A. Disagree; an EA is required, since biologics cannot use the categorical exclusions in 21 CFR 25.31.
 B. Disagree; a 25.31(c) claim citing the exclusion and absent extraordinary circumstances is filed.

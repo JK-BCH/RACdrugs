@@ -61,7 +61,7 @@ D. Reference the development report in the protocol and link it to system suitab
 ---
 
 ### Q04 [A][Domain III] — robustness never documented
-An older method is being revalidated. No development report exists and robustness was never studied. What should the team do about robustness?
+Ridgeline Labs is revalidating an older HPLC assay that it inherited when it acquired a marketed product. No development report exists for the method, and the original owner never studied robustness. What should the team do about robustness?
 
 A. Skip it, since revalidation of an existing method falls outside the scope of Q14.
 B. Perform it now as a development activity and record it in a new development report.
@@ -151,7 +151,7 @@ D. Q2(R1) required robustness in validation, and the pair moved it into routine 
 ---
 
 ### Q09 [An][Domain IV] — flexibility via Q12
-A sponsor used the Q14 enhanced approach and linked its procedure knowledge to ICH Q12 established conditions. What post-approval benefit does this create?
+Vireo Therapeutics developed the release assay for its product using the Q14 enhanced approach, with a defined ATP and a documented risk assessment. It then linked this procedure knowledge to ICH Q12 established conditions in its application. What post-approval benefit does this create?
 
 A. Specification limits may be widened through internal change control without notification.
 B. The method is exempt from Stage 3 ongoing verification because the ATP is already approved.
@@ -187,7 +187,7 @@ D. Both reached Step 4 in 2023-11, later error-corrected in 2025.
 ---
 
 ### Q11 [A][Domain I] — identification test
-A QC lab is validating an identification test by IR for an incoming drug substance. Which Q2(R2) characteristic must be demonstrated?
+A QC lab at a contract manufacturer must release each incoming lot of a drug substance before use. The incoming test is an identification test by IR, and the analyst is now drafting the validation protocol for that test. Which Q2(R2) characteristic must be demonstrated?
 
 A. Specificity/selectivity and accuracy, given patient risk
 B. Specificity/selectivity and a quantitation limit
@@ -205,7 +205,7 @@ D. Specificity/selectivity and range across expected content
 ---
 
 ### Q12 [A][Domain I] — quantitative impurity test
-For a quantitative impurity test, which statement about the required Q2(R2) characteristics is correct?
+An analytical team is validating an HPLC method that will report the level of a known degradation product in an oral tablet against a reporting threshold and a specification limit. Before the protocol is approved, the team checks its list of characteristics. Which statement about the required Q2(R2) characteristics is correct?
 
 A. Specificity, accuracy, precision and range, with the lower end of the range set at the LOQ.
 B. Specificity and a detection limit suffice, since impurities are reported above a threshold.
@@ -223,7 +223,7 @@ D. Specificity, accuracy and precision, with range typically set at 80–120% of
 ---
 
 ### Q13 [A][Domain I] — limit test
-A limit test for a residual impurity reports only "pass" or "fail" against a limit. Which Q2(R2) characteristics apply?
+A QC lab has developed a limit test for a residual process impurity in a drug substance. The test reports only "pass" or "fail" against a limit, and the protocol author must choose which characteristics to validate. Which Q2(R2) characteristics apply?
 
 A. Specificity, accuracy, range to the LOQ
 B. Precision and detection limit
@@ -241,7 +241,7 @@ D. Accuracy, precision, and 80–120% range
 ---
 
 ### Q14 [A][Domain I] — assay range
-A sponsor validates an assay for the active ingredient content of a tablet. What range does Q2(R2) typically expect?
+Brightwater Pharma is validating an HPLC assay for the active ingredient content of its film-coated tablet before filing. The protocol author must define the range that the validation will cover. What range does Q2(R2) typically expect?
 
 A. About 80–120% of the specification
 B. The range used for impurity tests
@@ -349,7 +349,7 @@ D. Validation, demonstrating that the procedure meets its ATP
 ---
 
 ### Q20 [A][Domain II] — USP monograph adopted
-A site adopts the current USP assay monograph for its product and QC plans a full validation. What does 21 CFR Part 211 require for this method?
+A US site adopts the current USP assay monograph for an existing product in place of its older in-house method. QC plans a full validation of the monograph method, and the quality head asks whether that effort is required. What does 21 CFR Part 211 require for this method?
 
 A. Full validation of each Q2(R2) characteristic, as for any method used for release testing
 B. A waiver from method assessment, since compendial methods are validated by USP itself
@@ -385,7 +385,7 @@ D. <1225> validation of compendial procedures; <1226> verification of compendial
 ---
 
 ### Q22 [A][Domain II] — in-house method
-A company develops its own HPLC method for a product with no compendial monograph. What does 21 CFR 211.194(a)(2) require?
+A company develops its own HPLC method for a new product that has no compendial monograph and plans to use it for release testing. A project manager suggests relying on system suitability results instead of a formal study. What does 21 CFR 211.194(a)(2) require?
 
 A. Verification of suitability under actual conditions, as for a pharmacopoeial method
 B. Full validation, because the method is not a compendial procedure
@@ -420,7 +420,7 @@ D. Accuracy, sensitivity, specificity, and reproducibility
 ---
 
 ### Q24 [A][Domain II] — EU routine use of a Ph. Eur. method
-An EU site wants to start using a Ph. Eur. method in routine QC. Which approach matches EU expectations?
+An EU site wants to start using a Ph. Eur. method in routine QC. The method has never been run in this laboratory, and the QC manager asks what work is needed before the first batch is tested with it. Which approach matches EU expectations?
 
 A. A USP <1224> transfer protocol with the EDQM laboratory acting as the sending unit
 B. Confirmation of suitability in the user laboratory under EU GMP Chapter 6 and the Ph. Eur. general text
@@ -456,7 +456,7 @@ D. 21 CFR 211.160(b) and USP <621>
 ---
 
 ### Q26 [An][Domain III] — SST is not validation
-An inspector finds that a method was never validated. The site argues that it has passed system suitability on every run for two years. Evaluate the argument.
+During an FDA inspection of a contract laboratory, an inspector finds that a release method was never validated. The site argues that the method has passed system suitability on every run for two years. Evaluate the argument.
 
 A. It succeeds if the trend data are submitted to the agency as a Stage 2 performance qualification report.
 B. It succeeds, because consistent passing results over two years show the procedure is fit for its purpose.
@@ -492,7 +492,7 @@ D. Comparative testing, concurrent release, retrospective validation, and audit
 ---
 
 ### Q28 [A][Domain III] — bioassay transfer design
-For transferring a cell-based bioassay to a CDMO, which design is typical?
+Solace Bio makes a macrophage cell therapy and is moving release testing of its cell-based potency bioassay to a CDMO before commercial supply. The transfer team must now choose the study design for the protocol. Which design is typical for this transfer?
 
 A. Full revalidation at the CDMO, without testing at the sending laboratory
 B. Transfer waiver, because bioassays are too variable for a meaningful comparison
@@ -526,7 +526,7 @@ D. Comparative testing of samples
 ---
 
 ### Q30 [A][Domain III] — transfer protocol content
-A transfer protocol is drafted for moving a release assay between sites. Which element must be fixed before testing starts?
+A sponsor is moving a release assay for its MSC-EV product from the development laboratory to a commercial QC site. The quality unit is drafting the transfer protocol and wants to know what must be settled in advance. Which element must be fixed before testing starts?
 
 A. The variation category for the receiving site's approval
 B. The CTD section in which the transfer results will be filed
@@ -544,7 +544,7 @@ D. The new ATP for the procedure at the receiving site
 ---
 
 ### Q31 [A][Domain III] — co-validation
-A receiving laboratory takes part in the original validation of a new method so that it can test commercial batches at launch. Which <1224> approach is this?
+A sponsor plans to launch a new product with commercial testing at a second QC site. The receiving laboratory therefore takes part in the original validation of the new method, so that it can test commercial batches at launch. Which <1224> approach is this?
 
 A. Comparative testing
 B. Revalidation
@@ -562,7 +562,7 @@ D. Co-validation
 ---
 
 ### Q32 [A][Domain III] — transfer waiver condition
-A sponsor proposes a transfer waiver under USP <1224> for moving a method to a second site. What is the condition for this approach?
+A sponsor plans to move a validated release method to a second site within its own network, where the same analysts and equipment type will be used. It proposes a transfer waiver under USP <1224> instead of comparative testing. What is the condition for this approach?
 
 A. It requires prior approval via a PAS.
 B. It is limited to compendial methods.
@@ -688,7 +688,7 @@ D. Type IA or IB under Q.II.d.2, as a minor change to an equivalent method
 ---
 
 ### Q39 [A][Domain II] — EU, biological product method change
-A marketing authorisation holder of a biological medicinal product replaces a release test with a new cell-based bioassay. How is this classified in the EU?
+Halvard Biologics holds an EU marketing authorisation for a biological medicinal product. Its QC group replaces a release test with a new cell-based bioassay that better reflects the mechanism of action. How is this change classified in the EU?
 
 A. Type II under Q.II.d.2, as a new biological analytical procedure
 B. Type IB, because biological products follow the same route as small molecules
@@ -813,7 +813,7 @@ D. Validation of biomarker and immunogenicity assays used as endpoints in clinic
 ---
 
 ### Q46 [A][Domain I] — biomarker assay
-A sponsor's clinical team plans to validate a serum biomarker assay "to ICH M10" for an exploratory endpoint. What is the issue?
+A sponsor developing a macrophage cell therapy plans an exploratory endpoint based on a serum biomarker in its next clinical study. The clinical team proposes to validate the biomarker assay "to ICH M10." What is the issue?
 
 A. Biomarker assays fall outside the scope of M10 and follow separate guidance.
 B. M10 covers biomarkers in BE studies, but not exploratory clinical endpoints.
@@ -993,7 +993,7 @@ D. By the ATP alone, since development performance criteria set limits
 ---
 
 ### Q56 [A][Domain V] — methods at IND/Phase 1
-An EV product enters Phase 1 under an IND. What is the expected state of its analytical methods?
+An MSC-derived EV product is about to enter Phase 1 under an IND. The CMC lead is drafting the analytical section of the IND and must describe how far the method work has progressed. What is the expected state of its analytical methods?
 
 A. Each release and stability method validated to Q2(R2), with reference standards established
 B. Methods qualified as fit for purpose, with reliability shown for the safety-related tests
@@ -1101,7 +1101,7 @@ D. ICH Q2(R2) robustness testing, EU Annex 1, and the FDA 2011 potency guidance
 ---
 
 ### Q62 [An][Domain II] — RTRT regulatory status
-A firm wants to introduce RTRT through internal change control, arguing that it only replaces lab testing with process data. Evaluate.
+A tablet manufacturer has built an NIR model for real-time release testing of an approved product. The firm wants to introduce RTRT through internal change control, arguing that it only replaces lab testing with process data. Evaluate.
 
 A. Not acceptable, because EU Annex 17 limits RTRT to sterile products.
 B. Acceptable if the NIR model passed system suitability on three consecutive commercial batches.

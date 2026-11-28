@@ -61,8 +61,8 @@ D. 6-month rodent and 9-month non-rodent before Phase 3; marketing adds no longe
 
 ---
 
-### Q04 [R][Domain I] — ICH S4
-Which pairing reflects the chronic toxicity durations harmonised in ICH S4?
+### Q04 [A][Domain I] — ICH S4
+BioNova is planning the chronic toxicity programme for a small-molecule drug intended for long-term daily use in a chronic indication. The project manager needs the standard study lengths to build the budget and asks which durations ICH S4 harmonised. Which pairing should you give her?
 
 A. Rodent 12 months, non-rodent 12 months.
 B. Rodent 6 months, non-rodent 9 months.
@@ -187,8 +187,8 @@ D. Measurement of tissue distribution after a single radiolabelled dose, used to
 
 ---
 
-### Q11 [R][Domain I] — satellite group
-In a rodent toxicity study, why is a satellite group commonly used for toxicokinetics?
+### Q11 [A][Domain I] — satellite group
+A CRO is designing a 4-week rat toxicity study for your small molecule and plans repeated blood draws to build full AUC and Cmax profiles. The study director proposes putting these TK animals in a separate satellite group rather than bleeding the main-study animals. Why is a satellite group commonly used for toxicokinetics in this way?
 
 A. To supply recovery-phase animals for the reversibility assessment.
 B. To test an extra dose level above the maximum tolerated dose.
@@ -223,8 +223,8 @@ D. FDA would treat the study as non-GLP, requiring a 312.23(a)(8)(iii) statement
 
 ---
 
-### Q13 [R][Domain I] — what the margin is built on
-Which value from the toxicity programme is compared with human exposure to derive the exposure safety margin?
+### Q13 [A][Domain I] — what the margin is built on
+Your team is preparing an IND for a first-in-human study and must state how far the planned human exposure lies below exposure in the animal studies. The draft compares human AUC with several different animal values, and the medical writer asks which one is correct. Which value from the toxicity programme is compared with human exposure to derive the exposure safety margin?
 
 A. The administered dose (mg/kg) at the maximum tolerated dose.
 B. Systemic exposure (AUC/Cmax) at the NOAEL.
@@ -349,8 +349,8 @@ D. Human 37, rat 6, dog 20.
 
 ---
 
-### Q20 [R][Domain I] — larger safety factor
-In which situation does the FDA MRSD approach support a safety factor larger than the default 10?
+### Q20 [A][Domain I] — larger safety factor
+A team has converted the dog NOAEL to a human equivalent dose and drafted the MRSD using the default safety factor of 10. During internal review, the clinical pharmacologist asks whether anything in the nonclinical data should push the team toward a larger factor. In which situation does the FDA MRSD approach support a safety factor larger than the default 10?
 
 A. When the NOAEL comes from the least sensitive species tested.
 B. When the toxicity seen is irreversible or the PK is non-linear.
@@ -404,7 +404,7 @@ D. Keep NOAEL/10 but raise the safety factor to 20, which the EMA FIH guideline 
 ---
 
 ### Q23 [R][Domain I] — MABEL
-In the EMA first-in-human guideline, "MABEL" stands for:
+An EU sponsor's first-in-human briefing document for an immune-activating antibody repeatedly uses the abbreviation "MABEL" when justifying the starting dose. A new team member reviewing the draft asks what it means. In the EMA first-in-human guideline, "MABEL" stands for:
 
 A. Maximum Acceptable Biological Exposure Level.
 B. Mean Animal-Based Exposure Limit.
@@ -544,7 +544,7 @@ D. When exposure plateaus because of non-linear, saturating PK.
 ---
 
 ### Q31 [An][Domain IV] — why 50-fold is accepted
-Why does M3(R2) accept a 50-fold exposure margin as a cap on the top dose?
+A sponsor caps the top dose of a 13-week rat study at a 50-fold margin over the anticipated clinical exposure, supported by TK data. A member of the animal-welfare committee asks why regulators accept stopping there rather than escalating further. Why does M3(R2) accept a 50-fold exposure margin as a cap on the top dose?
 
 A. Findings above 50-fold exposure are excluded from labeling, so regulators do not assess them.
 B. GLP inspections cannot verify formulations dosed above a 50-fold margin.
@@ -705,8 +705,8 @@ D. 9 months before Phase 3 starts, matching the in-life duration of the study.
 
 ---
 
-### Q40 [R][Domain V] — duration of a 9-month study
-Approximately how long does a 9-month non-rodent chronic toxicity study take from start to final report?
+### Q40 [A][Domain V] — duration of a 9-month study
+Your Phase 3 programme depends on a 9-month dog chronic toxicity study that has not yet started. Senior management asks when the final report could be available so that a realistic Phase 3 start date can be set. Approximately how long does a 9-month non-rodent chronic toxicity study take from start to final report?
 
 A. 9 months.
 B. 10 months.
@@ -760,7 +760,7 @@ D. 4 months in the most sensitive species only.
 ---
 
 ### Q43 [An][Domain I] — principle behind the table
-Which statement best captures the principle behind the M3(R2) duration table?
+A clinical operations lead new to drug development asks why the toxicology plan moves from 2-week to 3-month studies and finally to 6-month rodent and 9-month non-rodent studies as the clinical programme lengthens. She wants one sentence that explains the logic. Which statement best captures the principle behind the M3(R2) duration table?
 
 A. Animal studies should be about twice the clinical duration, to give a margin in time as well as dose.
 B. Animal study duration should equal clinical duration at every stage, with no upper limit for chronic use.
@@ -848,7 +848,7 @@ D. 3 months, as allowed under S9.
 ---
 
 ### Q48 [R][Domain I] — which guideline covers tissue distribution
-Which ICH guideline addresses tissue distribution studies?
+A study report for your small molecule shows that drug-related material persists in the liver long after plasma levels have fallen. Your manager asks which ICH guideline to consult on whether further tissue distribution work is warranted. Which ICH guideline addresses tissue distribution studies?
 
 A. S3A.
 B. S4.
@@ -920,7 +920,7 @@ D. Start at the HED with sentinel dosing, since sentinel dosing controls the ris
 ---
 
 ### Q52 [R][Domain I] — HED formula
-Using body-surface-area scaling, the human equivalent dose (mg/kg) equals:
+A clinical pharmacologist is converting a rat NOAEL into a human equivalent dose for a first-in-human starting-dose calculation. Her spreadsheet uses body-surface-area scaling, and she asks you to confirm the formula before the numbers go into the IND. Using body-surface-area scaling, the human equivalent dose (mg/kg) equals:
 
 A. Animal dose (mg/kg) × human Km ÷ animal Km.
 B. Animal dose (mg/kg) × animal Km ÷ human Km.

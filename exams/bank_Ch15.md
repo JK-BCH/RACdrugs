@@ -131,7 +131,7 @@ D. Not acceptable without a variation or supplement, because the design space wa
 ---
 
 ### Q08 [R][Domain I] — control strategy
-Under ICH Q8(R2), what is a control strategy?
+A CMC writer is drafting Module 3 for a new tablet and must describe the control strategy that came out of the team's development studies. A reviewer of the draft asks her to state precisely what the term covers. Under ICH Q8(R2), what is a control strategy?
 
 A. A planned set of controls, from product and process understanding, on materials, process, specifications and monitoring.
 B. The document that collects established conditions and reporting categories for lifecycle tracking.
@@ -166,8 +166,8 @@ D. As a CQA, because it is measured on each batch and recorded in the batch reco
 
 ---
 
-### Q10 [R][Domain I] — Q9(R1) additions
-Which item was added to quality risk management by ICH Q9(R1)?
+### Q10 [A][Domain I] — Q9(R1) additions
+After a shortage caused by a single-source excipient supplier, a company's QA director updates its risk management SOP to the 2023 revision of ICH Q9. She wants to cite the new element that addresses this kind of event. Which item was added to quality risk management by ICH Q9(R1)?
 
 A. The requirement that each risk assessment use the most formal method available.
 B. Replacement of science-based decisions with a fixed list of mandated controls.
@@ -256,8 +256,8 @@ D. Knowledge management is a Q11 concept limited to starting materials.
 
 ---
 
-### Q15 [R][Domain I] — Q10 scope
-Over which part of the product lifecycle does the ICH Q10 quality system apply?
+### Q15 [A][Domain I] — Q10 scope
+A virtual biotech company with a Phase 1 MSC-EV product argues that it does not need a pharmaceutical quality system yet, because it has no marketing authorization and no commercial site. Its QA consultant disagrees and cites ICH Q10. Over which part of the product lifecycle does the ICH Q10 quality system apply?
 
 A. Development, technology transfer, commercial manufacturing and discontinuation.
 B. Clinical manufacturing, ending when the process is transferred to a commercial site.
@@ -290,8 +290,8 @@ D. Q12 — pharmaceutical quality system elements such as CAPA and management re
 
 ---
 
-### Q17 [R][Domain I] — established conditions
-In ICH Q12, what are established conditions (ECs)?
+### Q17 [A][Domain I] — established conditions
+During a Q12 implementation project, a site manager proposes to change a CPP set point that is listed as an established condition in the approved dossier, treating it as an internal target. QA objects. In ICH Q12, what are established conditions (ECs)?
 
 A. Conditions of storage that define shelf life and are established in the stability protocol.
 B. Legally binding information needed to assure quality, whose change requires a regulatory submission.
@@ -309,7 +309,7 @@ D. Internal operating targets that a site may change freely under its own deviat
 ---
 
 ### Q18 [R][Domain II] — PACMP
-What does a post-approval change management protocol (PACMP) under ICH Q12 do?
+An EU marketing authorization holder expects to scale up its tablet process in two years and wants to agree with the authority now on how the change will be supported and reported. The regulatory lead proposes a PACMP. What does a post-approval change management protocol (PACMP) under ICH Q12 do?
 
 A. It replaces the annual report by summarising each change made in the past year.
 B. It documents an OOS investigation and the CAPA taken after a confirmed failure.
@@ -435,7 +435,7 @@ D. They widened flexibility to some extent within the existing EU variation fram
 ---
 
 ### Q25 [R][Domain I] — Q13 batch definition
-Under ICH Q13, how may a batch be defined in continuous manufacturing?
+A company converting its tablet line from batch to continuous manufacturing must state in its application how a batch will be defined, since there is no longer a single blender charge. The process engineers list several options. Under ICH Q13, how may a batch be defined in continuous manufacturing?
 
 A. Retrospectively, after release testing shows which material met specification.
 B. By the volume of a single blender charge, as in traditional batch processing.
@@ -543,7 +543,7 @@ D. A repeat of the three batches at a second site, which Stage 2 requires for ea
 ---
 
 ### Q31 [A][Domain III] — Stage 3 CPV
-A plant has completed PPQ and started commercial supply. What does FDA expect during Stage 3?
+A US contract manufacturer completed process performance qualification for a new oral solution last quarter and has now released its first commercial batches. The site head wants to cut validation spending, arguing that the process is now validated. What does FDA expect during Stage 3?
 
 A. Continued collection of data and statistical trend analysis to show the process remains in control.
 B. Further validation is unneeded unless a major change triggers a new set of three consecutive batches.
@@ -597,7 +597,7 @@ D. URS → IQ → DQ → PQ → OQ
 ---
 
 ### Q34 [A][Domain III] — after qualification
-A new line has completed PQ under Annex 15. What follows next?
+An EU fill-finish site has installed a new vial filling line and completed URS, DQ, IQ, OQ and PQ, each documented and approved under Annex 15. The production head wants to start commercial filling the following week. What follows next?
 
 A. A design qualification review, because DQ is repeated after PQ to confirm the URS.
 B. Immediate commercial release, since completion of PQ is treated as equivalent to full process validation.
@@ -633,7 +633,7 @@ D. Computerised system validation and electronic signature controls.
 ---
 
 ### Q36 [A][Domain III] — terminology mapping
-An EU-based team asks what the FDA equivalent of "ongoing process verification" is. What is the correct answer?
+An EU-based company is preparing its first US application and must translate its validation documents into FDA terminology. Its validation master plan describes ongoing process verification after process validation. What is the FDA equivalent of ongoing process verification?
 
 A. Process design in Stage 1.
 B. Performance qualification (PQ) of equipment.
@@ -722,8 +722,8 @@ D. 21 CFR 820, with Part 210 for biologics and Part 211 for combination products
 
 ---
 
-### Q41 [R][Domain II] — 211.22
-Which 21 CFR section requires an independent quality control unit?
+### Q41 [A][Domain II] — 211.22
+During an FDA inspection of a US tablet plant, the investigator finds that the production manager can overrule the quality group's decisions to reject batches. The firm asks which regulation sets the requirement it failed to meet. Which 21 CFR section requires an independent quality control unit?
 
 A. 211.22
 B. 211.100
@@ -741,7 +741,7 @@ D. 211.194
 ---
 
 ### Q42 [A][Domain II] — matching 211 sections
-An inspector cites a firm for lacking written production and process control procedures and for skipping in-process tests. Which sections apply?
+During a routine FDA inspection of a US generic tablet manufacturer, the investigator finds that granulation is run without written production and process control procedures and that in-process tests were skipped on several batches. Which sections apply?
 
 A. 211.100 and 211.110
 B. 211.160 through 211.165
@@ -795,7 +795,7 @@ D. Accept, if the two results are averaged and the mean falls within the specifi
 ---
 
 ### Q45 [R][Domain III] — OOS phases
-Under FDA's OOS guidance, how is an OOS investigation structured?
+A QC laboratory obtains an out-of-specification assay result for a commercial batch, and the laboratory supervisor must draft the investigation plan. She wants the plan to follow the stages of FDA's OOS guidance in the right order. Under FDA's OOS guidance, how is an OOS investigation structured?
 
 A. Phase I full-scale review of manufacturing causes, then Phase II laboratory review of possible analyst error.
 B. Phase I management review, then Phase II CAPA, with the laboratory review left as an optional step.
@@ -813,7 +813,7 @@ D. Phase I re-test by a second analyst, then Phase II averaging of the re-test w
 ---
 
 ### Q46 [A][Domain III] — invalidating the original result
-After a Phase I laboratory investigation of an OOS result, no assignable analytical error is found. What happens to the original result?
+A QC analyst at a US site obtains an out-of-specification dissolution result for a commercial tablet batch. The Phase I laboratory investigation checks the calculations, instrument and standards and finds no assignable analytical error. What happens to the original result?
 
 A. It is replaced by the average of three re-tests, which becomes the reportable value.
 B. It is deleted from the laboratory record, since Phase I could not confirm it.

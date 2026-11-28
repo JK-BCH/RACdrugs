@@ -202,8 +202,8 @@ D. A rationale citing disease epidemiology, known PK/PD differences, and histori
 
 ---
 
-### Q12 [R][Domain II] — submission timing
-Under the draft DAP guidance, when is the plan submitted for a Phase 3 trial?
+### Q12 [A][Domain II] — submission timing
+Assume the 505(z) requirement is in force. A US sponsor of an MSC-EV product has finished Phase 2 and is preparing its Phase 3 protocol. The project manager asks when, under the draft DAP guidance, the Diversity Action Plan must be submitted for this Phase 3 trial. Which answer is correct?
 
 A. With the Phase 3 protocol to the IND, and no later than the start of enrollment.
 B. In the first IND annual report after enrollment begins, with the 312.33(a)(2) demographic table.
@@ -221,7 +221,7 @@ D. At the end-of-Phase 2 meeting, as a briefing document that FDA reviews in adv
 ---
 
 ### Q13 [A][Domain II] — waiver mechanics
-A sponsor believes a DAP is not feasible for its ultra-rare disease trial. How should it seek relief?
+Assume the 505(z) requirement is in force. A small biotech is planning a pivotal trial of a cell therapy for an ultra-rare disease and believes a Diversity Action Plan is not feasible for this trial. How should it seek relief?
 
 A. Notify FDA in the first annual report that the goals could not be met, with enrollment figures.
 B. File a citizen petition, because waivers of statutory requirements need a public comment process.
@@ -310,7 +310,7 @@ D. About 76 patients: a goal of 100 against 24 enrolled.
 ---
 
 ### Q18 [A][Domain IV] — rare pediatric cell therapy
-A sponsor develops a cell therapy for a rare pediatric disease with fewer than 200 US patients. Which DAP strategy fits the chapter?
+Assume the 505(z) requirement is in force. A biotech is developing a macrophage cell therapy for a rare pediatric disease with fewer than 200 US patients and must plan a pivotal trial. Which DAP strategy fits the chapter?
 
 A. Base goals on the registry and E11 age groups; request a partial waiver for statistically meaningless subgroups.
 B. Request a full waiver on rarity alone, because rare disease trials are exempt from 505(z) by statute and need no data.
@@ -418,7 +418,7 @@ D. One race question with five categories, with ethnicity recorded at US sites a
 ---
 
 ### Q24 [A][Domain II] — non-US sites
-A global trial enrolls at US, European and Asian sites. The sponsor plans to collect race and ethnicity at US sites only, using investigator observation. What does the 2016 FDA guidance expect?
+A global pivotal trial enrolls at US, European and Asian sites. To save effort, the sponsor plans to collect race and ethnicity at US sites only, using investigator observation. What does the 2016 FDA guidance expect?
 
 A. Consistent collection at every site, using OMB categories and participant self-report.
 B. US sites alone, because OMB categories apply to US residents and other regions use local terms.
@@ -562,7 +562,7 @@ D. It introduced the annual report demographic table later codified in 312.33(a)
 ---
 
 ### Q32 [A][Domain V] — where sex differences go in the label
-A sponsor finds clinically relevant sex differences in PK for its drug. In a PLR label, where should this finding be reflected?
+During a pivotal program, a sponsor's PK analysis shows clinically relevant sex differences in exposure for its drug. The labeling team is now drafting the PLR label. In a PLR label, where should this finding be reflected?
 
 A. Section 14 Clinical Studies, as a subgroup forest plot without dosing guidance.
 B. A Medication Guide, because sex-specific findings go to patient labeling.
@@ -615,7 +615,7 @@ D. A separate diversity action plan filed in CTIS before the first site is activ
 ---
 
 ### Q35 [A][Domain II] — US-EU program planning
-A sponsor will run the same pivotal trial in the US and the EU. Its EU team asks whether the EU requires a filing equivalent to the US Diversity Action Plan. What is the correct answer?
+A sponsor will run the same pivotal trial of an MSC-EV product at sites in the US and the EU. Its EU team, already drafting the US Diversity Action Plan, asks whether the EU requires an equivalent filing. What is the correct answer?
 
 A. Yes — ACT EU issued a binding diversity plan requirement that applies to pivotal trials.
 B. A separate plan is not required; the protocol justifies the sex and age distribution under Annex I.
@@ -633,7 +633,7 @@ D. A separate plan is not required, because EU trials follow the US DAP once a U
 ---
 
 ### Q36 [A][Domain III] — EU protocol excluding women
-An EU protocol for a cardiovascular drug excludes women without explanation. Under the CTR, what is the regulatory issue?
+A sponsor submits an application under the CTR for an EU trial of a cardiovascular drug. The protocol excludes women, but gives no explanation for the exclusion. Under the CTR, what is the regulatory issue?
 
 A. The exclusion requires a waiver from EMA under the 2005 gender reflection paper.
 B. The exclusion is acceptable, because the CTR addresses age alone and leaves sex to national law.
@@ -775,7 +775,7 @@ D. Using a separate protocol in each region and pooling results afterwards.
 ---
 
 ### Q44 [A][Domain IV] — completed trials and Japan
-A sponsor has completed US/EU Phase 3 trials and now seeks Japanese approval for the same product. Which route fits the chapter?
+A sponsor has completed US/EU Phase 3 trials of a product that is now approved in both regions. It now seeks Japanese approval for the same product without repeating the whole program. Which route fits the chapter?
 
 A. An E5 bridging study in Japan, such as PK/PD or dose-response, to show the foreign data extrapolate.
 B. An E17 MRCT, restarting Phase 3 with Japan included as a region from the very beginning of the trial.
@@ -971,8 +971,8 @@ D. E11A on pediatric extrapolation reached Step 4 in August 2024.
 
 ---
 
-### Q55 [R][Domain I] — pediatric extrapolation guideline
-A sponsor wants to reduce the size of its pediatric trial by extrapolating efficacy from adult data. Which ICH guideline addresses this?
+### Q55 [A][Domain I] — pediatric extrapolation guideline
+A sponsor's cell therapy is approved for adults, and the pediatric team must now plan a trial in children. It wants to reduce the size of the pediatric trial by extrapolating efficacy from adult data. Which ICH guideline addresses this?
 
 A. ICH E7.
 B. ICH E11A.

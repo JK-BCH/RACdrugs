@@ -133,7 +133,7 @@ D. 15 May 2018
 ---
 
 ### Q08 [R][Domain I] — products that transitioned
-Which group of products moved from NDAs to deemed BLAs on 23 March 2020?
+A regulatory intelligence analyst is updating a database of US approvals after the BPCIA transition provision took effect. She must flag which products previously approved on NDAs should now be listed as deemed BLAs. Which group of products moved from NDAs to deemed BLAs on 23 March 2020?
 
 A. Synthetic peptides of 40 amino acids or fewer approved under FD&C 505.
 B. Monoclonal antibodies that CBER had licensed before the 2003 transfer.
@@ -205,7 +205,7 @@ D. Insulin exclusivity had been transferred to the Purple Book listing date.
 ---
 
 ### Q12 [R][Domain I] — 351(i) categories
-Which item is NOT among the categories listed in the PHS Act 351(i) definition of a biological product?
+A legal intern drafting a memo on US biologics jurisdiction lists the product categories named in the PHS Act and includes one that does not belong. You are asked to find the error before the memo is circulated. Which item is NOT among the categories listed in the PHS Act 351(i) definition of a biological product?
 
 A. Polypeptide of 30 amino acids
 B. Allergenic product
@@ -257,7 +257,7 @@ D. CDER, with a BLA under PHS 351(a).
 ---
 
 ### Q15 [A][Domain I] — plasma-derived immunoglobulin
-Which FDA center regulates a plasma-derived immunoglobulin product?
+A plasma fractionator plans to submit a BLA for a new intravenous immunoglobulin purified from pooled human plasma. Its regulatory lead notes that therapeutic proteins moved to CDER in 2003 and wonders whether this product will follow them. Which FDA center regulates a plasma-derived immunoglobulin product?
 
 A. CDER, because it was among the products deemed BLAs in 2020.
 B. CDER, because immunoglobulins are therapeutic proteins.
@@ -310,7 +310,7 @@ D. CBER/OTP, with a 351(k) application against a cell product.
 ---
 
 ### Q18 [R][Domain V] — what 21 CFR 600 contains
-Which content belongs to 21 CFR Part 600?
+A new regulatory associate at a monoclonal antibody company is mapping the 21 CFR biologics parts to her team's tasks. She has placed licensing in Part 601 and general standards in Part 610 but is unsure what Part 600 covers. Which content belongs to 21 CFR Part 600?
 
 A. BLA licensing in 600.2 and reporting of manufacturing changes in 600.12.
 B. Accelerated approval of biologics in 600.40–46 and lot release in 600.2(c).
@@ -346,7 +346,7 @@ D. 21 CFR 314.70, using the CBE-0 and CBE-30 categories.
 ---
 
 ### Q20 [R][Domain II] — accelerated approval for biologics
-Where are the accelerated approval provisions for biological products codified?
+A sponsor of a monoclonal antibody for a serious disease plans to request accelerated approval in its BLA. The regulatory lead wants the briefing document to cite the correct biologics regulations rather than the drug provisions. Where are the accelerated approval provisions for biological products codified?
 
 A. 21 CFR 601.40–46
 B. 21 CFR 610.10–12
@@ -418,7 +418,7 @@ D. 21 CFR 601.2
 ---
 
 ### Q24 [R][Domain IV] — US biosimilar definition
-Which statement matches the PHS Act definition of a biosimilar?
+A company's marketing team describes its proposed 351(k) product as "identical to" the reference biologic in a draft investor presentation. The regulatory affairs lead wants to replace that phrase with the statutory standard. Which statement matches the PHS Act definition of a biosimilar?
 
 A. Identical active ingredient to the reference, shown by full structural characterisation.
 B. Therapeutically equivalent to the reference, shown by bioequivalence in healthy volunteers.
@@ -633,7 +633,7 @@ D. Not acceptable, because submission is barred until 15 May 2026.
 ---
 
 ### Q36 [R][Domain V] — US naming convention
-Under FDA's 2017 nonproprietary naming guidance, how are biological products named?
+A biosimilar sponsor is preparing its US labeling and must propose the product's nonproprietary name. The team also asks whether the reference product's name follows the same convention. Under FDA's 2017 nonproprietary naming guidance, how are biological products named?
 
 A. A core name plus a meaningless 4-letter suffix, for references and biosimilars alike.
 B. A core name plus a 4-letter suffix, applied to biosimilars but not to references.
@@ -723,7 +723,7 @@ D. Of 13 interchangeable products, 4 had been approved without switching data.
 ---
 
 ### Q41 [R][Domain I] — EU legal basis
-What is the legal basis for a biosimilar marketing authorisation application in the EU?
+A sponsor has developed a follow-on version of an EU-authorised recombinant protein, with comparative quality, nonclinical and clinical data against the reference. Its regulatory team must state the legal basis in the cover letter of the marketing authorisation application. What is the legal basis for a biosimilar marketing authorisation application in the EU?
 
 A. Directive 2001/83 Article 10(2)(b), defining the generic product.
 B. Directive 2001/83 Article 10(1), the generic application route.
@@ -938,7 +938,7 @@ D. It drops analytical comparison and relies on post-approval surveillance to co
 ---
 
 ### Q53 [An][Domain II] — the process is the product
-Why does "the process is the product" lead to different regulatory treatment of biologics compared with small molecules?
+A board member of a start-up making a recombinant protein asks why its regulatory strategy puts so much weight on manufacturing process control when a small-molecule sister programme does not. The CMC lead answers that "the process is the product". Why does this principle lead to different regulatory treatment of biologics compared with small molecules?
 
 A. Biologics are inherently more toxic, so each manufacturing step needs a separate clinical study.
 B. Heterogeneity, impurities and immunogenicity depend on the process, so identity cannot be fully shown.
@@ -1082,7 +1082,7 @@ D. Small molecules rarely circulate long enough in the body to be recognised by 
 ---
 
 ### Q61 [R][Domain III] — ADA assay tiers
-What is the usual tiered sequence of anti-drug antibody assays described in the textbook?
+A biosimilar sponsor's bioanalytical team is writing the immunogenicity sampling plan for its comparative clinical study. The clinical lead asks in which order the anti-drug antibody assays will be run on each sample. What is the usual tiered sequence of anti-drug antibody assays described in the textbook?
 
 A. Neutralising, titre, screening, confirmatory
 B. Confirmatory, screening, neutralising, titre

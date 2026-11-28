@@ -6,8 +6,8 @@
 
 ---
 
-### Q01 [R][Domain I] — M3(R2) local tolerance principle
-How does ICH M3(R2) expect local tolerance to be evaluated for a new drug?
+### Q01 [A][Domain I] — M3(R2) local tolerance principle
+A start-up is planning the nonclinical package for a subcutaneous small-molecule drug before its first-in-human trial. The toxicologist asks whether local tolerance needs its own programme or can be handled another way. How does ICH M3(R2) expect local tolerance to be evaluated for this new drug?
 
 A. As part of the general toxicity studies, using the intended clinical route of administration.
 B. In a dedicated local tolerance study in rabbits, completed before any repeated-dose toxicity work starts.
@@ -150,7 +150,7 @@ D. Incorrect; Rev. 1 remains in effect, and the in vitro revision is at the reco
 ---
 
 ### Q09 [R][Domain II] — CTD location of reports
-Where in the CTD are local tolerance study reports placed?
+A regulatory writer is assembling the CTD for an IV small-molecule drug and has received the final local tolerance study reports from the CRO. She has already drafted the nonclinical summaries and now needs to file the full reports. Where in the CTD are local tolerance study reports placed?
 
 A. Module 2.4 Nonclinical Overview.
 B. Module 2.6.7 Toxicology Tabulated Summary.
@@ -184,7 +184,7 @@ D. In 2.4 alone, with the EU asking for a separate local tolerance annex placed 
 ---
 
 ### Q11 [A][Domain I] — which test article
-A team plans the injection-site evaluation within its 4-week toxicity study. Which test article choice best matches the local tolerance principle?
+A company developing a subcutaneous MSC-EV formulation plans the injection-site evaluation within its 4-week rat toxicity study. The study director must decide which material to give at the injection site. Which test article choice best matches the local tolerance principle?
 
 A. The active substance dissolved in saline, so that findings can be attributed to the drug alone.
 B. The formulation closest to the clinical one, including its excipients, given by the clinical route.
@@ -361,8 +361,8 @@ D. Add a separate dog micronucleus study, because S2(R1) asks for a non-rodent s
 
 ---
 
-### Q21 [R][Domain I] — single-dose clinical trial
-Under ICH M3(R2) §9, what genotoxicity assessment is considered sufficient to support a single-dose clinical trial?
+### Q21 [A][Domain I] — single-dose clinical trial
+A sponsor plans a single-dose first-in-human trial of a new oral small molecule in healthy volunteers. With a tight toxicology budget, the team asks for the minimum genotoxicity data that ICH M3(R2) §9 accepts for this trial. What genotoxicity assessment is considered sufficient?
 
 A. An in vitro chromosomal aberration study alone.
 B. An in vivo micronucleus study in two tissues.
@@ -397,8 +397,8 @@ D. A carcinogenicity bioassay, since repeated dosing raises tumour risk.
 
 ---
 
-### Q23 [R][Domain I] — complete battery
-By when must the complete standard genotoxicity battery be finished under ICH M3(R2) §9?
+### Q23 [A][Domain I] — complete battery
+A sponsor has completed its Phase 1 trials with Ames and in vitro chromosomal aberration data, and the in vivo micronucleus study is still being planned. The clinical team wants to know the latest point at which the full package must be in place. By when must the complete standard genotoxicity battery be finished under ICH M3(R2) §9?
 
 A. Before submission of the marketing application.
 B. Before the first single-dose clinical trial.
@@ -592,8 +592,8 @@ D. The battery is applied in the small-molecule way; the budget line was simply 
 
 ---
 
-### Q34 [R][Domain I] — TTC value
-What is the ICH M7(R2) threshold of toxicological concern (TTC) for a mutagenic impurity in a drug taken for a lifetime?
+### Q34 [A][Domain I] — TTC value
+A generic manufacturer finds a mutagenic impurity with no compound-specific carcinogenicity data in an antihypertensive that patients take daily for life. The impurity is not in the cohort of concern, and the quality team must set a default limit. What is the ICH M7(R2) threshold of toxicological concern (TTC) that applies?
 
 A. 20 µg/day.
 B. 120 µg/day.
@@ -627,8 +627,8 @@ D. A mutation frequency at the Ames background rate.
 
 ---
 
-### Q36 [R][Domain I] — ≤1 month acceptable intake
-Under ICH M7(R2), what is the acceptable intake for an individual mutagenic impurity when treatment lasts up to 1 month?
+### Q36 [A][Domain I] — ≤1 month acceptable intake
+A sponsor plans a 14-day multiple-dose study of a new small molecule in healthy volunteers. The CMC team must set the limit for an individual Class 2 mutagenic impurity in the clinical batch and asks which acceptable intake to use. Which acceptable intake applies under ICH M7(R2)?
 
 A. 1.5 µg/day.
 B. 120 µg/day.
@@ -646,7 +646,7 @@ D. 20 µg/day.
 ---
 
 ### Q37 [A][Domain I] — 6-month trial acceptable intake
-A Phase 2 trial will dose patients for 6 months. Which acceptable intake applies to an individual Class 2 impurity?
+A sponsor of a small-molecule drug for idiopathic pulmonary fibrosis is preparing a Phase 2 trial in which patients will be dosed daily for 6 months. The CMC team must set the limit for an individual Class 2 impurity in the clinical batches. Which acceptable intake applies to this impurity?
 
 A. 1.5 µg/day, since development trials apply the lifetime TTC.
 B. 10 µg/day, the value for treatment longer than 1 month.
@@ -664,7 +664,7 @@ D. 20 µg/day, the value for more than 1 up to 12 months.
 ---
 
 ### Q38 [A][Domain I] — 5-year treatment acceptable intake
-A drug is expected to be taken for about 5 years. Which acceptable intake applies to an individual mutagenic impurity?
+A sponsor is preparing a marketing application for a small-molecule drug that patients are expected to take daily for about 5 years. The specification needs a limit for an individual mutagenic impurity with no compound-specific data. Which acceptable intake applies to this impurity?
 
 A. 10 µg/day, the value for more than 1 up to 10 years.
 B. 120 µg/day, the value for products taken intermittently.
@@ -790,7 +790,7 @@ D. Correct, because 20 µg/day covers treatment up to 2 years.
 ---
 
 ### Q45 [A][Domain I] — compound-specific data
-A mutagenic impurity has robust rodent carcinogenicity data from which a compound-specific limit can be derived. What should the sponsor use?
+A CMC team identifies a mutagenic impurity in a drug for chronic heart failure. A literature search finds robust rodent carcinogenicity data on this impurity from which a compound-specific limit can be derived, and the team must decide which basis to file. What should the sponsor use?
 
 A. The TTC of 1.5 µg/day, since M7 does not allow limits based on compound data.
 B. A compound-specific acceptable intake derived from the carcinogenicity data.
@@ -879,7 +879,7 @@ D. Known mutagenic carcinogen whose limit is set from compound-specific data.
 ---
 
 ### Q50 [A][Domain I] — two (Q)SAR methods, no alert
-No mutagenicity data exist for a new synthesis impurity. Two complementary (Q)SAR methodologies return no structural alerts. What follows under ICH M7(R2)?
+During route optimisation of an oral antiviral, the process team identifies a new synthesis impurity for which no mutagenicity data exist. Two complementary (Q)SAR methodologies, run by the company's computational toxicology group, return no structural alerts. What follows under ICH M7(R2)?
 
 A. Class 3, with an Ames test needed to confirm the absence of mutagenic potential.
 B. Class 2, because any impurity without data is presumed mutagenic.
@@ -1001,7 +1001,7 @@ D. They replaced M7 with a separate framework, since M7 did not cover N-nitroso 
 ---
 
 ### Q57 [R][Domain II] — Option 1
-What does ICH M7(R2) control Option 1 involve?
+A CMC lead decides to control a mutagenic impurity in a new oral drug substance using ICH M7(R2) control Option 1 and must describe the approach in Module 3. A junior writer asks what this option means in practice. What does ICH M7(R2) control Option 1 involve?
 
 A. Omission of a specification test, justified by fate and purge knowledge.
 B. In-process control with an upstream intermediate test at a higher limit.
@@ -1091,7 +1091,7 @@ D. Results below 30% of the limit in 3 consecutive production-scale or 6 pilot-s
 ---
 
 ### Q62 [R][Domain I] — M7 scope
-Which product type falls within the scope of ICH M7(R2)?
+A regulatory consultant reviews four projects in a client's portfolio to decide where an ICH M7(R2) mutagenic impurity assessment is needed. Only one of the four projects falls within the guideline's scope. Which product type falls within the scope of ICH M7(R2)?
 
 A. A synthetic peptide for metabolic disease.
 B. An antisense oligonucleotide for a rare disease.
