@@ -618,7 +618,7 @@ D. The qualified person employed by the API manufacturer that holds the CEP itse
 ---
 
 ### Q35 [R][Domain I] — legal basis of API GMP responsibility
-Which Directive 2001/83 provisions underpin the MAH and manufacturer's responsibility for API GMP and the QP declaration?
+Which Directive 2001/83 provisions underpin the manufacturer's responsibility for API GMP and the QP declaration in the MAA?
 
 A. Art 46(f) and Art 8(3)(ha).
 B. Art 46b and Art 111b.
@@ -628,7 +628,7 @@ D. Art 111b and Art 8(3)(ha).
 **정답:** A
 
 **해설**
-- A: **Art 46(f)**(MAH·제조자의 API GMP 감사 책임)와 **Art 8(3)(ha)** 가 QP declaration의 근거다.
+- A: **Art 46(f)** = 제조허가 보유자의 API GMP 준수·감사 의무, **Art 8(3)(ha)** = MAA에 첨부하는 확인서(QP declaration)다.
 - B: Art 46b는 제3국 API written confirmation, Art 111b는 면제 국가 목록이다.
 - C: Art 46b와 Art 111b는 수입 확인서·면제 목록 조항이다.
 - D: Art 111b는 목록 조항이다. GMP 감사 책임 조항이 아니다.
@@ -824,7 +824,7 @@ D. EU: exempt from written confirmation as an Art 111b country; US: DMF approval
 **정답:** C
 
 **해설**
-- C: EU는 **Art 46b 확인서(중국 당국 발급)**, MAH의 **Art 46(f) 감사 책임**, **EudraGMDP 비준수 성명** 위험이다. 미국은 해외 사찰, **Import Alert**, **DMF CA**·수수료다.
+- C: EU는 **Art 46b 확인서(중국 당국 발급)**, 제조허가 보유자의 **Art 46(f) API GMP 감사 의무**, **EudraGMDP 비준수 성명** 위험이다. 미국은 해외 사찰, **Import Alert**, **DMF CA**·수수료다.
 - A: 확인서 발급자는 수출국 당국이고, FDA는 CEP를 인정하지 않는다.
 - B: QP declaration과 written confirmation은 별개 문서다. Import Alert를 완제로 한정하는 근거는 교과서에 없다.
 - D: 중국은 Art 111b 목록 밖이고, DMF는 승인되지 않는다.

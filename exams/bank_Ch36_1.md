@@ -1,6 +1,6 @@
 # 문제은행 — Ch.36 (1/2) 시장 접근(급여·가격): 개념·구조
 
-> **근거:** `textbook/Ch36.md` + `cards/Ch36_1.md`·`cards/Ch36_2.md` 검증 메모(✔ HTA Reg 2021/2282 적용 2025-01-12·희귀 2028-01·전 CAP 2030-01, IRA 1차 2026-01-01·2차 2027·3차 2026-01-27 선정·2028-01-01 적용, OBBBA 2025-07-04, MFN EO 2025-05-12, CGT Access Model 2025-01, MFG 비공개가 2025-01-01 / ○ Part A/B/D·MDRP 23.1%·340B·IRA 9/13년·75/65/40%·TFEU 168(7)·Dir 89/105 90/180·JCA −45/+30·AMNOG IQWiG 3 + G-BA 3 = 6개월·7개월째·€30M·SMR/ASMR·NICE £20–30k·1.2/1.7·일본 60–90일·1.25/0.75·CDA-AMC 2024·WHO EML). 새 숫자 없음. 계산 문항은 위 상수로만 계산했다. 기준일(2026-09-01) 이후 단계(HTA Reg 희귀 2028-01·전 CAP 2030-01, IRA 2·3차 적용, 개별 MFN 합의, EU pharma package)는 "기준일 시점 비적용"으로만 다룬다. "?"(HTA Reg 2028/2030 적용 일자, 2차 MFP 공표일)는 정답 키로 쓰지 않았다.
+> **근거:** `textbook/Ch36.md` + `cards/Ch36_1.md`·`cards/Ch36_2.md` 검증 메모(✔ HTA Reg 2021/2282 적용 2025-01-12·희귀 2028-01·전 CAP 2030-01, IRA 1차 2026-01-01·2차 2027·3차 2026-01-27 선정·2028-01-01 적용, OBBBA 2025-07-04, MFN EO 2025-05-12, CGT Access Model 2025-01, MFG 비공개가 2025-01-01 / ○ Part A/B/D·MDRP 23.1%·340B·IRA 9/13년·75/65/40%·TFEU 168(7)·Dir 89/105 90/180·JCA −45/+30·AMNOG IQWiG 3 + G-BA 3 = 6개월·7개월째·€30M·SMR/ASMR·NICE £25–35k(2026-04-01~)·1.2/1.7·일본 60–90일·1.25/0.75·CDA-AMC 2024·WHO EML). 새 숫자 없음. 계산 문항은 위 상수로만 계산했다. 기준일(2026-09-01) 이후 단계(HTA Reg 희귀 2028-01·전 CAP 2030-01, IRA 2·3차 적용, 개별 MFN 합의, EU pharma package)는 "기준일 시점 비적용"으로만 다룬다. "?"(HTA Reg 2028/2030 적용 일자, 2차 MFP 공표일)는 정답 키로 쓰지 않았다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-28. 64문항.
 
@@ -586,15 +586,15 @@ D. It is filed with CMS in the IRA data package and then used to set the initial
 Under Directive 89/105/EEC, which time limits apply to national pricing and reimbursement decisions?
 
 A. Pricing 60 days, listing 90 days, and 150 days when both are decided together.
-B. Pricing 90 days (extendable by 60), listing 90 days, and 180 days combined.
+B. Pricing 90 days, listing 90 days, and 180 days when both are decided together.
 C. Pricing 90 days, listing 180 days, and 270 days when both are decided together.
 D. Pricing 90 days, listing 90 days, and both counted from the EC approval date.
 
 **정답:** B
 
 **해설**
-- B: Transparency Directive는 가격 결정 90일(예외 +60), 급여 등재 90일, 둘을 함께 하면 180일이다.
-- A: 60일은 가격 결정의 예외 연장분이다. 기본 기한이 아니다.
+- B: Transparency Directive는 최초 가격 결정 90일(Art 2), 급여 등재 90일(Art 6), 둘을 함께 하면 180일이다. 60일 연장은 가격 인상 신청(Art 3)에만 있다.
+- A: 60일은 기본 기한이 아니다. 60일 연장은 가격 인상 신청이 예외적으로 많을 때만 한 번 붙는다(Art 3).
 - C: 180일은 통합 기한이다. 급여 등재만은 90일이다.
 - D: 시계는 EC 승인일이 아니라 회원국에 낸 신청 후부터 돈다.
 
@@ -613,7 +613,7 @@ D. 180 days from the EC decision, since the Directive's clock runs from the mark
 **해설**
 - A: 가격·급여 통합 신청은 180일이고, 시계는 신청 후부터 돈다. 정보가 부족하면 시계가 멈춘다.
 - B: 90일은 가격 단독 또는 급여 단독 기한이다. 통합은 180일이다.
-- C: +60일은 가격 결정의 예외 연장이다. 정보 요청은 연장이 아니라 시계 정지다.
+- C: +60일 연장은 가격 인상 신청(Art 3)에만 있다. 정보 요청은 연장 사유가 아니라 시계 정지다.
 - D: 시계는 EC 결정이 아니라 신청에서 시작한다. 그래서 출시 순서 전략에서 신청 시점을 조절한다.
 
 ---
@@ -874,14 +874,14 @@ D. AP2 applies before authorisation; the CEPS price is fixed first, and the comp
 In a NICE appraisal, a new oncology drug adds £90,000 in cost and 2.0 QALYs per patient compared with standard care. No severity modifier applies. What is the ICER, and what is the most relevant next step?
 
 A. £180,000 per QALY, so an appeal against the guidance is the remaining route.
-B. £45,000 per QALY, above the £20,000–30,000 range, so a PAS or managed access is the lever.
-C. £22,500 per QALY, within the £20,000–30,000 range, so a positive recommendation is likely.
+B. £45,000 per QALY, above the £25,000–35,000 range, so a PAS or managed access is the lever.
+C. £22,500 per QALY, below the £25,000–35,000 range, so a positive recommendation is likely.
 D. £45,000 per QALY, within the range once the HST threshold of £100,000 is applied.
 
 **정답:** B
 
 **해설**
-- B: ICER = Δ비용/ΔQALY = £90,000 / 2.0 = £45,000/QALY. NICE 범위 £20,000–30,000을 넘으므로 PAS(비공개 할인)·modifier 해당 여부·모델 수정·managed access(CDF/IMF)가 레버다.
+- B: ICER = Δ비용/ΔQALY = £90,000 / 2.0 = £45,000/QALY. NICE 범위 £25,000–35,000을 넘으므로 PAS(비공개 할인)·modifier 해당 여부·모델 수정·managed access(CDF/IMF)가 레버다.
 - A: 비용에 QALY를 곱했다. ICER는 나누어 구한다.
 - C: £90,000을 2.0으로 두 번 나눈 값이다.
 - D: HST(£100k)는 초희귀 경로다. 일반 항암제 평가에 쓰는 임계값이 아니다.
@@ -894,12 +894,12 @@ An unweighted ICER is £36,000 per QALY. The condition qualifies for NICE's seve
 A. About £21,200 per QALY, because the 1.2 weight lowers the ICER by 1.7 times.
 B. About £43,200 per QALY, because the weight is applied to the incremental cost.
 C. About £36,000 per QALY, as the modifier changes the threshold, not the ICER.
-D. About £30,000 per QALY, at the upper end of the £20,000–30,000 range.
+D. About £30,000 per QALY, in the middle of the £25,000–35,000 range.
 
 **정답:** D
 
 **해설**
-- D: severity modifier(2022)는 QALY 이득에 1.2·1.7 가중을 준다. 가중 QALY가 1.2배가 되면 ICER = £36,000 / 1.2 = £30,000으로 범위 상단이다.
+- D: severity modifier(2022)는 QALY 이득에 1.2·1.7 가중을 준다. 가중 QALY가 1.2배가 되면 ICER = £36,000 / 1.2 = £30,000으로 £25,000–35,000 범위의 중간이다.
 - A: 1.2와 1.7을 섞었다. 1.7은 더 중증인 구간의 가중이다.
 - B: 가중은 비용이 아니라 QALY에 곱한다. £36,000 × 1.2로 계산하면 방향이 반대가 된다.
 - C: modifier는 QALY 가중으로 작동한다. 그래서 ICER가 내려간다.
@@ -911,7 +911,7 @@ Which description of Italy's access tools is correct?
 
 A. AIFA rates products with SMR and ASMR, and CEPS sets the price according to the European price consistency rule.
 B. AIFA innovativeness status lasts 10 years and replaces the need for a patient registry or any managed entry agreement.
-C. AIFA relies on a cost-per-QALY threshold of £20,000–30,000 and uses registries for orphan medicines alone.
+C. AIFA relies on a cost-per-QALY threshold of £25,000–35,000 and uses registries for orphan medicines alone.
 D. Innovativeness status lasts 3 years and brings the innovation fund, immediate regional listing and payback exemption.
 
 **정답:** D
@@ -920,7 +920,7 @@ D. Innovativeness status lasts 3 years and brings the innovation fund, immediate
 - D: AIFA 혁신성 지정(3년)은 혁신 기금·지역 즉시 등재·payback 면제를 준다. 그 밖에 레지스트리 기반 MEA(payment by result·payback)와 매출 상한을 쓴다.
 - A: SMR·ASMR·CEPS는 프랑스 체계다.
 - B: 혁신성 지정은 3년이다. 10년은 EU orphan 시장 독점 기간이고, 레지스트리 MEA는 이탈리아의 대표 도구다.
-- C: £20,000–30,000/QALY는 영국 NICE 범위다.
+- C: £25,000–35,000/QALY는 영국 NICE 범위다.
 
 ---
 
@@ -1097,7 +1097,7 @@ D. UK: added-benefit grading; Germany: explicit cost-per-QALY threshold; US: the
 **정답:** A
 
 **해설**
-- A: 영국은 세금 재원 NHS의 기회비용 관리로 £20–30k/QALY를 쓴다. 독일 AMNOG는 QALY를 거부하고 환자 관련 종점의 추가 편익 등급으로 협상한다. 미국 IRA는 협상에서 QALY 기반 차별을 금지한다. 그래서 PRO/QoL은 세 곳 모두에 쓰인다.
+- A: 영국은 세금 재원 NHS의 기회비용 관리로 £25–35k/QALY를 쓴다. 독일 AMNOG는 QALY를 거부하고 환자 관련 종점의 추가 편익 등급으로 협상한다. 미국 IRA는 협상에서 QALY 기반 차별을 금지한다. 그래서 PRO/QoL은 세 곳 모두에 쓰인다.
 - B: 독일은 효율성 경계 논쟁 끝에 QALY를 쓰지 않았다. 미국에 Part B QALY 규칙은 없다.
 - C: 영국은 명시적 QALY 범위를 쓰고, 독일 등급은 환자 관련 종점 기준이며, CMS는 QALY 모델을 쓰지 않는다.
 - D: 영국과 독일이 뒤바뀌었고, ICER는 비정부 기관이다.

@@ -233,7 +233,7 @@ D. FDA can start reviewing completed sections early, but the PDUFA clock starts 
 **정답:** D
 
 **해설**
-- D: rolling review는 완성된 섹션(CMC·비임상)을 먼저 내서 FDA가 **심사를 일찍 시작**하게 한다. 그러나 **PDUFA 시계는 완전한 신청(마지막 섹션) 제출 때 시작**한다. FDA 사전 동의가 필요하고 부분 제출마다 수수료 일정이 있다.
+- D: rolling review는 완성된 섹션(CMC·비임상)을 먼저 내서 FDA가 **심사를 일찍 시작**하게 한다. 그러나 **PDUFA 시계는 완전한 신청(마지막 섹션) 제출 때 시작**한다. FDA 사전 동의가 필요하고, PDUFA 신청 수수료 전액은 첫 부분 제출 때 낸다.
 - A: 60일은 지정 요청 응답 기간이다. rolling 제출 기한이 아니다.
 - B: 섹션별 시계는 없다. 목표일은 완전 제출 기준이다.
 - C: 첫 섹션 제출로 PDUFA 시계가 시작하지 않는다.

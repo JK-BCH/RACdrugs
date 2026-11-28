@@ -1,6 +1,6 @@
 # 문제은행 — Ch.36 (2/2) 시장 접근(급여·가격): 세부 규정·상황형
 
-> **근거:** `textbook/Ch36.md` + `cards/Ch36_1.md`·`cards/Ch36_2.md` 검증 메모(IRA 연간 일정 ≤2/1→2/28→3/1→6/1→+30일→10/31→11/30→2년 뒤 1/1, 9/13년·7/11년 선정, MFP 75/65/40%, 3차 사이클 2026-01-27 선정·Part B 최초·2028 적용, OBBBA 2025-07-04, Part D $2,000/$2,100, 인플레이션 리베이트 2022-10/2023-01, Part B WAC+3%→ASP+6%·바이오시밀러 ASP+8%, MDRP 23.1%·제네릭 13%·2024-01-01 상한 폐지·VBP 2022, 340B, CGT Access Model 2025-01, MFN EO 2025-05-12, Dir 89/105 90(+60)/90/180, HTA Reg 2025-01-12·2028-01·2030-01·dossier −45일·보고서 +30일, AMNOG IQWiG 3 + G-BA 3 = 6개월·7개월째·협상 6개월·중재 3개월·€30M·MFG 2025-01-01 +9%·§8·AbD, NICE £20–30k·1.2/1.7·HST £100k/£300k, accès précoce AP1/AP2, SMR 65/30/15·ASMR, 일본 60–90일·1.25/0.75·CEA 2019, CDA-AMC 2024·PBAC 연 3회, Reg 141/2000 10년+2). 새 숫자 없음. 날짜·금액 계산은 위 상수로만 했다. "?" 사실(2차 MFP 공표일, HTA Reg 2028/2030 적용 **일자**, Manufacturer Discount Program 세부 비율)은 정답 키로 쓰지 않았다.
+> **근거:** `textbook/Ch36.md` + `cards/Ch36_1.md`·`cards/Ch36_2.md` 검증 메모(IRA 연간 일정 ≤2/1→2/28→3/1→6/1→+30일→10/31→11/30→2년 뒤 1/1, 9/13년·7/11년 선정, MFP 75/65/40%, 3차 사이클 2026-01-27 선정·Part B 최초·2028 적용, OBBBA 2025-07-04, Part D $2,000/$2,100, 인플레이션 리베이트 2022-10/2023-01, Part B WAC+3%→ASP+6%·바이오시밀러 ASP+8%, MDRP 23.1%·제네릭 13%·2024-01-01 상한 폐지·VBP 2022, 340B, CGT Access Model 2025-01, MFN EO 2025-05-12, Dir 89/105 가격 90·가격 인상 90(+60, Art 3)/급여 90/통합 180, HTA Reg 2025-01-12·2028-01·2030-01·dossier −45일·보고서 +30일, AMNOG IQWiG 3 + G-BA 3 = 6개월·7개월째·협상 6개월·중재 3개월·€30M·MFG 2025-01-01 +9%·§8·AbD, NICE £25–35k(2026-04-01~)·1.2/1.7·HST £100k/£300k, accès précoce AP1/AP2, SMR 65/30/15·ASMR, 일본 60–90일·1.25/0.75·CEA 2019, CDA-AMC 2024·PBAC 연 3회, Reg 141/2000 10년+2). 새 숫자 없음. 날짜·금액 계산은 위 상수로만 했다. "?" 사실(2차 MFP 공표일, HTA Reg 2028/2030 적용 **일자**, Manufacturer Discount Program 세부 비율)은 정답 키로 쓰지 않았다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain. 기준일 2026-09-01(이후 사건은 기준일 시점 비적용).
 > **작성:** 2026-11-28. 64문항.
 
@@ -55,7 +55,7 @@ D. By 30 November, the date by which the MFP itself is published.
 **해설**
 - C: CMS 초기 제안(6/1) 후 **30일 내** 반대 제안(정당화 포함)이다. 6월 1일 + 30일 = 7월 1일.
 - A: 10/31은 최대 3회 회의를 포함한 협상 전체의 종료일이다.
-- B: 60일은 근거가 없다. Transparency Dir의 +60일과 혼동한 숫자다.
+- B: 60일은 근거가 없다. Transparency Dir Art 3(가격 인상 신청)의 +60일과 혼동한 숫자다.
 - D: 11/30은 MFP 공표 기한이다.
 
 ---
@@ -597,8 +597,8 @@ D. A claim that the EU should fix the price level, because the member state has 
 
 ---
 
-### Q34 [A][Domain II] — exceptional extension
-A member state receives an exceptional number of pricing applications and invokes the Directive's extension for your price-only application. Assuming no request for information, how long does it have to decide on the price?
+### Q34 [A][Domain II] — exceptional extension (price increase)
+A member state receives an exceptional number of price-increase applications and invokes the Directive's extension for your application to raise the price of an already-priced product. Assuming no request for information, how long does it have to decide on the price increase?
 
 A. 150 days, the 90-day period plus the 60-day extension.
 B. 180 days, because any extension converts it into a combined procedure.
@@ -608,10 +608,10 @@ D. 90 days, because the extension applies to reimbursement listing instead.
 **정답:** A
 
 **해설**
-- A: 가격 결정은 **90일**, 예외적으로 신청이 많으면 **+60일**이다. 90 + 60 = 150일.
+- A: 가격 인상 신청은 **Art 3**에 따라 **90일** 안에 결정하고, 신청이 예외적으로 많으면 **한 번 60일** 연장할 수 있다. 90 + 60 = 150일. 최초 가격 승인(Art 2)에는 이 연장이 없다.
 - B: 180일은 가격·급여를 한 절차로 할 때의 기한이다. 연장으로 절차 유형이 바뀌지 않는다.
-- C: 가격만 신청한 경우라 180일을 출발점으로 쓰지 않는다.
-- D: +60일 예외는 가격 결정 기한에 붙는다.
+- C: 가격 인상만 신청한 경우라 180일을 출발점으로 쓰지 않는다.
+- D: +60일 연장은 가격 인상 결정 기한(Art 3)에 붙는다. 급여 등재(Art 6)에는 없다.
 
 ---
 
@@ -834,15 +834,15 @@ D. Confidential prices end ERP, but they let MFN see each country's confidential
 ### Q47 [A][Domain V] — NICE draft "not recommended"
 NICE's draft guidance does not recommend your oncology drug at an ICER of £38,000 per QALY. Data on overall survival are still maturing. Which package of levers fits the UK system?
 
-A. Accept the decision, because NICE cannot revisit a draft once the ICER is above £30,000.
+A. Accept the decision, because NICE cannot revisit a draft once the ICER is above £35,000.
 B. Ask MHRA to raise the threshold; then seek a JCA report to override the NICE committee view.
-C. Apply the HST pathway to any oncology drug above £30,000, which lifts the threshold to £100,000.
+C. Apply the HST pathway to any oncology drug above £35,000, which lifts the threshold to £100,000.
 D. Offer a PAS discount, test the severity modifier, and propose Cancer Drugs Fund managed access.
 
 **정답:** D
 
 **해설**
-- D: 레버는 **PAS**(비공개 할인으로 ICER를 £20–30k 범위로), **severity modifier**(QALY 가중 1.2·1.7) 검토, 미성숙 데이터는 **CDF managed access**(데이터 수집 후 재평가)다. 모델 수정·최적화 권고·항소도 있다.
+- D: 레버는 **PAS**(비공개 할인으로 ICER를 £25–35k 범위로), **severity modifier**(QALY 가중 1.2·1.7) 검토, 미성숙 데이터는 **CDF managed access**(데이터 수집 후 재평가)다. 모델 수정·최적화 권고·항소도 있다.
 - A: 초안 단계에서 PAS·모델 수정 등으로 바뀔 수 있다.
 - B: MHRA는 NICE 임계값을 정하지 않는다. 영국은 EU 밖이라 JCA 비적용이다.
 - C: HST는 초희귀 질환 경로다. 항암제라고 해당되지 않는다.
@@ -861,7 +861,7 @@ D. The modifier applies to HST products alone, whose threshold is £30k before a
 
 **해설**
 - A: **severity modifier(2022)** 는 질병 중증도에 따라 QALY에 **1.2 또는 1.7** 가중을 주고 **end-of-life 기준을 대체**했다. **HST**는 £100k, 가중 시 최대 £300k다.
-- B: 기본 범위는 £20–30k이고 modifier는 QALY 가중이다. £50k 임계값은 흔한 오해다.
+- B: 기본 범위는 £25–35k(2026-04-01~)이고 modifier는 QALY 가중이다. £50k 임계값은 흔한 오해다.
 - C: EoL 기준은 대체됐고, 가중값은 1.2·1.7이다.
 - D: modifier는 일반 기술 평가에 적용된다. HST 기준은 £100k다.
 

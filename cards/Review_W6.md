@@ -66,7 +66,7 @@
 
 **6. [R][Domain IV]**
 *Front:* What are the five parts (A–E) of Annex II to an EU centralised MA?
-*Back:* A 제조·배치 출하 · B 공급·사용 조건 · C 기타 조건(PSUR·RMP) · D 안전·효과적 사용 조건(aRMM) · E CMA specific obligations. (EMA Annex II)
+*Back:* A 제조·배치 출하 · B 공급·사용 조건 · C 기타 조건(PSUR 제출 요건) · D 안전·효과적 사용 조건(RMP·aRMM) · E CMA·exceptional circumstances specific obligations (2026-11-28 검증). (EMA Annex II)
 
 **7. [A][Domain IV]**
 *Front:* An imposed non-interventional PASS finishes data collection on 1 July 2027. When is the final report due and to whom?

@@ -628,7 +628,7 @@ D. RMP update alone, because a registry already in the RMP needs nothing added t
 
 **해설**
 - A: category 3 → **category 1(imposed PASS)**: **22a 부과 → Annex II.D 추가(variation) → 프로토콜 PRAC 승인(107n) → 최종 보고 12개월(107p) → RMP 갱신**이다. 이후 변경·중단에 PRAC 동의가 필요하다.
-- B: Annex II.E는 CMA의 SO 자리다. 표준 MA의 PASS 조건이 아니다.
+- B: Annex II.E는 CMA·exceptional의 SO 자리다. 표준 MA의 PASS 조건이 아니다.
 - C: Art 23은 일반 정보 제공 의무다. 부과 절차가 아니다.
 - D: 조건이 되면 Annex II에 들어간다.
 
@@ -753,7 +753,7 @@ D. PRAC approval of the amended protocol within 60 days, as for any PASS listed 
 
 **해설**
 - A: voluntary PASS는 MAH 책임 연구라 **RMP에 기록**한다. PRAC 프로토콜 승인은 **imposed 비개입 PASS**에 적용된다.
-- B: Annex II.E는 CMA의 SO다.
+- B: Annex II.E는 CMA·exceptional의 SO 자리다.
 - C: 22a는 당국이 부과하는 수단이다. 자발 연구 수정의 전제가 아니다.
 - D: PRAC 승인을 모든 PASS로 넓혔다.
 
@@ -1003,7 +1003,7 @@ D. PSUR cycle in B; aRMM in C; specific obligations in D
 **정답:** A
 
 **해설**
-- A: **C** = 기타 조건(PSUR 주기·RMP), **D** = 안전·효과적 사용 조건(RMP·aRMM), **E** = CMA specific obligations다.
+- A: **C** = 기타 조건(PSUR 제출 요건), **D** = 안전·효과적 사용 조건(RMP·aRMM), **E** = CMA·exceptional circumstances specific obligations다.
 - B: A는 제조자·배치 출하 책임자다.
 - C: 절을 돌려 섞었다.
 - D: B는 공급·사용 조건(처방 지위)이다.

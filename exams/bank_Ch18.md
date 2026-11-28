@@ -182,7 +182,7 @@ D. Permitted if ICH E20 is cited as the compliance basis for the adaptive dose s
 - B: 312.21은 겹침을 허용하므로 seamless 2/3도 된다. 기대는 **adaptive design 사전 명세**(FDA 2019), Phase 2 데이터 합산의 **통계적 처리**, **Type B EOP2 meeting**(또는 SPA) 합의다.
 - A: 별도 Phase 3 프로토콜을 강제하는 규정은 없다.
 - C: Phase 2 데이터를 확증에 합칠 때 통계적 처리가 핵심 기대다.
-- D: E20은 Step 3 초안이라 준수 근거가 아니다.
+- D: E20은 공개 협의(Step 3) 중인 초안(Step 2 도달 2025-06)이라 준수 근거가 아니다.
 
 ---
 
@@ -197,7 +197,7 @@ D. Seeking scientific advice in the EU to confirm the same design elements with 
 **정답:** B
 
 **해설**
-- B: E20은 **Step 3 초안(2025-06)** 이라 구속력 있는 기준이 아니다. 미국 기준은 FDA 2019 adaptive guidance다.
+- B: E20은 **Step 2 도달(2025-06), 공개 협의(Step 3) 중 — 초안** 이라 구속력 있는 기준이 아니다. 미국 기준은 FDA 2019 adaptive guidance다.
 - A: 운영 블라인딩도 FDA 2019의 기대 항목이다.
 - C: 선택 규칙·Type I error 통제는 FDA 2019의 기대다.
 - D: EU는 scientific advice로 같은 내용을 확인한다.
@@ -1075,7 +1075,7 @@ D. It standardises protocol structure and data elements for machine-readable rev
 **해설**
 - D: M11은 프로토콜의 **구조·데이터 요소 표준**이다. 당국은 기계가독 데이터로 심사·비교(CTIS·eCTD·CDISC 연계)하고, 스폰서는 다지역에 **하나의 프로토콜**을 쓰며, 버전 관리가 구조화된다. Step 4는 2025-11-19다.
 - A: estimand는 E9(R1)의 영역이다.
-- B: M11은 Step 4다. Step 3 초안은 E20이다.
+- B: M11은 Step 4다. 공개 협의(Step 3) 중인 초안은 E20이다.
 - C: M11은 GCP를 대체하지 않는다.
 
 ---
@@ -1091,8 +1091,8 @@ D. Replace E20 with the CHMP reflection paper, because it is the primary US refe
 **정답:** A
 
 **해설**
-- A: E20은 **Step 3 초안(2025-06)** 이라 준수 근거가 아니다. 미국 기준은 **FDA 2019 adaptive designs(final)** + **2020 Complex Innovative Trial Designs**(Bayesian·시뮬레이션)이고, 합의는 **Type B EOP2** 또는 **Type C**(CID 프로그램)로 한다.
-- B: Step 3 초안은 구속력이 없다.
+- A: E20은 **Step 2 도달(2025-06), 공개 협의(Step 3) 중 — 초안** 이라 준수 근거가 아니다. 미국 기준은 **FDA 2019 adaptive designs(final)** + **2020 Complex Innovative Trial Designs**(Bayesian·시뮬레이션)이고, 합의는 **Type B EOP2** 또는 **Type C**(CID 프로그램)로 한다.
+- B: 공개 협의(Step 3) 중인 초안은 구속력이 없다.
 - C: 근거 문서를 빼라는 것은 틀렸고, 합의 경로도 SPA 하나로 한정되지 않는다.
 - D: CHMP reflection paper(2007)는 EU 쪽 근거다.
 
@@ -1103,15 +1103,15 @@ What is the status of ICH E20 (adaptive designs) as of 2026-09-01?
 
 A. A Step 2 concept paper, with draft text not yet published.
 B. A Step 4 guideline adopted in 2025-06 and binding on FDA reviewers.
-C. A Step 3 draft from 2025-06 that is not a compliance basis.
+C. A Step 2 draft (2025-06) now in Step 3 consultation; not a compliance basis.
 D. A Step 4 guideline adopted in 2025-11 alongside ICH M11.
 
 **정답:** C
 
 **해설**
-- C: E20은 **Step 3 초안(2025-06)** 이다. 준수 근거로 쓰지 않는다.
-- A: 초안 문서는 2025-06에 나왔다.
-- B: 2025-06은 Step 3 초안 시점이다. Step 4가 아니다.
+- C: E20은 **Step 2 도달(2025-06), 공개 협의(Step 3) 중 — 초안** 이다. 준수 근거로 쓰지 않는다.
+- A: 초안 문서는 2025-06 Step 2 도달과 함께 공개 협의용으로 나왔다. concept paper 단계가 아니다.
+- B: 2025-06은 Step 2 도달 시점이다. Step 4가 아니다.
 - D: 2025-11-19 Step 4는 M11이다.
 
 ---

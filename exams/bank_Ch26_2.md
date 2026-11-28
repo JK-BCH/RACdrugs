@@ -253,7 +253,7 @@ D. It is a benefit of Breakthrough designation alone and is unavailable under Fa
 **해설**
 - B: FDA가 rolling 제출 일정에 사전 동의해야 한다.
 - A: PDUFA 시계는 완전한 신청 시점에 시작한다. 심사 시작은 당기지만 목표일 계산은 완전 제출 기준이다.
-- C: 부분 제출마다 수수료 일정이 있다. 심사 완료까지 미루는 규정은 없다.
+- C: PDUFA 신청 수수료 전액은 rolling 제출의 첫 부분과 함께 낸다. 심사 완료까지 미루는 규정은 없다.
 - D: rolling review는 Fast Track의 핵심 혜택이고, BTD는 Fast Track 혜택을 모두 포함한다.
 
 ---

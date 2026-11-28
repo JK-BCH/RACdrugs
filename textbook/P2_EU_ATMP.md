@@ -1,7 +1,7 @@
 # Phase 2 ⑥ — EU ATMP 체계: Reg 1394/2007이 만든 별도 제품군 — 정의·CAT·Part IV·hospital exemption·추적성 30년
 
 > **덱:** P2_EU_ATMP (20장). Phase 2 특화 주제 6/6.
-> **검증 메모(2026-11-22):** **EMA/CAT/22473/2025** 임상단계 ATMP 품질·비임상·임상 통합 가이드라인 **2025-07-01 시행**; **GMP Part IV 개정 concept paper 2025-05-08** → 초안 2026-09 예정·최종 2027-03 목표 → **기준일엔 Part IV 2018판(2018-05-22)** 현행; **HTA Reg: ATMP는 2025-01-12부터 JCA**; **EU 제약 패키지 Council 채택 2026-09-28 → 기준일 이후 → 구법으로 답**; **SoHO Reg 2024/1938**(2027-08-07 적용) — 덱 메모 기준. Reg 1394/2007 Art 2 정의·우선순위·Annex I, Arts 3–9·14–23·28, Dir 2001/83 Art 3(7) HE 조건, AA 150 = CAT 120 + CHMP 30, GTMP 2018·세포 기반 2008·줄기세포 2011·변형 세포 2020·comparability Q&A 2019·GCP for ATMPs 2019-10·GMO Dir 2001/18/2009/41·EU 공통 신청서, 승인·철회 이력(ChondroCelect 2009 첫 승인), EV = 보통 ATMP 아님은 ○. "?": Art 19 MA 수수료 감면 현행 여부, Part IV 초안 실제 공표일, 패키지의 ATMP·HE 세부.
+> **검증 메모(2026-11-22):** **EMA/CAT/22473/2025** 임상단계 ATMP 품질·비임상·임상 통합 가이드라인 **2025-07-01 시행**; **GMP Part IV 개정 concept paper 2025-05-08** → 초안 2026-09 예정·최종 2027-03 목표 → **기준일엔 Part IV 2018판(2018-05-22)** 현행; **HTA Reg: ATMP는 2025-01-12부터 JCA**; **EU 제약 패키지 Council 채택 2026-09-28 → 기준일 이후 → 구법으로 답**; **SoHO Reg 2024/1938**(2027-08-07 적용) — 덱 메모 기준. Reg 1394/2007 Art 2 정의·우선순위·Annex I, Arts 3–9·14–23·28, Arts 10–13 SmPC·라벨·PL(Annex II–IV) (2026-11-28 원문 확인), Dir 2001/83 Art 3(7) HE 조건, AA 150 = CAT 120 + CHMP 30, GTMP 2018·세포 기반 2008·줄기세포 2011·변형 세포 2020·comparability Q&A 2019·GCP for ATMPs 2019-10·GMO Dir 2001/18/2009/41·EU 공통 신청서, 승인·철회 이력(ChondroCelect 2009 첫 승인), EV = 보통 ATMP 아님은 ○. "?": Art 19 MA 수수료 감면 현행 여부, Part IV 초안 실제 공표일, 패키지의 ATMP·HE 세부.
 
 ## 학습 목표
 1. **GTMP·sCTMP·TEP·combined** 정의·우선순위·제외(백신·비실질적 조작·세포 없는 분비물)를 쓰고 제품을 분류한다.
@@ -32,12 +32,13 @@
 | Art 3 | Dir 2004/23·2002/98 기증·채취·시험 적용 |
 | **Art 4** | 임상시험 — **GCP specific to ATMPs(Commission 2019-10)**, GMO 법 |
 | **Art 5** | GMP 특수 → **Part IV**(2018-05-22) |
-| Art 6–7 | 라벨·PL 특수(Annex II·III: 세포 식별·공여자 코드), 기기 부분 표시 |
+| Art 6–7 | 의료기기 관련: Art 6 기기 부분 요건, Art 7 기기 포함 ATMP 신청 특수 요건 |
+| **Arts 10–13** | SmPC(Art 10, Annex II) · 외부·직접 포장 라벨(**Art 11**, Annex III) · 특수 직접 용기(Art 12) · PL(**Art 13**, Annex IV) — 세포 식별·공여자 코드 |
 | **Art 8** | **중앙 절차 의무**(Reg 726/2004 Annex 1a); **CAT 의견 초안 → CHMP 최종** |
 | **Art 9** | combined: 기기 **GSPR**(MDR Annex I) — **NB 평가 결과 제출** 또는 EMA가 NB 자문; 기기 단독 CE 불필요(integral), 기기 변경 시 variation + NB 재의견; 제조는 세포 Part IV + 기기 ISO 13485, 최종 결합 책임 ATMP 제조자·QP |
 | **Art 14** | 승인 후 **효능·유해 반응 추적·위험 관리** → EMA follow-up guideline Rev.1(2018) |
 | **Art 15** | **추적성 30년**(MAH·병원, 공여자-제품-환자) |
-| Art 16 | 승인 후 효능 연구 |
+| Art 16 | 과학 자문 |
 | **Art 17** | **CAT 분류 권고 60일** |
 | **Art 18** | **SME 품질·비임상 데이터 인증**(90일) |
 | **Art 19** | 수수료 감면(SA: SME 90%·기타 65%; MA 감면은 현행 확인) |
@@ -45,7 +46,7 @@
 | **Art 28** | → Dir 2001/83 **Art 3(7) hospital exemption** |
 
 ## 4. CAT
-**구성**(Arts 21–22): 회원국별 1인(+대체, CHMP 위원 5인 포함), **임상의 대표 2 + 환자 단체 대표 2**(각 대체), 다학제. **임무**(Art 23): MAA 평가 **의견 초안** → CHMP 최종 채택(원칙 CAT 초안 따름, 불일치 시 조정·사유) → EC / Art 17 분류 / Art 18 인증 / 과학 자문·PRIME(SAWP 협력) / 승인 후 variation·PSUR·PASS(PRAC·CHMP 분담) / 가이드라인(GTMP 2018·세포 기반·22473/2025·comparability Q&A) / ITF 연계. **시계**: 표준 **210일**(CAT 초안 → CHMP 같은 달), **AA 150 = CAT 120 + CHMP 30**, 분류 60일, 인증 90일. EMA 7 과학위원회 중 하나, 법적 의견 주체는 CHMP.
+**구성**(Art 21; Art 22는 이해충돌): 회원국별 1인(+대체, CHMP 위원 5인 포함), **임상의 대표 2 + 환자 단체 대표 2**(각 대체), 다학제. **임무**(Art 23): MAA 평가 **의견 초안** → CHMP 최종 채택(원칙 CAT 초안 따름, 불일치 시 조정·사유) → EC / Art 17 분류 / Art 18 인증 / 과학 자문·PRIME(SAWP 협력) / 승인 후 variation·PSUR·PASS(PRAC·CHMP 분담) / 가이드라인(GTMP 2018·세포 기반·22473/2025·comparability Q&A) / ITF 연계. **시계**: 표준 **210일**(CAT 초안 → CHMP 같은 달), **AA 150 = CAT 120 + CHMP 30**, 분류 60일, 인증 90일. EMA 7 과학위원회 중 하나, 법적 의견 주체는 CHMP.
 
 ## 5. 제조·임상 규범
 - **GMP Part IV**(2017-11 공표, **2018-05-22**, Art 5): **위험 기반 접근**, 임상시험용·승인 ATMP 모두(**Part I/Annex 2 대신 Part IV 단독**). Part I과의 차이: 개발 단계 비례(초기 검증·규격 완화 허용) / 무균 개방 조작 등급 완화·대안(위험 평가로 Grade A in C 정당화) / 출발 물질 = 공여자 세포·조직(2004/23 연계), 원료 적격 / 배치 정의(자가 = 환자 1인), 분할·동시 처리 세그리게이션 / QP 인증 특수(짧은 유효기간 → 조건부 출하·OOS 제품 투여 절차) / 투여 시점 재구성 병원 범위 / 추적성 30년 / 자동화·폐쇄 시스템·환경 모니터링 위험 기반. **개정**: 2025-05-08 concept paper(Annex 1 정합·폐쇄 단회용·자동화·신속 미생물법) → 초안 2026-09 → 최종 2027-03 → **기준일 2018판**.

@@ -204,18 +204,18 @@ D. The consignee is the IND sponsor or its agent, and the IND is in effect.
 ### Q12 [A][Domain II] — export from the US
 A US sponsor with an active IND wants to ship investigational drug from its US plant to trial sites in a country outside the US. Its logistics team assumes the US IND alone covers the shipment. Under 21 CFR 312.110, what governs the export of an investigational drug from the US?
 
-A. Export needs nothing beyond an IND that is in effect in the US.
-B. Export requires a QP certificate issued at the US sponsor's site.
-C. Export follows 312.110(b) conditions, e.g. importing-country approval.
-D. Export is barred until the drug has received US marketing approval.
+A. Export needs nothing beyond the sponsor's US IND, which already covers shipments to the foreign sites in the protocol.
+B. Export requires a QP certificate issued at the US sponsor's site plus a copy of the IND filed with the importing country.
+C. Export follows 312.110(b) conditions, e.g. compliance with the importing country's laws plus an in-effect IND with IND investigators, a listed-country authorisation, or an FDA certification.
+D. Export is barred until the drug has received US marketing approval, because 312.110 governs only imports into the US.
 
 **정답:** C
 
 **해설**
-- C: 수출은 312.110(b) 조건(수입국 승인 등)을 따른다.
-- A: IND 효력은 수입 근거다. 수출에는 312.110(b) 조건이 따로 있다.
-- B: 미국에는 QP가 없다.
-- D: 312.110(b)는 조건부 수출을 정한다. 시판 승인을 전제로 하지 않는다.
+- C: 수출은 312.110(b) 조건을 따른다. 수입국 법을 지키면서 (b)(1) effective IND와 IND 연구자 수령, (b)(2) listed country(호주·캐나다·이스라엘·일본·뉴질랜드·스위스·남아공·EU/EEA) 허가, 또는 FDA 인증 중 하나를 갖춰야 한다.
+- A: IND만으로는 부족하다. (b)(1)은 수입국 법 준수와 수령자가 IND 연구자일 것도 요구한다.
+- B: 미국에는 QP가 없다. 수입국에 IND 사본을 내는 것도 312.110(b) 조건이 아니다.
+- D: 312.110은 수입(a)과 수출(b)을 모두 다룬다. (b)는 조건부 수출을 정하고 시판 승인을 전제로 하지 않는다.
 
 ---
 

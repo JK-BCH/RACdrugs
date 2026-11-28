@@ -502,7 +502,7 @@ D. The DAP under 505(z) and the waiver process described in the June 2024 draft 
 **해설**
 - C: FDORA 이전부터 **312.33(a)(2)** annual report 인구통계 표와 **314.50(d)(5)(v)·(vi)(a)** NDA 하위군 분석이 데이터 수집을 강제해 왔다.
 - A: EU 요건이다. 미국 규정이 아니다.
-- B: E21은 초안(2025-05)이고 E11A는 2024-08-21 Step 4다. FDORA 이전 미국 규정이 아니다.
+- B: E21은 초안(Step 2 도달 2025-05, 공개 협의 중)이고 E11A는 2024-08-21 Step 4다. FDORA 이전 미국 규정이 아니다.
 - D: 505(z)와 DAP guidance는 FDORA 이후다.
 
 ---
@@ -742,7 +742,7 @@ D. The higher the ethnic sensitivity, the greater the need for bridging data.
 What is the status and subject of ICH E17?
 
 A. Step 4 from November 2017, on planning and design of multi-regional clinical trials.
-B. Step 3 draft from May 2025, on including pregnant and breastfeeding individuals.
+B. Step 2 draft from May 2025 in Step 3 consultation, on including pregnant and breastfeeding individuals.
 C. Step 4 from November 2017, on bridging studies for foreign clinical data.
 D. Step 4 from August 2024, on extrapolating efficacy from adult data to pediatric populations.
 
@@ -905,7 +905,7 @@ What is the status and subject of ICH E11A?
 A. Step 4 from November 2017, on clinical investigation in pediatric populations.
 B. Step 4 from August 2024, on pregnant and breastfeeding participants.
 C. Step 4 from August 2024, on pediatric extrapolation from adult data.
-D. Step 3 draft from May 2025, on pediatric formulation development.
+D. Step 2 draft from May 2025 in Step 3 consultation, on pediatric formulation development.
 
 **정답:** C
 
@@ -913,7 +913,7 @@ D. Step 3 draft from May 2025, on pediatric formulation development.
 - C: **E11A**는 **Step 4 2024-08-21**이고 **소아 extrapolation**(성인 데이터 외삽으로 소아 시험 부담 축소)을 다룬다.
 - A: 소아 임상 일반은 E11(R1)이고, 2017-11 Step 4는 E17이다.
 - B: 임신·수유는 E21이다.
-- D: Step 3 2025-05 초안은 E21이다.
+- D: Step 2 도달(2025-05), 공개 협의(Step 3) 중인 초안은 E21이다.
 
 ---
 
@@ -923,12 +923,12 @@ What is the status of ICH E21 on including pregnant and breastfeeding individual
 A. Step 4, adopted in August 2024 together with E11A.
 B. Step 4 from November 2017, as part of the MRCT guideline package.
 C. Withdrawn, after FDA's 1993 guideline covered pregnancy inclusion.
-D. Step 3 draft from May 2025, so it is not a basis for compliance.
+D. Step 2 draft (May 2025) in Step 3 consultation, so not a compliance basis.
 
 **정답:** D
 
 **해설**
-- D: **E21**은 **Step 3 초안(2025-05)** 이다. **준수 근거가 아니다**.
+- D: **E21**은 **Step 2 도달(2025-05), 공개 협의(Step 3) 중 — 초안** 이다. **준수 근거가 아니다**.
 - A: 2024-08-21 Step 4는 E11A다.
 - B: 2017-11 Step 4는 E17이다.
 - C: 교과서에 철회 근거는 없다. 1993 guideline은 WOCBP 포함을 다룬다.
@@ -939,14 +939,14 @@ D. Step 3 draft from May 2025, so it is not a basis for compliance.
 A sponsor plans to enroll pregnant participants in a Phase 3 trial and writes in the protocol that this is "required for compliance with ICH E21." How should the regulatory lead respond?
 
 A. Accept the wording, because E21 replaced the 1993 FDA gender guideline.
-B. Revise it: E21 is a Step 3 draft and cannot be cited as a compliance requirement.
+B. Revise it: E21 is a draft in Step 3 consultation and cannot be cited as a compliance requirement.
 C. Revise it: E21 applies to pediatric trials, so pregnancy inclusion falls under E11A.
 D. Accept the wording, because E21 reached Step 4 and is binding in ICH regions.
 
 **정답:** B
 
 **해설**
-- B: E21은 **Step 3 초안**이라 **준수 근거가 아니다**. 포함의 과학적 근거는 쓸 수 있지만 "준수 요건"으로 인용하면 안 된다.
+- B: E21은 **공개 협의(Step 3) 중인 초안**(Step 2 도달 2025-05)이라 **준수 근거가 아니다**. 포함의 과학적 근거는 쓸 수 있지만 "준수 요건"으로 인용하면 안 된다.
 - A: E21이 1993 guideline을 대체했다는 근거는 없다.
 - C: E21은 임신·수유 개인을 다룬다. E11A는 소아 extrapolation이다.
 - D: E21은 Step 4가 아니다.
@@ -964,7 +964,7 @@ D. E11A on pediatric extrapolation reached Step 4 in August 2024.
 **정답:** B
 
 **해설**
-- B: E21은 2025-05 **Step 3 초안**이다. Step 4라는 진술이 틀렸다.
+- B: E21은 **Step 2 도달(2025-05), 공개 협의(Step 3) 중 — 초안**이다. Step 4라는 진술이 틀렸다.
 - A: E5(R1)은 유효하고 bridging의 근거다.
 - C: E17은 Step 4 2017-11이다.
 - D: E11A는 Step 4 2024-08-21이다.

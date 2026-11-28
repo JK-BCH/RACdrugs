@@ -482,15 +482,15 @@ D. Section E
 **정답:** D
 
 **해설**
-- D: **Annex II.E**가 conditional MA의 **specific obligations**(완료 기한 포함)이다.
+- D: **Annex II.E**가 conditional MA와 exceptional circumstances MA의 **specific obligations**(완료 기한 포함)이다.
 - A: A는 제조자(활성물질·배치 출하 책임자)다.
 - B: D는 안전·효과적 사용 조건(RMP·aRMM, 시판 후 의무)이다.
-- C: C는 기타 조건·요건(PSUR 주기, RMP 제출·갱신)이다.
+- C: C는 기타 조건·요건(PSUR 제출 요건)이다. RMP는 D다.
 
 ---
 
 ### Q28 [R][Domain IV] — Annex II section C
-A reviewer wants to find the PSUR submission frequency (EURD) and the RMP submission requirement in an EU authorisation. Which Annex II section holds them?
+A reviewer wants to find the PSUR submission requirements (EURD list) in an EU authorisation. Which Annex II section holds them?
 
 A. Section B, conditions of supply and use.
 B. Section E, specific obligations attached to a conditional MA.
@@ -500,10 +500,10 @@ D. Section D, conditions for safe and effective use.
 **정답:** C
 
 **해설**
-- C: **Annex II.C**에 PSUR 주기(EURD)와 RMP 제출·갱신이 들어간다.
+- C: **Annex II.C**에 PSUR 제출 요건(EURD)이 들어간다. RMP·aRMM은 D다.
 - A: B는 공급·사용 조건과 처방 지위다.
-- B: E는 CMA의 specific obligations다.
-- D: D는 RMP에 따른 aRMM 등 안전·효과적 사용 조건이다.
+- B: E는 CMA·exceptional circumstances의 specific obligations다.
+- D: D는 RMP와 aRMM 등 안전·효과적 사용 조건이다. PSUR 요건은 C다.
 
 ---
 
@@ -519,7 +519,7 @@ D. Annex II.D, conditions for the safe and effective use of the product.
 
 **해설**
 - D: **aRMM**은 **Annex II.D** 안전·효과적 사용 조건이다. 미국의 REMS에 대응한다.
-- A: E는 conditional MA의 specific obligations다. aRMM과 다르다.
+- A: E는 conditional MA·exceptional circumstances MA의 specific obligations다. aRMM과 다르다.
 - B: A는 제조자·배치 출하 책임자 기재다.
 - C: B는 처방 지위 등 공급·사용 조건이다. aRMM은 D에 들어간다.
 
@@ -537,8 +537,8 @@ D. Section A
 
 **해설**
 - C: **Annex II.B**는 공급·사용 조건·제한, 즉 처방 지위다.
-- A: E는 CMA의 specific obligations다.
-- B: C는 PSUR 주기와 RMP 같은 기타 조건이다.
+- A: E는 CMA·exceptional circumstances의 specific obligations다.
+- B: C는 PSUR 제출 요건 같은 기타 조건이다. RMP·aRMM은 D다.
 - D: A는 제조자(활성물질·배치 출하 책임자)다.
 
 ---
@@ -699,7 +699,7 @@ D. An imposed PASS whose protocol is endorsed by the PRAC within 60 days of subm
 **해설**
 - B: exceptional circumstances 승인은 **매년 B/R 재평가**가 의무다. 특정 의무 이행과 새 데이터를 제출하고 조건은 Annex II에 둔다.
 - A: 연 1회 갱신은 CMA(Reg 507/2006)다. exceptional은 연 재평가다.
-- C: Annex II.E는 CMA의 SO다.
+- C: Annex II.E는 CMA·exceptional의 specific obligations 자리다. 그러나 exceptional의 핵심 의무는 PAES가 아니라 연 재평가다.
 - D: PASS가 의무의 핵심이 아니다. 연 재평가가 의무다.
 
 ---
@@ -807,7 +807,7 @@ D. Implement it at once and describe the change and its rationale in the final s
 **해설**
 - B: imposed 비개입 PASS는 프로토콜뿐 아니라 **중대 수정도 PRAC 승인** 후 시행한다(107n).
 - A: category 3는 자발 활동이다. imposed PASS는 category 1이다.
-- C: Annex II.E는 CMA의 SO이고, 변경 절차도 PRAC 승인이다.
+- C: Annex II.E는 CMA·exceptional의 specific obligations 자리다. imposed PASS 수정은 variation이 아니라 PRAC 승인이다.
 - D: 사후 보고는 imposed PASS에 맞지 않는다.
 
 ---

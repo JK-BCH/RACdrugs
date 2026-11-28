@@ -1118,7 +1118,7 @@ D. EVs fall under Part II as active substances, so the EU inspection will follow
 ---
 
 ### Q63 [A][Domain IV] — PAI data integrity objective
-For the same product, the US pre-approval inspection is expected during BLA review. Which readiness item maps to the data integrity audit objective of CPGM 7346.832?
+For the same product, the US pre-approval inspection is expected during BLA review. Which readiness item maps to the data integrity audit objective of CPGM 7345.848?
 
 A. Completing Stage 2 process validation and an aseptic process simulation.
 B. Matching the BLA quality section to the site's batch records and specifications.
@@ -1128,7 +1128,7 @@ D. Raw data and audit trails for the potency, sterility and endotoxin tests.
 **정답:** D
 
 **해설**
-- D: 7346.832의 data integrity 감사는 역가·무균·엔도톡신 raw data와 audit trail을 본다.
+- D: CBER 생물의약품 PAI 프로그램(CPGM 7345.848)의 data integrity 감사는 역가·무균·엔도톡신 raw data와 audit trail을 본다.
 - A: 상업 생산 준비도 항목이다.
 - B: 신청서 일치 항목이다.
 - C: EU Annex 1 요구다.

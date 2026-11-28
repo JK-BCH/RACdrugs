@@ -229,7 +229,7 @@ D. Infeasible — the CHMP stage by itself takes 12 months, with clock-stops cou
 **정답:** A
 
 **해설**
-- A: CHMP **210 active days**는 Day 120 이후(필요 시 Day 180 이후에도) **clock-stop**을 제외한 수치다. CHMP 의견 뒤 **EC 결정 67일**이 더 붙는다. active day만으로도 7개월을 넘고, clock-stop을 넣으면 보통 1년 이상이다.
+- A: CHMP **210 active days**는 Day 120 이후(필요 시 Day 180 이후에도) **clock-stop**을 제외한 수치다. CHMP 의견 뒤 **EC 결정 67일**이 더 붙는다. CHMP 210 active days + EC 결정 67일 = 약 277일(약 9개월)로 7개월을 넘고, clock-stop을 넣으면 보통 1년 이상이다.
 - B: 210일은 calendar day가 아니라 active day이고, EC 결정은 67일이 걸린다.
 - C: accelerated assessment는 이 장 범위 밖이고, 어떤 경우에도 EC 결정 기간은 남는다.
 - D: CHMP active day는 210일이다. "12개월 고정"은 근거가 없다.

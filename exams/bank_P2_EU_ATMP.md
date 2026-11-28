@@ -326,7 +326,7 @@ D. The CAT and the PRAC adopt a joint opinion, which the European Commission tur
 ---
 
 ### Q19 [R][Domain III] — CAT composition
-Which description of the CAT's composition under Articles 21–22 of Regulation (EC) 1394/2007 is correct?
+Which description of the CAT's composition under Article 21 of Regulation (EC) 1394/2007 is correct?
 
 A. One per member state with alternates, five of them CHMP members, plus two clinician and two patient representatives.
 B. Five CHMP members, who co-opt external experts in gene, cell and tissue engineering on each application.
@@ -528,13 +528,13 @@ Which provisions of Regulation (EC) 1394/2007 set out ATMP-specific labelling an
 
 A. Articles 20 to 23.
 B. Articles 17 and 18.
-C. Articles 6 and 7.
+C. Articles 11 to 13.
 D. Articles 14 and 15.
 
 **정답:** C
 
 **해설**
-- C: **Art 6–7**이 라벨·PL 특수 요건(Annex II·III: 세포 식별·공여자 코드)과 기기 부분 표시를 다룬다.
+- C: 라벨·PL은 Chapter 4다. **Art 11**이 외부·직접 포장 표시(Annex III), **Art 12**가 특수 직접 용기, **Art 13**이 PL(Annex IV)을 정한다. Annex II는 SmPC이고, Art 6–7은 의료기기·기기 포함 ATMP 조항이다.
 - A: Arts 20–23은 CAT 구성·임무다.
 - B: Art 17은 분류, Art 18은 인증이다.
 - D: Art 14는 승인 후 추적·위험 관리, Art 15는 추적성이다.

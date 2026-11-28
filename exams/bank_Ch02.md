@@ -247,7 +247,7 @@ D. M4Q(R2), because it reached Step 4 in 2026 and is now in Step 5 implementatio
 **정답:** B
 
 **해설**
-- B: **M4Q(R2)** 는 아직 초안(Step 4 예정 2027-06)이다. 지금은 **M4Q(R1)** 로 작성한다. Q3E(E&L)·E20(adaptive)·E21(임신·수유) 역시 Step 3 초안 — "참고, 준수 근거 아님".
+- B: **M4Q(R2)** 는 아직 초안(Step 4 예정 2027-06)이다. 지금은 **M4Q(R1)** 로 작성한다. Q3E(E&L)·E20(adaptive)·E21(임신·수유) 역시 Step 2 도달 후 공개 협의(Step 3) 중인 초안 — "참고, 준수 근거 아님".
 - A: M8은 전자 제출 규격이다. 내용 구조(M4Q)를 대체하지 않는다.
 - C: Q3E는 E&L 주제이고 M4Q를 대체하지 않는다.
 - D: Step 4가 아니다.
@@ -448,7 +448,7 @@ D. (a) S3, (b) Q3E.
 - C: **M3** = 비임상 시기, **M7** = 변이원성 불순물. 둘 다 여러 분과에 걸치는 M(Multidisciplinary) 주제다.
 - A: 코드 체계상 M3·M7이 정답이고 다른 코드로 바뀌지 않는다.
 - B: M4는 CTD, M8은 eCTD다.
-- D: Q3E는 extractables/leachables 초안(Step 3, 2025-08)이다.
+- D: Q3E는 extractables/leachables 초안이다(Step 2 도달 2025-08, 공개 협의(Step 3) 중).
 
 ---
 
@@ -491,7 +491,7 @@ In a safety meeting you are asked which ICH guideline covers real-world data for
 
 A. M15 — Step 4 reached in January 2026, now in Step 5 implementation.
 B. M12 — Step 4 reached in 2024, now in Step 5 implementation.
-C. E20 — Step 3 draft (2025-06), covering safety evaluation with RWD.
+C. E20 — Step 2 draft (2025-06) in Step 3 consultation, covering safety evaluation with RWD.
 D. M14 — Step 4 reached on 4 September 2025, now in Step 5.
 
 **정답:** D
@@ -518,7 +518,7 @@ D. E21 — Step 4 January 2026, in Step 5 implementation.
 - A: **M15** MIDD 일반원칙, Step 4 **2026-01**. Step 5 이행 중이라 지역 guidance 발행 여부를 확인한다.
 - B: M15는 이미 Step 4를 지났다.
 - C: M11의 Step 4는 2025-11-19다. MIDD 가이드라인은 M15다.
-- D: E21은 임신·수유 여성 포함 주제이고 Step 3 초안(2025-05)이다. MIDD 가이드라인은 M15다.
+- D: E21은 임신·수유 여성 포함 주제이고 Step 2 도달(2025-05), 공개 협의(Step 3) 중 — 초안이다. MIDD 가이드라인은 M15다.
 
 ---
 
@@ -554,22 +554,22 @@ D. E20 — Step 4 reached in 2024, now in Step 5 implementation.
 - A: **M12** DDI는 **2024년에 Step 4**를 지났고 Step 5 이행 중이다.
 - B: M12는 초안 단계가 아니다. 2024년에 Step 4를 지났다.
 - C: M13A는 BE 가이드라인이다. DDI 가이드라인이 아니다.
-- D: E20은 adaptive design 초안(Step 3, 2025-06)이다.
+- D: E20은 adaptive design 초안이다(Step 2 도달 2025-06, 공개 협의(Step 3) 중).
 
 ---
 
-### Q32 [A][Domain III] — citing a Step 3 draft as a compliance basis
+### Q32 [A][Domain III] — citing a draft in Step 3 consultation as a compliance basis
 A statistics team wants to state in the protocol that the adaptive design "complies with ICH E20." As of 1 September 2026, what should regulatory affairs say?
 
 A. Agree — Step 3 drafts carry the same weight as Step 4 guidelines once published for consultation.
 B. Agree — E20 reached Step 4 in 2025 and can be cited as a compliance basis.
-C. Disagree — E20 is a Step 3 draft; cite it for information, not compliance.
+C. Disagree — E20 is a draft in Step 3 consultation; cite it for information, not compliance.
 D. Disagree — adaptive design is covered by M4Q(R2), not E20, so cite M4Q(R2) instead.
 
 **정답:** C
 
 **해설**
-- C: E20은 **Step 3 초안(2025-06)** 이다. Q3E·E21·M4Q(R2)와 함께 "참고, 준수 근거 아님"이다.
+- C: E20은 **Step 2 도달(2025-06), 공개 협의(Step 3) 중 — 초안** 이다. Q3E·E21·M4Q(R2)와 함께 "참고, 준수 근거 아님"이다.
 - A: Step 3은 공개 의견 수렴 단계다. 채택된 가이드라인과 같은 무게가 아니다.
 - B: E20은 Step 4를 지나지 않았다.
 - D: M4Q(R2)는 CTD 품질 개정 초안이다. adaptive design 주제가 아니다.
@@ -581,16 +581,16 @@ Which statement about ICH guideline status as of 1 September 2026 is INCORRECT?
 
 A. M4Q(R2) is final, so the CTD Quality module should be written to M4Q(R2).
 B. M13A, M12, M14, M11 and M15 have each reached Step 4 and are in Step 5 implementation.
-C. Q3E (extractables and leachables) is a Step 3 draft from 2025-08.
-D. E21 (inclusion of pregnant and breastfeeding women) is a Step 3 draft from 2025-05.
+C. Q3E (extractables and leachables) reached Step 2 in 2025-08.
+D. E21 (inclusion of pregnant and breastfeeding women) reached Step 2 in 2025-05.
 
 **정답:** A
 
 **해설**
 - A: 틀린 진술이다. **M4Q(R2)** 는 초안이고 Step 4 **예정이 2027-06**이다. 지금은 **M4Q(R1)** 로 작성한다.
 - B: 다섯 가이드라인은 모두 Step 4 완료·Step 5 이행 중이 맞다.
-- C: Q3E는 Step 3(2025-08) 초안이 맞다.
-- D: E21은 Step 3(2025-05) 초안이 맞다.
+- C: Q3E는 Step 2 도달(2025-08), 공개 협의(Step 3) 중인 초안이 맞다.
+- D: E21은 Step 2 도달(2025-05), 공개 협의(Step 3) 중인 초안이 맞다.
 
 ---
 
