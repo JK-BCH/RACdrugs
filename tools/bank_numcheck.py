@@ -7,7 +7,9 @@ ROOT = pathlib.Path("D:/RAC")
 NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
 for path in sorted((ROOT / "exams").glob("bank_*.md")):
     deck = path.stem[5:]
-    src = (ROOT / "textbook" / f"{deck}.md").read_text(encoding="utf-8") + (ROOT / "cards" / f"{deck}.md").read_text(encoding="utf-8")
+    base = re.sub(r"_[12]$", "", deck)  # 이틀짜리 덱 Ch23_1 → 교과서 Ch23.md + 덱 Ch23_1·Ch23_2
+    decks = [ROOT / "cards" / f"{deck}.md"] if deck == base else sorted((ROOT / "cards").glob(f"{base}_[12].md"))
+    src = (ROOT / "textbook" / f"{base}.md").read_text(encoding="utf-8") + "".join(d.read_text(encoding="utf-8") for d in decks)
     known = {n.replace(",", "") for n in NUM.findall(src)}
     hits = []
     for b in parse_bank(path):

@@ -102,7 +102,7 @@ EU는 **입법 도구의 종류**가 곧 효력의 차이다.
 
 ## 4. 숫자 읽는 법 — 틀리는 자리가 정해져 있다
 
-1. **일수의 종류**: calendar days(IND 30일, PDUFA 회의 60/75일), **business days**(Form 483 응답 15), **working days**(FAR 3, 806 10, WL 응답 15). 문제는 이 단위를 바꿔 함정을 판다.
+1. **일수의 종류**: **calendar days**(달력일: IND 30일, PDUFA 회의 60/75일)와 **영업일**(주말·공휴일 제외) 두 가지다. FDA 문서는 영업일을 **business days**(Form 483 응답 15)나 **working days**(FAR 3, 806 10, WL 응답 15)로 쓰는데 둘은 같은 뜻이다. 문제는 calendar days와 영업일을 바꿔 함정을 판다.
 2. **시계의 시작점**: PDUFA는 NME NDA·원 BLA가 **60일 filing date**, 비NME가 **receipt date**; EU 중앙 절차는 **active days**(clock-stop 제외) 210 + EC 67.
 3. **"채택"과 "시행"**: ICH Step 4·EU 법 채택·FDA 초안 guidance는 **아직 아님**. 기준일 2026-09-01에 효력이 있어야 정답.
 4. **지역 간 대응물을 쌍으로**: IND ↔ CTA(CTR) · NDA/BLA ↔ MAA · USPI ↔ SmPC · PADER ↔ PSUR · REMS ↔ RMP/aRMM · PMR ↔ Specific Obligation/PASS · 314.70 ↔ Reg 1234/2008 · Part 7 리콜 ↔ Art 117/Rapid Alert.

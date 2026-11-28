@@ -80,7 +80,7 @@
 
 **10. [A][Domain II]**
 *Front:* Where do the integrated summary of safety and the case report forms of patients who died belong in the eCTD, and what US rule requires them?
-*Back:* ISS → **5.3.5.3**(+ 2.7.4 요약), 사망·중단 피험자 CRF → **5.3.7**. 요구: **21 CFR 314.50(d)(5)(vi)**(ISS/ISE), **314.50(f)(2)**(CRF). (21 CFR 314.50; ICH M4)
+*Back:* ISS → **5.3.5.3**(+ 2.7.4 요약), 사망·중단 피험자 CRF → **5.3.7**. 요구: **21 CFR 314.50(d)(5)(vi)(a)**(ISS)·**(d)(5)(v)**(ISE), **314.50(f)(2)**(CRF). (21 CFR 314.50; ICH M4)
 
 **11. [R][Domain I]**
 *Front:* Which Part of Annex I to Directive 2001/83 governs ATMP dossiers and what principle does it apply?

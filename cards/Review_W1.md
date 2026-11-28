@@ -77,7 +77,7 @@
 
 **9. [An][Domain II]**
 *Front:* Why does the EU–US MRA batch-testing waiver reduce cost for a US-made product imported into the EU, and what obligation remains?
-*Back:* Dir 2001/83 Art 51은 EU 수입 batch마다 **QP가 EU에서 전수 재시험**하게 했는데, MRA 전면 시행(2019-07-12) 후 **미국에서 수행된 시험을 인정**해 재시험이 면제돼 — 시험 비용·리드타임·검체 소모가 줄어. 남는 건 **QP certification**(문서 검토·GMP 확인) 자체와 MRA 범위 확인이야. (EU–US MRA, Dir 2001/83 Art 51)
+*Back:* Dir 2001/83 Art 51은 EU 수입 batch마다 **QP가 EU에서 전수 재시험**하게 했는데, MRA 전면 시행(2019-07-11) 후 **미국에서 수행된 시험을 인정**해 재시험이 면제돼 — 시험 비용·리드타임·검체 소모가 줄어. 남는 건 **QP certification**(문서 검토·GMP 확인) 자체와 MRA 범위 확인이야. (EU–US MRA, Dir 2001/83 Art 51)
 
 **10. [R][Domain I]**
 *Front:* Distinguish WHO GBT maturity level 3 from level 4.
