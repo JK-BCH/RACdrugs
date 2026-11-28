@@ -36,7 +36,7 @@ D. A CBE-0, because the extension rests on real-time data and carries little add
 
 **해설**
 - A: **승인된 안정성 프로토콜** 아래 **실생산 배치의 전체 유효기간 데이터**로 연장하면 **annual report**다(21 CFR 314.70(d)(2)(vi)).
-- B: CBE-30은 프로토콜이 새로 쓰였거나(승인 안 됨) pilot 배치 데이터일 때다.
+- B: CBE-30은 유효기간 단축일 때다. 미승인 프로토콜·pilot 배치 데이터 기반 연장은 PAS다(FDA 2004 Changes guidance XI.A.4).
 - C: PAS는 생물의약품에서 승인 프로토콜 **밖**의 연장 같은 경우다. 이 사례는 프로토콜 안이다.
 - D: CBE-0는 이 변경의 분류가 아니다.
 
@@ -46,14 +46,14 @@ D. A CBE-0, because the extension rests on real-time data and carries little add
 An NDA holder wants to extend expiry using data from pilot-scale batches tested under a newly written stability protocol that has not been approved in the application. How should the change be reported?
 
 A. As a CBE-0, because the change can be implemented at once if the label is updated at the same time.
-B. As a CBE-30, because the protocol is unapproved and the data come from pilot batches.
+B. As a prior approval supplement, because the protocol is unapproved and the data are from pilot batches.
 C. In the annual report, because the extension is supported by real-time rather than accelerated data.
 D. In the annual report once three pilot batches are complete, as the BLA guidance applies to NDAs too.
 
 **정답:** B
 
 **해설**
-- B: 유효기간 연장이라도 **승인 안 된 프로토콜** 또는 **pilot 배치** 데이터에 기대면 **CBE-30**이다.
+- B: 유효기간 연장이라도 **승인 안 된 프로토콜** 또는 **pilot 배치** 데이터에 기대면 **PAS**다(FDA 2004 Changes guidance XI.A.4). CBE-30은 단축용이다.
 - A: CBE-0는 라벨 안전성 강화 같은 특정 변경용이다.
 - C: annual report의 조건은 실시간 데이터 여부가 아니라 **승인 프로토콜 + 실생산 배치 전체 유효기간 데이터**다.
 - D: 2021 guidance의 요건은 **실생산** ≥3로트(BLA)다. pilot 배치는 annual report 조건을 채우지 못한다.
@@ -128,7 +128,7 @@ D. Full shelf-life data on three pilot lots under a new protocol submitted with 
 - B: 2021 *Certain Biological Products* guidance는 **BLA 승인 프로토콜** 아래 **실생산 ≥3로트**의 전체 유효기간 데이터면 **annual report**로 본다.
 - A: 요건은 **전체 유효기간** 실시간 데이터다. 가속 데이터로 대신하지 않는다.
 - C: 실생산 1로트와 pilot 가속 데이터는 이 조건을 채우지 못한다.
-- D: 새 프로토콜·pilot 로트면 CBE-30 쪽이다. annual report에 프로토콜을 함께 내는 방식이 아니다.
+- D: 새 프로토콜·pilot 로트면 PAS 쪽이다. annual report에 프로토콜을 함께 내는 방식이 아니다.
 
 ---
 
@@ -1007,7 +1007,7 @@ D. US CBE-30 and EU Type IA, because real-time data remove the need for EU revie
 - C: BLA도 2021 *Certain Biological Products* guidance상 **승인 프로토콜 + 실생산 ≥3로트 전체 유효기간 데이터**면 **annual report**다. EU는 승인 프로토콜 안의 연장으로 **IB**(B.II.f.1)다.
 - A: CBE-0는 이 변경의 분류가 아니다.
 - B: PAS·Type II는 프로토콜 **밖**이거나 보관 조건 변경일 때다.
-- D: CBE-30은 승인 안 된 프로토콜·pilot 배치일 때다. EU는 IA가 아니다.
+- D: CBE-30은 유효기간 단축일 때다(미승인 프로토콜·pilot 배치 데이터 기반 연장은 PAS다(FDA 2004 Changes guidance XI.A.4)). EU는 IA가 아니다.
 
 ---
 

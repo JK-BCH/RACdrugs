@@ -38,7 +38,7 @@
 - [x] 2026-11-26 `bank_Ch07-08.md`(64) · `bank_Ch09-10.md`(64) — 합계 384문항(Ch01~Ch10).
 - [x] 2026-11-26 `bank_Ch11`~`bank_Ch16` 6장(각 64) — 합계 768문항(Ch01~Ch16). Ch14 CTR Art 61(5)(a) 예외 사전 수정.
 - [x] 2026-11-27 Ch17~Ch31_2 · Ch30_1 · Ch32_2 · Ch34_1·_2 문제은행 27덱(각 64) — 합계 2,496문항.
-- [ ] **남은 13덱(세션 한도로 중단)**: Ch32_1(조각 4개 완성 → `exams/_draft/_Ch32_1.a~d` 합치고 측정·보정), Ch33_1·Ch33_2·Ch35_1(`exams/_draft/draft_*.md` 64문항 초안 — 찍기 단서 보정 필요: 정답=최장 40~54%, 오답 절대어 49~61), Ch35_2(조각 a~c), Ch36_1·_2(조각 a), P2 6개(OTP·351vs361·RMAT·EU_ATMP·comparability·potency, 일부 조각). 재개: `exams/WRITER_BRIEF.md` + 장별 주의사항(이번 세션 호출문 참고) → bank_stats·numcheck·consistency → bank_shuffle → build_data.
+- [x] 2026-11-28 남은 13덱 완료(Ch32_1·Ch33_1·Ch33_2·Ch35_1·Ch35_2·Ch36_1·Ch36_2·P2 6개) → **문제은행 전 52덱 3,328문항 완성**(Ch01~Ch36 + P2 6). 전 덱 정답 글자 균등·전수 대조 0 오류·해설 글머리 정상, 지표 정답=최장 6~32%·최단 7~30%·길이비 0.94~1.05.
 - [ ] 남은 확인 과제: EU 새 Variations 분류 지침(C/2025/5045, 2026-01-15 시행 보고 — 기준일 적용 대상)으로 Ch31·P2_potency 분류 코드 번호 재확인 · Ch34 조건부 허가 PASS 범주 표기("category 1, Annex II.E") 불일치 · Ch29 506B 대상 PMC 범위(CMC PMC 제외 여부) 세부. (덱 일정 순; Ch07-08 덱 날짜 12/05). 작성 규칙·절차는 **`exams/AUTHORING.md`**. 장마다 먼저 `tools/_textbook_audit_2026-11-26.json`의 그 장 지적을 1차 출처로 정리한 뒤 쓴다.
   - 사전 정리 완료(2026-11-26): Ch05-06·Ch07-08 M3(R2) 절 번호(급성 §4·국소 내성 §8·유전독성 §9), Ch07-08 M7 Option 4 기준(AI 미만; 30%는 Option 1·3), Ch09-10 EFD 예외(150명·3개월은 전 지역 공통), Ch11 EU 면제 표현, Ch12 Art 111b. → **Ch07-08~Ch12는 바로 작성 가능.**
   - Ch13 이후는 감사 중간·낮음 지적이 남아 있다(예: Ch14 CTR 재라벨 예외, Ch18 LTFU 기간, Ch20 pre-submission 날짜 계산, Ch25 기준일 표시, Ch27 ISE 조항, Ch34 REMS 120일 등) → 그 장 차례에 먼저 확인.
