@@ -1,6 +1,6 @@
 # 문제은행 — P2 EU ATMP 체계 (Reg 1394/2007 · CAT · 분류 · Part IV · hospital exemption · 추적성)
 
-> **근거:** `textbook/P2_EU_ATMP.md` + `cards/P2_EU_ATMP.md` 검증 메모(Reg 1394/2007 Arts 2–9·14–23·28, Dir 2001/83 Art 3(7)·Annex I Part IV, Part IV 2018-05-22, GCP for ATMPs 2019-10, EMA/CAT/22473/2025 2025-07-01, follow-up guideline Rev.1 2018, Dir 2001/18·2009/41, HTA Reg JCA ATMP 2025-01-12, FDA LTFU 2020). 새 숫자 없음. 계산 문항은 위 상수로만 계산했다. "?" 항목(Art 19 MA 수수료 감면 현행 여부, Part IV 초안 실제 공표일, 제약 패키지 세부)과 SoHO 적용일은 정답 키로 쓰지 않았다. 제약 패키지(2026-09-28 채택)는 "기준일 시점 비적용"으로만 다룬다.
+> **근거:** `textbook/P2_EU_ATMP.md` + `cards/P2_EU_ATMP.md` 검증 메모(Reg 1394/2007 Arts 2–9·14–23·28, Dir 2001/83 Art 3(7)·Annex I Part IV, Part IV 2018-05-22, GCP for ATMPs 2019-10, EMA/CAT/22473/2025 2025-07-01, follow-up guideline Rev.1 2018, Dir 2001/18·2009/41, HTA Reg JCA ATMP 2025-01-12, FDA LTFU 2020). 새 숫자 없음. 계산 문항은 위 상수로만 계산했다. "?" 항목(Art 19 MA 수수료 감면 현행 여부, Part IV 초안 실제 공표일, 제약 패키지 세부)은 정답 키로 쓰지 않았다. SoHO 적용일 2027-08-07은 2026-11-28 원문 확인. 제약 패키지(2026-09-28 채택)는 "기준일 시점 비적용"으로만 다룬다.
 > **형식:** 영문 지문 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-28. 64문항.
 

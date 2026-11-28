@@ -1,6 +1,6 @@
 # 문제은행 — Ch.31 (2/2) 변경(variation·supplement): 세부 규정·상황형
 
-> **근거:** `textbook/Ch31.md` + `cards/Ch31_1.md`·`cards/Ch31_2.md` 검증 메모(21 CFR 314.70 (b)/(c)/(c)(6)/(d)·(d)(2)(vi)·314.97·601.12(b)(2)/(e), FDA *Changes to an Approved NDA or ANDA* 2004, 2021 *Certain Biological Products* guidance(실생산 ≥3로트), SUPAC-IR 1995 Level 1/2, Comparability Protocols 2022, Reg (EC) 1234/2008 Arts 5·7·9·13·16·20·22 + Delegated Reg 2024/1701, EC Variations Guidelines 코드 B.I.a.1·B.II.b.1·B.II.b.4·B.II.d.1·B.II.d.2·B.II.f.1·C.I.6·C.I.11, Dir 2001/83 Art 10(1) +1년(첫 8년 내), ICH Q5E·Q12). 새 숫자 없음. 날짜 계산은 30일·10개월·6개월 상수로만 계산했다. 유효기간 단축 = CBE-30은 호출 시 1차 출처 확인 사항으로 반영했다.
+> **근거:** `textbook/Ch31.md` + `cards/Ch31_1.md`·`cards/Ch31_2.md` 검증 메모(21 CFR 314.70 (b)/(c)/(c)(6)/(d)·(d)(2)(vi)·314.97·601.12(b)(2)/(e), FDA *Changes to an Approved NDA or ANDA* 2004, 2021 *Certain Biological Products* guidance(실생산 ≥3로트), SUPAC-IR 1995 Level 1/2, Comparability Protocols 2022, Reg (EC) 1234/2008 Arts 5·7·9·13·16·20·22 + Delegated Reg 2024/1701, EC Variations Guidelines 코드 Q.I.a.1·Q.II.b.1·Q.II.b.4·Q.II.d.1·Q.II.d.2·Q.II.f.1·C.6·C.9, Dir 2001/83 Art 10(1) +1년(첫 8년 내), ICH Q5E·Q12). 새 숫자 없음. 날짜 계산은 30일·10개월·6개월 상수로만 계산했다. 유효기간 단축 = CBE-30은 호출 시 1차 출처 확인 사항으로 반영했다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-27. 64문항.
 
@@ -65,14 +65,14 @@ A biologic's shelf life is to be extended on the basis of a new stability protoc
 
 A. US PAS and EU Type IB, because the EU handles shelf-life changes under a new protocol as 30-day notifications.
 B. US annual report and EU Type IA, provided three production lots support the new storage condition.
-C. US PAS under 601.12(b) and EU Type II under B.II.f.1, because the change is outside the approved protocol.
+C. US PAS under 601.12(b) and EU Type II under Q.II.f.1, because a biologic's storage condition changes.
 D. US CBE-30 and EU Type IB, because extension under a new protocol is a moderate change in both regions.
 
 **정답:** C
 
 **해설**
-- C: 승인 프로토콜 **밖**의 유효기간 연장(보관 조건 변경 포함)은 생물의약품에서 **US PAS**(601.12(b)(2)), **EU Type II**(B.II.f.1)다.
-- A: B.II.f.1에서 IB는 승인 프로토콜 **안**의 연장이다. 프로토콜 밖은 II다.
+- C: 승인 프로토콜 **밖**의 유효기간 연장은 생물의약품에서 **US PAS**(601.12(b)(2))다. EU는 생물 완제의 보관 조건 변경이 **Type II**(Q.II.f.1(c))다.
+- A: Q.II.f.1에서 IB는 승인 프로토콜에 따른 실시간 데이터 연장(생물은 IB by default)이나 지침에 맞는 외삽(b)(5)이다. 생물 보관 조건 변경은 II다.
 - B: 실생산 로트 수는 승인 프로토콜 안에서의 annual report 조건이다. 프로토콜 밖이면 적용되지 않는다.
 - D: CBE-30·IB는 이 경우보다 낮은 범주다. 프로토콜 밖 변경에 맞지 않는다.
 
@@ -430,14 +430,14 @@ D. US annual report, with the EU products then covered by reference once the US 
 **정답:** C
 
 **해설**
-- C: 비교 검증(Q2(R2) 동등성)과 규격 불변을 보이면 **US annual report 또는 CBE-30**(보수적으로 CBE-30), **EU-CAP IB**(B.II.d.2, 사소·동등) 또는 IA 조건 충족 시 IA, **EU-DCP**는 같은 분류로 RMS 중심 **worksharing** 또는 국가별 IB다. 동시 제출로 시행일을 맞춘다.
+- C: 비교 검증(Q2(R2) 동등성)과 규격 불변을 보이면 **US annual report 또는 CBE-30**(보수적으로 CBE-30), **EU-CAP IB**(Q.II.d.2, 사소·동등) 또는 IA 조건 충족 시 IA, **EU-DCP**는 같은 분류로 RMS 중심 **worksharing** 또는 국가별 IB다. 동시 제출로 시행일을 맞춘다.
 - A: CBE-0는 이 변경의 분류가 아니다.
 - B: 동등한 시험법 교체는 PAS·Type II 범주가 아니다. 생물의약품 역가법 같은 핵심 시험 교체와 구별된다.
 - D: 미국 기록이 EU 제출 의무를 대신하지 않는다.
 
 ---
 
-### Q25 [R][Domain II] — B.I.a.1 for a biological active substance
+### Q25 [R][Domain II] — Q.I.a.1 for a biological active substance
 Under the EU classification guideline, how is a change of manufacturer of a biological active substance classified?
 
 A. Type IA, because the active substance specification remains unchanged.
@@ -448,15 +448,15 @@ D. Type IB, provided the new manufacturer holds a CEP for the substance.
 **정답:** B
 
 **해설**
-- B: **B.I.a.1**에서 **생물의약품**·무균 활성물질·공정 차이가 있으면 **Type II**다.
-- A: IA는 이미 승인된 제조자·동일 공정일 때다.
-- C: 이 변경은 IAIN 범주가 아니다.
-- D: IB(새 제조자, CEP 등 조건)는 생물 활성물질에 적용되지 않는다.
+- B: **Q.I.a.1(d)**에서 **생물 활성물질**(또는 생물 출발물질·바이러스/TSE 평가 대상 물질) 제조소 추가·교체는 **Type II**다.
+- A: IA(IAIN)는 화학 활성물질 제조소 추가·교체(Q.I.a.1(a))가 조건을 채울 때다.
+- C: IAIN은 화학 활성물질 제조소(Q.I.a.1(a))의 분류다. 생물 활성물질은 II다.
+- D: CEP 보유로 생물 활성물질 제조소 변경이 IB가 되지 않는다.
 
 ---
 
 ### Q26 [A][Domain V] — dossier for a new active substance manufacturer
-An MAH adds a new non-EU active substance manufacturer under B.I.a.1. Which document set best fits the variation?
+An MAH adds a new non-EU active substance manufacturer under Q.I.a.1. Which document set best fits the variation?
 
 A. A Q5E comparability package with nonclinical bridging, as required for any change of active substance manufacturer.
 B. A new clinical bioequivalence study, the manufacturer's ISO certificate, and an updated RMP with the new supplier.
@@ -466,7 +466,7 @@ D. The ASMF only, because the CEP holder takes over GMP responsibility from the 
 **정답:** C
 
 **해설**
-- C: B.I.a.1 문서는 새 **ASMF/CEP**, 비교 데이터(불순물 프로파일·배치 분석), **QP declaration**(활성물질 GMP), 제3국이면 **Art 46b written confirmation**이다.
+- C: Q.I.a.1 문서는 새 **ASMF/CEP**, 비교 데이터(불순물 프로파일·배치 분석), **QP declaration**(활성물질 GMP), 제3국이면 **Art 46b written confirmation**이다.
 - A: Q5E 비교는 생물의약품 변경의 틀이다. 모든 활성물질 변경에 쓰지 않는다.
 - B: BE 시험·ISO 인증·RMP 갱신은 이 변경의 표준 문서가 아니다.
 - D: CEP가 QP declaration을 대신하지 않는다.
@@ -502,7 +502,7 @@ D. Wait and group the three with the next annual renewal, so that one assessment
 **정답:** B
 
 **해설**
-- B: 셋 다 Type II이고 같은 MA라 **grouping이 가능**하다(평가 1회·수수료 절감). 다만 RMP 변경이 **긴급**하면 **분리**해 30일 시계·USR로 먼저 내고, 규모 확대(B.II.b.4 + Q5E)와 SO 기한 변경(Annex II.E)은 묶을 수 있다.
+- B: 셋 다 Type II이고 같은 MA라 **grouping이 가능**하다(평가 1회·수수료 절감). 다만 RMP 변경이 **긴급**하면 **분리**해 30일 시계·USR로 먼저 내고, 규모 확대(Q.II.b.4 + Q5E)와 SO 기한 변경(Annex II.E)은 묶을 수 있다.
 - A: grouping은 선택 도구다. 긴급 안전성 변경은 분리한다.
 - C: 조건부 허가도 같은 variation 체계를 쓴다. 이 변경들은 Type II다.
 - D: 긴급 안전성 변경을 갱신 때까지 미룰 수 없다.
@@ -602,17 +602,17 @@ D. As separate filings, because a supplement may hold changes of one category at
 Which EU classification and timetable apply to adding a new therapeutic indication to a centrally authorised product?
 
 A. Line extension under Annex I, following the MAA procedure.
-B. Type IB under B.II.f.1, with a 30-day timetable.
-C. Type II under C.I.6, with a 90-day timetable.
-D. Type II under C.I.11, with a 60-day timetable.
+B. Type IB under Q.II.f.1, with a 30-day timetable.
+C. Type II under C.6, with a 90-day timetable.
+D. Type II under C.9, with a 60-day timetable.
 
 **정답:** C
 
 **해설**
-- C: 적응증 추가는 **C.I.6 Type II**, **90일** 시계다.
+- C: 적응증 추가는 **C.6 Type II**, **90일** 시계다.
 - A: line extension은 활성물질·강도·제형·경로 변경이다. 적응증은 variation이다.
-- B: B.II.f.1은 유효기간·보관 조건 코드다.
-- D: C.I.11은 RMP 코드이고, 적응증 시계는 60일이 아니라 90일이다.
+- B: Q.II.f.1은 유효기간·보관 조건 코드다.
+- D: C.9는 허가 의무·조건(RMP 포함) 코드이고, 적응증 시계는 60일이 아니라 90일이다.
 
 ---
 
@@ -712,12 +712,12 @@ How is relaxing (widening) an approved dissolution specification limit classifie
 A. US annual report and EU Type IA, if batches remain within the old limit.
 B. US CBE-0 and EU Type IAIN, because supply could otherwise be interrupted.
 C. US CBE-30 and EU Type IB, since the test method stays the same.
-D. US PAS and EU Type II under B.II.d.1.e.
+D. US PAS and EU Type II under Q.II.d.1.e.
 
 **정답:** D
 
 **해설**
-- D: 규격 **완화**는 **US PAS**, **EU Type II**(B.II.d.1.e)다.
+- D: 규격 **완화**는 **US PAS**, **EU Type II**(Q.II.d.1.e)다.
 - A: annual report·IA는 규격 **강화**의 범주다.
 - B: 공급 사정은 분류를 바꾸지 않는다.
 - C: 시험법이 같아도 완화는 주요 변경이다.
@@ -833,20 +833,20 @@ D. Type II, because any unlisted change requires full assessment before use.
 ---
 
 ### Q47 [R][Domain II] — sterile biologic site and batch size in the EU
-A biologic MAH adds a new finished-product manufacturing site and increases batch size at that site. Which EU classifications fit?
+A biologic MAH adds a new finished-product manufacturing site that needs a product-specific GMP inspection and increases batch size there, which requires a comparability assessment. Which EU classifications fit?
 
-A. B.II.b.1 Type IAIN and B.II.b.4 Type IB, filed in the annual submission.
-B. B.I.a.1 Type II and B.II.d.1 Type IA, because the site makes the active substance.
-C. B.II.b.1 Type II and B.II.b.4 Type II, because the product is biological.
-D. B.II.b.1 Type IB and B.II.b.4 Type IA, because the process is unchanged.
+A. Q.II.b.1 Type IAIN and Q.II.b.4 Type IB, filed in the annual submission.
+B. Q.I.a.1 Type II and Q.II.d.1 Type IA, because the site makes the active substance.
+C. Q.II.b.1 Type II and Q.II.b.4 Type II, given the inspection and comparability.
+D. Q.II.b.1 Type IB and Q.II.b.4 Type IA, because the process is unchanged.
 
 **정답:** C
 
 **해설**
-- C: 완제 제조소(**B.II.b.1**)와 배치 크기(**B.II.b.4**)는 생물의약품이면 **Type II**다.
+- C: 최초·제품별 GMP 사찰이 필요한 완제 제조소 추가는 **Q.II.b.1(d) Type II**, 생물 완제의 comparability 평가가 필요한 배치 크기 변경은 **Q.II.b.4(c) Type II**다.
 - A: IAIN은 이 변경의 분류가 아니다.
-- B: B.I.a.1은 활성물질 제조자, B.II.d.1은 규격 코드다.
-- D: IB·IA는 일부 비무균 소분자의 범주다.
+- B: Q.I.a.1은 활성물질 제조자, Q.II.d.1은 규격 코드다.
+- D: Q.II.b.4 IA는 비생물 제품 조건이고, Q.II.b.1(e) IB는 사찰이 필요 없는 제조소일 때다.
 
 ---
 
@@ -922,20 +922,20 @@ D. EU law requires changes to be filed as Type II, leaving lower categories unus
 ---
 
 ### Q52 [A][Domain II] — new site for a sterile injectable
-A company moves the aseptic filling of a sterile small-molecule injectable to a new site. How is the change classified in the US and EU?
+A company moves the aseptic filling of a sterile small-molecule injectable to a new site that already holds a current EU GMP certificate for aseptic filling. How is the change classified in the US and EU?
 
 A. US CBE-30 and EU Type II, because the EU alone treats sterility as a major factor.
 B. US CBE-30 and EU Type IB, because the product is a small molecule.
-C. US PAS and EU Type II under B.II.b.1, because the process is sterile.
+C. US PAS and EU Type IB under Q.II.b.1, as no initial GMP inspection is needed.
 D. US annual report and EU Type IA, if the new site has a good inspection record.
 
 **정답:** C
 
 **해설**
-- C: **무균** 공정의 제조소 변경은 **US PAS**, EU **B.II.b.1 Type II**(생물·무균)다. 소분자라도 무균 보증이 분류를 정한다.
-- A: 미국도 무균 제조소 변경을 PAS로 둔다.
-- B: CBE-30·IB는 일부 비무균 고형제의 범주다.
-- D: 사찰 이력은 비무균 CBE-30의 조건 중 하나다. 무균 제조소를 annual report로 내리지 않는다.
+- C: 미국은 **무균** 공정의 제조소 변경을 **PAS**로 둔다. EU C/2025/5045는 사찰이 필요 없고 novel·complex 공정이 아닌 완제 제조소 추가·교체를 **Q.II.b.1(e) Type IB**로 둔다(최초·제품별 GMP 사찰이 필요하면 (d) Type II).
+- A: 미국은 무균 제조소 변경을 PAS로 둔다. EU도 사찰이 필요 없으면 Type II가 아니다.
+- B: EU IB는 맞지만, 미국 무균 제조소 변경은 CBE-30이 아니라 PAS다.
+- D: 무균 제조소를 annual report로 내리지 않는다. EU에서 제조소 추가가 IA(IAIN)인 것은 포장 사이트뿐이다.
 
 ---
 
@@ -958,17 +958,17 @@ D. Sterile product CBE-30; non-sterile product annual report.
 ---
 
 ### Q54 [A][Domain II] — new potency method for an MSC-EV product
-An MSC-EV product licensed as a biologic in the US and authorised in the EU will replace its release potency assay with a new method. How is the change classified?
+An MSC-EV product licensed as a biologic in the US and authorised in the EU will replace its release potency assay with a new cell-based bioassay. How is the change classified?
 
 A. US CBE-30 and EU Type IB, because the specification limit is unchanged.
 B. US CBE-0 and EU Type IAIN, because release testing must continue without interruption.
-C. US PAS and EU Type II under B.II.d.2, because potency is a key biologic test.
+C. US PAS and EU Type II under Q.II.d.2, because potency is a key biologic test.
 D. US annual report and EU Type IA, if the new method is validated under Q2(R2).
 
 **정답:** C
 
 **해설**
-- C: 생물의약품 **역가법 교체**는 핵심 시험 변경이라 **US PAS**, **EU Type II**(B.II.d.2 생물)다.
+- C: 생물의약품 **역가법 교체**는 핵심 시험 변경이라 **US PAS**, **EU Type II**(Q.II.d.2(c) 생물 분석법)다.
 - A: 규격이 같아도 생물의약품 핵심 시험 교체는 중등도 범주가 아니다.
 - B: CBE-0·IAIN은 이 변경의 분류가 아니다.
 - D: 밸리데이션은 필요 조건이지 분류를 낮추는 근거가 아니다.
@@ -980,7 +980,7 @@ An MSC-EV biologic will switch to a culture-medium supplier whose medium has a d
 
 A. US PAS under 601.12(b) with comparability data, and EU Type II.
 B. US CBE-0, because media are not part of the final product, and EU IAIN.
-C. US CBE-30 as a raw material change, and EU Type IB under B.I.a.1.
+C. US CBE-30 as a raw material change, and EU Type IB under Q.I.a.1.
 D. US annual report as a same-grade supplier change, and EU Type IA.
 
 **정답:** A
@@ -988,7 +988,7 @@ D. US annual report as a same-grade supplier change, and EU Type IA.
 **해설**
 - A: 조성이 다른 배지는 공정 원료 변경으로 제품 특성에 영향을 줄 수 있어 **US PAS**(601.12(b)) + comparability, **EU Type II**다.
 - B: 최종 제품에 남지 않는다는 이유로 영향이 없어지지 않는다.
-- C: B.I.a.1은 활성물질 제조자 코드이고, 생물의약품 원료 조성 변경은 CBE-30이 아니다.
+- C: Q.I.a.1은 활성물질 제조소 코드이고, 생물의약품 원료 조성 변경은 CBE-30이 아니다.
 - D: 동일 규격 공급자의 annual report 규칙은 조성이 다른 배지에 맞지 않는다.
 
 ---
@@ -998,15 +998,15 @@ For the MSC-EV biologic, the sponsor has full 24-month real-time data on three p
 
 A. US CBE-0 and EU Type IB, so that the longer dating applies on submission.
 B. US PAS and EU Type II, because biologic shelf-life changes are treated as major changes.
-C. US annual report and EU Type IB under B.II.f.1, within the approved protocol.
+C. US annual report and EU Type IB under Q.II.f.1, within the approved protocol.
 D. US CBE-30 and EU Type IA, because real-time data remove the need for EU review.
 
 **정답:** C
 
 **해설**
-- C: BLA도 2021 *Certain Biological Products* guidance상 **승인 프로토콜 + 실생산 ≥3로트 전체 유효기간 데이터**면 **annual report**다. EU는 승인 프로토콜 안의 연장으로 **IB**(B.II.f.1)다.
+- C: BLA도 2021 *Certain Biological Products* guidance상 **승인 프로토콜 + 실생산 ≥3로트 전체 유효기간 데이터**면 **annual report**다. EU는 Q.II.f.1(b)(1)의 IA IN 조건(비생물 IR 필름코팅정)을 못 채워 **IB by default**(Q.II.f.1)다.
 - A: CBE-0는 이 변경의 분류가 아니다.
-- B: PAS·Type II는 프로토콜 **밖**이거나 보관 조건 변경일 때다.
+- B: PAS는 미승인 프로토콜·pilot 배치일 때다. EU Type II는 지침 밖 외삽·모델링이나 생물 보관 조건 변경(Q.II.f.1(c))일 때다.
 - D: CBE-30은 유효기간 단축일 때다(미승인 프로토콜·pilot 배치 데이터 기반 연장은 PAS다(FDA 2004 Changes guidance XI.A.4)). EU는 IA가 아니다.
 
 ---

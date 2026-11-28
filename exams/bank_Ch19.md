@@ -1,6 +1,6 @@
 # 문제은행 — Ch.19 임상시험의 다양성: 미국 505(z) Diversity Action Plan, EU 정당화 요건, ICH
 
-> **근거:** `textbook/Ch19.md` + `cards/Ch19.md` 검증 메모(FDORA 2022 §3601 → FD&C 505(z)·520(g)(9), DAP draft guidance 2024-06, 최종 guidance + 180일 발효, FDA 2020 *Enhancing Diversity*·2016 *Race and Ethnicity Data*, 21 CFR 312.33(a)(2)·314.50(d)(5)(v), FDASIA §907·Drug Trials Snapshots, 1993 gender guideline, CTR 536/2014 Annex I, ICH E5(R1)·E17·E7·E11(R1)·E11A·E21). 새 숫자 없음. 계산 문항은 교과서 상수(180일, 미국 유병률 비율)로만 계산했다. DAP 최종화 여부와 OMB SPD 15(2024) 반영 여부는 "확인 필요"라 정답 키로 쓰지 않았다.
+> **근거:** `textbook/Ch19.md` + `cards/Ch19.md` 검증 메모(FDORA 2022 §3601 → FD&C 505(z)·520(g)(9), DAP draft guidance 2024-06, 최종 guidance + 180일 발효, FDA 2020 *Enhancing Diversity*·2016 *Race and Ethnicity Data*, 21 CFR 312.33(a)(2)·314.50(d)(5)(v), FDASIA §907·Drug Trials Snapshots, 1993 gender guideline, CTR 536/2014 Annex I, ICH E5(R1)·E17·E7·E11(R1)·E11A·E21). 새 숫자 없음. 계산 문항은 교과서 상수(180일, 미국 유병률 비율)로만 계산했다. DAP 최종 guidance는 기준일 미공표(의무 미발효)이고, OMB SPD 15(2024)는 기준일 FDA guidance에 반영되지 않았다 (2026-11-28 원문 확인).
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-27. 64문항.
 
@@ -159,7 +159,7 @@ D. Under that status the statutory duty has not yet begun, and FDA encourages vo
 **정답:** D
 
 **해설**
-- D: 트리거가 **최종 guidance + 180일**이므로 초안만 있는 상태라면 법정 의무는 발효 전이고, FDA는 **자발적 DAP**를 권장하는 단계다. 실제 시험에서는 최종화 여부를 확인해 답한다.
+- D: 트리거가 **최종 guidance + 180일**이므로 초안만 있는 상태라면 법정 의무는 발효 전이고, FDA는 **자발적 DAP**를 권장하는 단계다. 2026-09-01 기준 실제로 초안만 있다.
 - A: 교과서는 의약품·기기 발효 조건을 나누지 않는다.
 - B: 초안 guidance는 의견 수렴이 끝나도 최종 guidance가 아니다.
 - C: 법 제정만으로 의무가 돌지 않는다. 내용이 guidance에 위임돼 있다.
@@ -412,7 +412,7 @@ D. One race question with five categories, with ethnicity recorded at US sites a
 **해설**
 - A: 2016 guidance는 **OMB 범주**를 **2문항**으로 묻는다. 민족(Hispanic/Latino 여부)을 먼저, 그다음 인종 5범주를 **복수 선택**으로 묻고, **자가 보고**로 받는다.
 - B: 조사자 판정이 아니라 자가 보고이고, 인종은 복수 선택이다.
-- C: 단일 결합 문항 + MENA는 2024 OMB SPD 15 개정 내용이고, FDA guidance가 이를 반영했는지는 확인되지 않았다. 2016 guidance의 방식이 아니다.
+- C: 단일 결합 문항 + MENA는 2024 OMB SPD 15 개정 내용이고, FDA guidance는 기준일까지 이를 반영하지 않았다. 2016 guidance의 방식이 아니다.
 - D: 2문항이고, 수집은 전 세계 사이트에서 일관되게 한다.
 
 ---

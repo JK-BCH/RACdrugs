@@ -1,6 +1,6 @@
 # 문제은행 — Ch.24 (1/2) 이익-위험 평가: 개념·구조
 
-> **근거:** `textbook/Ch24.md` + `cards/Ch24_1.md`·`cards/Ch24_2.md` 검증 메모(FDA *Benefit-Risk Assessment for New Drug and Biological Products* final 2023-10, Benefit-Risk Framework 5차원·2열·PDUFA V/VI, FD&C 505(d)·569C(Cures §3001), 21 CFR 314.125·314.126, PFDD 1·2 최종, Dir 2001/83 Art 1(28)/(28a)·116, EMA B-R Methodology Project·PrOACT-URL·effects table, ICH M4E(R2) §2.5.6, E2C(R2) §18, Reg 507/2006). PFDD 3·4 최종화 여부(?)는 정답 키로 쓰지 않았다. 새 숫자 없음. 계산 문항은 교과서·덱 수치로만 계산했다.
+> **근거:** `textbook/Ch24.md` + `cards/Ch24_1.md`·`cards/Ch24_2.md` 검증 메모(FDA *Benefit-Risk Assessment for New Drug and Biological Products* final 2023-10, Benefit-Risk Framework 5차원·2열·PDUFA V/VI, FD&C 505(d)·569C(Cures §3001), 21 CFR 314.125·314.126, PFDD 1·2 최종, Dir 2001/83 Art 1(28)/(28a)·116, EMA B-R Methodology Project·PrOACT-URL·effects table, ICH M4E(R2) §2.5.6, E2C(R2) §18, Reg 507/2006). PFDD 3은 2025-11 최종, 4는 초안이다 (2026-11-28 원문 확인). 새 숫자 없음. 계산 문항은 교과서·덱 수치로만 계산했다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-27. 64문항.
 

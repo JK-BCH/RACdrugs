@@ -70,8 +70,8 @@ Task: I-6, I-7
 ### Ch.3 + Ch.4 — GLP·비임상 개발 원칙 / Safety pharmacology
 Task: I-1, III-3
 - **US** ○ 21 CFR 58 (GLP) https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-58
-  · ✔ GLP Quality System **NPRM 2025-01-16** (90 FR 5426), 최종규칙 공표 여부 **?** —
-  2026-09-01 기준 구 58 Part가 유효할 가능성 높음, 확인 후 카드화
+  · ✔ GLP Quality System **NPRM 2016-08-24** (81 FR 58342), 최종규칙 없음 —
+  2026-08 Unified Agenda(RIN 0910-AJ01) 새 NPRM 계획, 2026-09-01 기준 현행 Part 58 (2026-11-28 원문 확인)
   · ○ 21 CFR 312.23(a)(8) (IND 비임상 섹션)
 - **EU** ○ OECD GLP 원칙 + Dir 2004/9/EC, 2004/10/EC (GLP 검사·적용) · EMA 과학 가이드라인 (하위 메뉴 Non-clinical)
   https://www.ema.europa.eu/en/human-regulatory-overview/research-development/scientific-guidelines (비임상 하위 페이지 직접 링크는 429로 확인 못 함)
@@ -441,7 +441,7 @@ Task: I-5, IV-1
 | EU eCTD v4.0 | 아직 미개시 (선택적 2025-12-22) ✔ | 권고 2027 Q1, 의무 2028 Q1 |
 | US eCTD v4.0 | 신규 신청 수용 중 (2024-09-16) ✔ | v3.2.2 forward compat 2026-10-16 |
 | US QMSR (21 CFR 820) | 시행 중 (2026-02-02) ✔ | — |
-| US GLP Quality System rule | NPRM 2025-01 ✔, 최종 **?** | — |
+| US GLP Quality System rule | NPRM 2016-08 ✔, 최종규칙 없음 ✔ (현행 Part 58) | 새 NPRM 계획(2026-08 Agenda) |
 | US Diversity Action Plan guidance | draft 2024-06, 최종 **?** | — |
 | US E2B(R3) ICSR 의무 | IND 2026-04-01 적용 중 ✔ | 시판후 2026-10-01 |
 | EU GMP Annex 11/22 | 2011판 유효, 개정 협의 종료 ✔ | 채택 시점 미정 |

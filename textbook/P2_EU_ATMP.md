@@ -1,7 +1,7 @@
 # Phase 2 ⑥ — EU ATMP 체계: Reg 1394/2007이 만든 별도 제품군 — 정의·CAT·Part IV·hospital exemption·추적성 30년
 
 > **덱:** P2_EU_ATMP (20장). Phase 2 특화 주제 6/6.
-> **검증 메모(2026-11-22):** **EMA/CAT/22473/2025** 임상단계 ATMP 품질·비임상·임상 통합 가이드라인 **2025-07-01 시행**; **GMP Part IV 개정 concept paper 2025-05-08** → 초안 2026-09 예정·최종 2027-03 목표 → **기준일엔 Part IV 2018판(2018-05-22)** 현행; **HTA Reg: ATMP는 2025-01-12부터 JCA**; **EU 제약 패키지 Council 채택 2026-09-28 → 기준일 이후 → 구법으로 답**; **SoHO Reg 2024/1938**(2027-08 적용) — 덱 메모 기준. Reg 1394/2007 Art 2 정의·우선순위·Annex I, Arts 3–9·14–23·28, Dir 2001/83 Art 3(7) HE 조건, AA 150 = CAT 120 + CHMP 30, GTMP 2018·세포 기반 2008·줄기세포 2011·변형 세포 2020·comparability Q&A 2019·GCP for ATMPs 2019-10·GMO Dir 2001/18/2009/41·EU 공통 신청서, 승인·철회 이력(ChondroCelect 2009 첫 승인), EV = 보통 ATMP 아님은 ○. "?": Art 19 MA 수수료 감면 현행 여부, Part IV 초안 실제 공표일, 패키지의 ATMP·HE 세부.
+> **검증 메모(2026-11-22):** **EMA/CAT/22473/2025** 임상단계 ATMP 품질·비임상·임상 통합 가이드라인 **2025-07-01 시행**; **GMP Part IV 개정 concept paper 2025-05-08** → 초안 2026-09 예정·최종 2027-03 목표 → **기준일엔 Part IV 2018판(2018-05-22)** 현행; **HTA Reg: ATMP는 2025-01-12부터 JCA**; **EU 제약 패키지 Council 채택 2026-09-28 → 기준일 이후 → 구법으로 답**; **SoHO Reg 2024/1938**(2027-08-07 적용) — 덱 메모 기준. Reg 1394/2007 Art 2 정의·우선순위·Annex I, Arts 3–9·14–23·28, Dir 2001/83 Art 3(7) HE 조건, AA 150 = CAT 120 + CHMP 30, GTMP 2018·세포 기반 2008·줄기세포 2011·변형 세포 2020·comparability Q&A 2019·GCP for ATMPs 2019-10·GMO Dir 2001/18/2009/41·EU 공통 신청서, 승인·철회 이력(ChondroCelect 2009 첫 승인), EV = 보통 ATMP 아님은 ○. "?": Art 19 MA 수수료 감면 현행 여부, Part IV 초안 실제 공표일, 패키지의 ATMP·HE 세부.
 
 ## 학습 목표
 1. **GTMP·sCTMP·TEP·combined** 정의·우선순위·제외(백신·비실질적 조작·세포 없는 분비물)를 쓰고 제품을 분류한다.
@@ -98,7 +98,7 @@ RAC-Drugs Spring 2027은 **2026-09-01 효력** 기준 → **2026-09-28 채택** 
 | Art 19 SA 감면 | SME 90% / 기타 65% |
 | JCA ATMP | 2025-01-12 |
 | 패키지 | 2026-09-28 채택 → 비적용 |
-| SoHO | 2024/1938, 2027-08 |
+| SoHO | 2024/1938, 2027-08-07 |
 | 첫 승인 | ChondroCelect 2009 |
 
 ## 12. 흔한 혼동
@@ -115,7 +115,7 @@ RAC-Drugs Spring 2027은 **2026-09-01 효력** 기준 → **2026-09-28 채택** 
 11. **추적성 10년?** EU 30년.
 
 ## 13. 네 분야에 올려놓기
-**MSC-EV(BPD) EU 경로(ATMP 아님 가정)**: ① **CAT Art 17** → 천연 EV = 생물의약품(핵산 적재면 ★) ② **ITF** → **orphan**(BPD 유병률) → **PRIME**(초기 신생아 데이터) → **SA/PA** → **JSC** ③ 임상: CTR·CTIS, 생물의약품·ICH(S6(R1)·Q5E·Q6B) + MISEV2023(22473/2025는 ATMP 전용이나 참고), **GMO 없음**, **PIP**(신생아 대상 = 개발 계획), IMP GMP Part I + Annex 2 + 2017/1569, 공여자 조직 2004/23(→ SoHO 2027-08) ④ MAA: 중앙(생물공학 공정 의무), **CHMP**(CAT 비관여), AA 150 또는 표준, **CMA**(SO = 신생아 레지스트리), RMP(주입 반응·감염 전파·혈전, missing 장기 발달), 역삼각 5년, Annex II, **JCA**(orphan 2028-01 / 아니면 2030-01) ⑤ 승인 후: EV 15/90, PSUR, PASS, variations, Transparency Dir·AMNOG(orphan 특례). **★ GTMP였다면**: CAT 평가·Part IV·국가 GMO·Art 15 30년·LTFU·Art 14 follow-up·JCA 2025·분류 공개. **CAT 신청서**: 기원 세포·분리 공정·조성(세포 없음·핵산 함량)·MOA(paracrine)·적응증·유사 제품·제안 분류 → (a) 천연 EV = 생물의약품(CHMP, Part I, 30년 비적용 — 공여자 조직은 2004/23 추적성, GMO 없음) / (b) 치료 mRNA 적재 = GTMP 가능성(핵산이 GMO 정의 충족 여부는 국가 판단). 플랫폼 분기 시 **두 번 분류**; 미국은 양쪽 모두 OTP 351.
+**MSC-EV(BPD) EU 경로(ATMP 아님 가정)**: ① **CAT Art 17** → 천연 EV = 생물의약품(핵산 적재면 ★) ② **ITF** → **orphan**(BPD 유병률) → **PRIME**(초기 신생아 데이터) → **SA/PA** → **JSC** ③ 임상: CTR·CTIS, 생물의약품·ICH(S6(R1)·Q5E·Q6B) + MISEV2023(22473/2025는 ATMP 전용이나 참고), **GMO 없음**, **PIP**(신생아 대상 = 개발 계획), IMP GMP Part I + Annex 2 + 2017/1569, 공여자 조직 2004/23(→ SoHO 2027-08-07) ④ MAA: 중앙(생물공학 공정 의무), **CHMP**(CAT 비관여), AA 150 또는 표준, **CMA**(SO = 신생아 레지스트리), RMP(주입 반응·감염 전파·혈전, missing 장기 발달), 역삼각 5년, Annex II, **JCA**(orphan 2028-01 / 아니면 2030-01) ⑤ 승인 후: EV 15/90, PSUR, PASS, variations, Transparency Dir·AMNOG(orphan 특례). **★ GTMP였다면**: CAT 평가·Part IV·국가 GMO·Art 15 30년·LTFU·Art 14 follow-up·JCA 2025·분류 공개. **CAT 신청서**: 기원 세포·분리 공정·조성(세포 없음·핵산 함량)·MOA(paracrine)·적응증·유사 제품·제안 분류 → (a) 천연 EV = 생물의약품(CHMP, Part I, 30년 비적용 — 공여자 조직은 2004/23 추적성, GMO 없음) / (b) 치료 mRNA 적재 = GTMP 가능성(핵산이 GMO 정의 충족 여부는 국가 판단). 플랫폼 분기 시 **두 번 분류**; 미국은 양쪽 모두 OTP 351.
 
 ## 14. 덱 카드와의 연결
 | 절 | 카드 |

@@ -1,6 +1,6 @@
 # 문제은행 — Ch.16 분석법 수명주기(Q2(R2)·Q14·USP <1220>·M10·potency)
 
-> **근거:** `textbook/Ch16.md` + `cards/Ch16.md` 검증 메모(ICH Q2(R2)·Q14 Step 4 2023-11, ICH M10 2022, USP <1220>/<1225>/<1226>/<1224>, FDA 2015 분석법 가이던스, 21 CFR 211.165(e)·211.194(a)(2)·211.160(b)·610.10·600.3(s)·314.70, FDA Potency Tests CGT 2011, FDA 2004 변경 가이던스, EU B.II.d.2·B.II.d.1, EU GMP Ch.6, ICH Q6B·Q8(R2)·Q12, EU Annex 17). 새 숫자 없음. "?" 항목(Potency Assurance 최종화, Ph. Eur. 5.26 장 번호)은 정답 키로 쓰지 않았다.
+> **근거:** `textbook/Ch16.md` + `cards/Ch16.md` 검증 메모(ICH Q2(R2)·Q14 Step 4 2023-11, ICH M10 2022, USP <1220>/<1225>/<1226>/<1224>, FDA 2015 분석법 가이던스, 21 CFR 211.165(e)·211.194(a)(2)·211.160(b)·610.10·600.3(s)·314.70, FDA Potency Tests CGT 2011, FDA 2004 변경 가이던스, EU Q.II.d.2·Q.II.d.1, EU GMP Ch.6, ICH Q6B·Q8(R2)·Q12, EU Annex 17). 새 숫자 없음. "?" 항목(Potency Assurance 최종화)은 정답 키로 쓰지 않았다. Ph. Eur. 5.26(Implementation of pharmacopoeial procedures, 11th Edition 2023-01-01 시행)은 2026-11-28 원문 확인.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-26. 64문항.
 
@@ -672,36 +672,36 @@ D. Annual report or CBE-30, supported by the comparative data
 ### Q38 [A][Domain II] — HPLC to UPLC, EU
 The same HPLC-to-UPLC change is made for a small-molecule product authorised in the EU. Which classification applies?
 
-A. Type II under B.II.d.1, since any method change affects the specification
+A. Type II under Q.II.d.1, since any method change affects the specification
 B. An extension application, since the analytical technology changes
-C. Type II under B.II.d.2, since UPLC is a new non-standard technique
-D. Type IA or IB under B.II.d.2, as a minor change to an equivalent method
+C. Type II under Q.II.d.2, since UPLC is a new non-standard technique
+D. Type IA or IB under Q.II.d.2, as a minor change to an equivalent method
 
 **정답:** D
 
 **해설**
-- D: 완제 시험법 변경은 **B.II.d.2**이고, 사소·동등하면 **IA/IB**다.
-- A: B.II.d.1은 규격 변경이다. 규격이 그대로인 시험법 교체가 아니다.
+- D: 완제 시험법 변경은 **Q.II.d.2**이고, 사소하면 **IA**(a), 그 밖의 동등 방법 교체는 **IB**(d)다.
+- A: Q.II.d.1은 규격 변경이다. 규격이 그대로인 시험법 교체가 아니다.
 - B: 시험법 교체를 extension으로 다룬다는 근거는 교과서에 없다.
-- C: 같은 원리의 동등 방법 교체는 IA/IB다. Type II는 생물의약품·새 비표준법이다.
+- C: 같은 원리의 동등 방법 교체는 IA/IB다. Type II는 생물·면역·면역화학 분석법(Q.II.d.2(c))이다.
 
 ---
 
 ### Q39 [A][Domain II] — EU, biological product method change
-A marketing authorisation holder changes a test procedure for a biological medicinal product, introducing a new non-standard method. How is this classified in the EU?
+A marketing authorisation holder of a biological medicinal product replaces a release test with a new cell-based bioassay. How is this classified in the EU?
 
-A. Type II under B.II.d.2, as a new non-standard method for a biological
+A. Type II under Q.II.d.2, as a new biological analytical procedure
 B. Type IB, because biological products follow the same route as small molecules
 C. Type IA, provided the new method was validated per Q2(R2) before implementation
-D. Type II under B.II.d.1, as a deletion of a specification parameter
+D. Type II under Q.II.d.1, as a deletion of a specification parameter
 
 **정답:** A
 
 **해설**
-- A: B.II.d.2에서 **생물의약품·새 비표준법**은 **Type II**다.
-- B: 생물의약품은 IA/IB가 아니라 II로 분류된다.
+- A: Q.II.d.2(c)에서 **생물·면역·면역화학 분석법**의 도입·교체·대폭 변경은 **Type II**다.
+- B: 생물 분석법 교체는 IB(Q.II.d.2(d) 그 밖의 변경)가 아니라 II다.
 - C: 검증을 마쳤다고 IA가 되지 않는다. 분류는 변경의 성격으로 정한다.
-- D: B.II.d.1은 규격 변경이다. 이 사례는 시험법 변경이다.
+- D: Q.II.d.1은 규격 변경이다. 이 사례는 시험법 변경이다.
 
 ---
 
@@ -727,16 +727,16 @@ D. An annual report, since the method itself is not changed
 The same dissolution deletion is proposed for the EU authorisation. How is it classified?
 
 A. A notification under the PQS, using Q12 established conditions
-B. Type II under B.II.d.1, as a deletion from the specification
-C. Type IB under B.II.d.2, supported by the ATP justification
-D. Type IA under B.II.d.2, since the method itself is unchanged
+B. Type II under Q.II.d.1, as a deletion from the specification
+C. Type IB under Q.II.d.2, supported by the ATP justification
+D. Type IA under Q.II.d.2, since the method itself is unchanged
 
 **정답:** B
 
 **해설**
-- B: 규격 완화·삭제는 EU에서 **Type II(B.II.d.1)** 다.
+- B: 품질에 중요한 규격 항목 삭제는 EU에서 **Type II(Q.II.d.1(f))** 다. 용출 같은 중요 항목은 사소 삭제(IA) 조건을 채우지 못한다.
 - A: EU는 variation 분류가 법정이라 Q12 EC 유연성을 완전히 받지 못한다.
-- C·D: B.II.d.2는 시험법 변경이다. 규격 삭제는 B.II.d.1에 속한다.
+- C·D: Q.II.d.2는 시험법 변경이다. 규격 삭제는 Q.II.d.1에 속한다.
 
 ---
 
@@ -789,7 +789,7 @@ D. Correct in the EU, where IA/IB changes are handled internally, but not in the
 **해설**
 - C: 동등한 방법 교체도 미국 **AR/CBE-30**, EU **IA/IB**로 제출 대상이다. **비교 검증 데이터**가 근거다.
 - A: 동등성은 제출 범주를 낮출 뿐 제출을 없애지 않는다.
-- B: PAS·Type II는 규격 완화·삭제나 생물의약품·새 비표준법의 경우다.
+- B: PAS·Type II는 규격 완화·삭제나 생물 분석법 교체의 경우다.
 - D: EU의 IA/IB도 variation이다. 내부 처리로 끝나지 않는다.
 
 ---

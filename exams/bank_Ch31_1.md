@@ -53,7 +53,7 @@ D. As PAS and Type II changes that are readily accepted once stability data are 
 **정답:** C
 
 **해설**
-- C: 규격 **완화**는 US **PAS**, EU **Type II**(B.II.d.1.e)다. 당국은 임상 관련성(BE·효능), 공정 능력, 근본 원인을 묻는다. "실패해서 완화"는 공정 통제 실패로 읽혀 거부 가능성이 크고, CAPA·공정 개선이 먼저다.
+- C: 규격 **완화**는 US **PAS**, EU **Type II**(Q.II.d.1.e)다. 당국은 임상 관련성(BE·효능), 공정 능력, 근본 원인을 묻는다. "실패해서 완화"는 공정 통제 실패로 읽혀 거부 가능성이 크고, CAPA·공정 개선이 먼저다.
 - A: 완화를 중등도 범주로 낮춰 잡았다. 완화는 PAS와 Type II다.
 - B: 사소 범주는 규격 강화 쪽이다.
 - D: 범주는 맞지만, 배치 실패를 이유로 한 완화가 쉽게 수용된다는 판단이 틀렸다. Q6A/Q6B 정당화와 용출-생체 상관을 보여야 한다.
@@ -395,7 +395,7 @@ D. 60 days standard; 90 days for a new or changed indication; 30 days for urgent
 **정답:** D
 
 **해설**
-- D: Type II는 **60일** 표준, 적응증 추가·변경(C.I.6)·합의한 대규모 grouping은 **90일**, 긴급 안전성은 **30일**이다. RSI가 있으면 clock-stop으로 늘어난다.
+- D: Type II는 **60일** 표준, 적응증 추가·변경(C.6)·합의한 대규모 grouping은 **90일**, 긴급 안전성은 **30일**이다. RSI가 있으면 clock-stop으로 늘어난다.
 - A: 15일은 USR 후 variation 제출 기한이다. 적응증 시계는 90일이다.
 - B: 숫자를 뒤섞었다. 30일은 IB 대기와 긴급 안전성 Type II다.
 - C: 표준은 60일이다.
@@ -413,7 +413,7 @@ D. A line extension handled under the same procedure as the initial application.
 **정답:** A
 
 **해설**
-- A: 적응증 추가는 **Type II**(C.I.6) **90일**이다. significant clinical benefit이 인정되면 **+1년 시장 보호**를 신청할 수 있다(1.5.3). 실제 승인은 clock-stop·EC 결정으로 8–9개월이 걸릴 수 있다.
+- A: 적응증 추가는 **Type II**(C.6) **90일**이다. significant clinical benefit이 인정되면 **+1년 시장 보호**를 신청할 수 있다(1.5.3). 실제 승인은 clock-stop·EC 결정으로 8–9개월이 걸릴 수 있다.
 - B: 적응증은 표준 60일이 아니라 90일 시계다.
 - C: 적응증 추가는 기본 범주(IB)가 아니다.
 - D: line extension은 활성물질·강도·제형·경로 변경이다.
@@ -727,38 +727,38 @@ D. US annual report / EU Type IA, because the specification is unchanged.
 ---
 
 ### Q41 [A][Domain II] — new site for a biologic drug product
-A monoclonal antibody manufacturer adds a new drug product manufacturing site. How is the change classified in the US and the EU?
+A monoclonal antibody manufacturer adds a new drug product manufacturing site that needs a product-specific GMP inspection. How is the change classified in the US and the EU?
 
 A. US CBE-30 / EU Type IB, because the process is transferred unchanged.
-B. US PAS / EU Type II, because biologic sites affect product quality.
+B. US PAS / EU Type II, because the site needs a product-specific inspection.
 C. US annual report / EU Type IA, because the new site holds a GMP certificate.
 D. US CBE-0 / EU IAIN, because supply continuity requires immediate use.
 
 **정답:** B
 
 **해설**
-- B: **생물의약품** 제조소 변경은 US **PAS**, EU **Type II**(B.II.b.1)다.
-- A: CBE-30·IB는 일부 비무균 소분자 제조소 변경에 해당한다. 생물의약품은 한 단계 위다.
-- C: GMP 인증이 있어도 생물의약품 제조소 변경은 사소 변경이 아니다.
+- B: **생물의약품** 제조소 변경은 US **PAS**다. EU C/2025/5045는 최초·제품별 GMP 사찰이 필요한 제조소 추가를 **Type II**(Q.II.b.1(d))로 둔다.
+- A: 미국 생물의약품 제조소 변경은 CBE-30이 아니다. EU IB(Q.II.b.1(e))는 사찰이 필요 없는 제조소일 때다.
+- C: EU에서 제조소 추가가 IA(IAIN)인 것은 포장 사이트뿐이다. 생물의약품 제조소 변경은 사소 변경이 아니다.
 - D: 공급 사정은 분류 기준이 아니다.
 
 ---
 
 ### Q42 [A][Domain II] — EU specification relaxation code
-An EU MAH widens a drug product specification limit beyond the approved range. Which classification applies under the 2013 EC Variations Guidelines?
+An EU MAH widens a drug product specification limit beyond the approved range. Which classification applies under the EC Variations Guidelines applicable from 15 January 2026?
 
-A. B.II.d.1.e, Type II, because the change is outside the approved range.
-B. B.II.d.1.b, Type IA IN, because the limit belongs to an OCABR product.
-C. B.II.d.1, Type IA, because specifications are set by the MAH.
-D. B.II.d.2, Type IB, because a new limit needs a revised test method.
+A. Q.II.d.1.e, Type II, because the change is outside the approved range.
+B. Q.II.d.1.b, Type IA IN, because the limit belongs to an OCABR product.
+C. Q.II.d.1, Type IA, because specifications are set by the MAH.
+D. Q.II.d.2, Type IB, because a new limit needs a revised test method.
 
 **정답:** A
 
 **해설**
-- A: 승인 범위 밖 규격 완화는 **B.II.d.1.e Type II**다(2013 지침 원문 확인).
-- B: B.II.d.1.b는 OCABR 제품의 규격 **강화**(IA IN)다.
-- C: Type IA는 규격 강화 쪽이다.
-- D: B.II.d.2는 시험법 변경 코드다.
+- A: 승인 범위 밖 규격 완화는 **Q.II.d.1.e Type II**다(C/2025/5045 원문 확인).
+- B: Q.II.d.1.b는 OCABR 제품의 승인 범위 **내** 변경(IA IN)이다.
+- C: Type IA(Q.II.d.1(a))는 승인 범위 내 변경(강화) 쪽이다.
+- D: Q.II.d.2는 시험법 변경 코드다.
 
 ---
 
@@ -773,7 +773,7 @@ D. US PAS efficacy supplement / EU Type II on a 90-day timetable.
 **정답:** D
 
 **해설**
-- D: 적응증 추가는 US **PAS**(**efficacy supplement**, PDUFA standard 10 / priority 6개월, receipt 기준), EU **Type II**(C.I.6, **90일**)다.
+- D: 적응증 추가는 US **PAS**(**efficacy supplement**, PDUFA standard 10 / priority 6개월, receipt 기준), EU **Type II**(C.6, **90일**)다.
 - A: 활성물질이 같아도 효능 라벨 변경은 주요 변경이다.
 - B: 적응증 추가는 중등도 범주가 아니다.
 - C: line extension은 강도·제형·경로·활성물질 변경이다.
@@ -781,9 +781,9 @@ D. US PAS efficacy supplement / EU Type II on a 90-day timetable.
 ---
 
 ### Q44 [A][Domain II] — direction of an EU specification change
-An EU quality team has two planned changes: tightening an impurity limit and deleting a release test. Which classification pair is correct?
+An EU quality team has two planned changes: tightening an impurity limit and deleting a release test that may significantly affect quality. Which classification pair is correct?
 
-A. Tightening Type IA; deletion Type II, as a relaxation of the specification.
+A. Tightening Type IA; deletion Type II, as a significant specification deletion.
 B. Tightening Type II; deletion Type IA, because fewer tests reduce the burden.
 C. Tightening Type IB; deletion Type IB, because both change the specification.
 D. Tightening Type IA; deletion Type IB, as the default category for test changes.
@@ -791,10 +791,10 @@ D. Tightening Type IA; deletion Type IB, as the default category for test change
 **정답:** A
 
 **해설**
-- A: B.II.d.1 규격은 **강화 IA / 완화·삭제 II**다.
+- A: Q.II.d.1에서 승인 범위 내 변경(강화)은 **IA**(a), 범위 밖 변경(완화)과 중요 항목 삭제는 **II**(e·f)다.
 - B: 방향을 뒤바꿨다.
 - C: 강화는 IA 범주가 있어 기본 IB로 갈 이유가 없다.
-- D: 삭제는 완화와 같이 Type II다.
+- D: 품질에 중요한 항목 삭제는 Type II(Q.II.d.1(f))다. 사소·구식 항목 삭제만 IA(d)다.
 
 ---
 
@@ -863,15 +863,15 @@ D. US CBE-30 / EU line extension, because the shelf-life label changes.
 **정답:** A
 
 **해설**
-- A: 승인 안정성 프로토콜 + 실생산 로트(2021 *Certain Biological Products* guidance상 ≥3로트) 전체 유효기간 데이터면 US **annual report**다. EU는 승인 프로토콜 범위 안 연장이라 **IB**(B.II.f.1)다.
-- B: PAS/Type II는 승인 프로토콜 **밖**이거나 보관 조건이 바뀔 때다.
+- A: 승인 안정성 프로토콜 + 실생산 로트(2021 *Certain Biological Products* guidance상 ≥3로트) 전체 유효기간 데이터면 US **annual report**다. EU는 Q.II.f.1(b)(1)의 IA IN 조건(비생물 IR 필름코팅정)을 못 채워 **IB by default**(Q.II.f.1)다.
+- B: PAS는 미승인 프로토콜·pilot 배치일 때다. EU Type II는 지침 밖 외삽·모델링(Q.II.f.1(b)(4))이나 생물 완제 보관 조건 변경(Q.II.f.1(c))일 때다.
 - C: CBE-0은 유효기간 연장 범주가 아니다.
 - D: CBE-30은 유효기간 단축일 때이고(미승인 프로토콜·pilot 배치 데이터 기반 연장은 PAS다(FDA 2004 Changes guidance XI.A.4)), line extension은 강도·제형·경로·활성물질 변경이다.
 
 ---
 
 ### Q49 [A][Domain II] — EV product: new potency method
-The EV product's release potency assay is to be replaced by a new method. The product is licensed under a BLA and centrally authorised in the EU. How is the change classified?
+The EV product's release potency assay is to be replaced by a new cell-based bioassay. The product is licensed under a BLA and centrally authorised in the EU. How is the change classified?
 
 A. US CBE-30 / EU Type IB, because the old and new methods were bridged.
 B. US annual report / EU Type IA, because the specification limit is unchanged.
@@ -881,9 +881,9 @@ D. US CBE-0 / EU IAIN, because potency testing protects patients directly.
 **정답:** C
 
 **해설**
-- C: 역가법은 생물의약품의 핵심 시험이라 교체는 US **PAS**, EU **Type II**(B.II.d.2 생물)다.
+- C: 역가법은 생물의약품의 핵심 시험이라 교체는 US **PAS**, EU **Type II**(Q.II.d.2(c) 생물 분석법)다.
 - A: 동등 입증된 분석법 변경이 CBE-30·IB가 되는 것은 소분자의 사소한 시험법 변경 쪽이다.
-- B: 규격치가 같아도 생물의약품 역가법 교체는 사소 변경이 아니다.
+- B: 규격치가 같아도 생물 분석법인 역가법 교체는 사소 변경이 아니다.
 - D: 즉시 시행 범주는 이 변경에 맞지 않는다.
 
 ---

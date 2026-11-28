@@ -1,6 +1,6 @@
 # 문제은행 — Ch.23 (2/2) 핵심 라벨링: 세부 규정·상황형
 
-> **근거:** `textbook/Ch23.md` + `cards/Ch23_1.md`·`cards/Ch23_2.md` 검증 메모(21 CFR 314.70 (b)(2)(v)·(c)(6)(iii)·(d)(2)(x), FD&C 505(o)(4) SLC 30 calendar days·discussion ≤30일·SLC order, 201.57(c)(1)·(c)(7)·(c)(9), PLLR, 505B(g), SmPC guideline Rev 2 §4.6·§4.8 빈도 범주, EMA 2008 생식·수유 가이드라인, Dir 2001/83 Art 23·23a·31·Title V Arts 54–69, EC Variations Guidelines C.I.3(IAIN 또는 Type II), Reg 1234/2008 Art 22 USR, excipients guideline Annex 2017, ICH E2C(R2) CCDS/CCSI). 새 숫자 없음. 계산 문항은 SmPC 4.8 경계값과 30일 규칙으로만 계산했다.
+> **근거:** `textbook/Ch23.md` + `cards/Ch23_1.md`·`cards/Ch23_2.md` 검증 메모(21 CFR 314.70 (b)(2)(v)·(c)(6)(iii)·(d)(2)(x), FD&C 505(o)(4) SLC 30 calendar days·discussion ≤30일·SLC order, 201.57(c)(1)·(c)(7)·(c)(9), PLLR, 505B(g), SmPC guideline Rev 2 §4.6·§4.8 빈도 범주, EMA 2008 생식·수유 가이드라인, Dir 2001/83 Art 23·23a·31·Title V Arts 54–69, EC Variations Guidelines C/2025/5045 C.3(IAIN·IB·Type II), Reg 1234/2008 Art 22 USR, excipients guideline Annex 2017, ICH E2C(R2) CCDS/CCSI). 새 숫자 없음. 계산 문항은 SmPC 4.8 경계값과 30일 규칙으로만 계산했다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-27. 64문항.
 
@@ -779,18 +779,18 @@ D. Provide the information without delay, including the third-country action.
 ---
 
 ### Q44 [A][Domain II] — PSUR outcome, agreed wording
-After a PSUR assessment, PRAC recommends and CHMP adopts new section 4.8 wording for a centrally authorised product. The MAH will implement the agreed text unchanged. Which variation classification applies?
+After a PSUR assessment, PRAC recommends and CHMP adopts new section 4.8 wording for a centrally authorised product. The MAH will implement the agreed text unchanged, and all translations are already agreed. Which variation classification applies?
 
-A. C.I.3, Type IB.
-B. C.I.3(a), Type IAIN.
-C. C.I.3(b), Type II.
+A. C.3(b), Type IB.
+B. C.3(a), Type IAIN.
+C. C.3(c), Type II.
 D. Urgent Safety Restriction.
 
 **정답:** B
 
 **해설**
-- B: PSUR 결과 반영은 **C.I.3**이고, **당국이 합의한 문구를 그대로 이행**하면 **Type IAIN**이다.
-- A: C.I.3에는 IB 선택지가 없다. (a) IAIN과 (b) Type II 둘뿐이다.
+- B: PSUR 결과 반영은 **C.3**이고, **당국이 합의한 문구를 그대로 이행**하면 **Type IAIN**이다.
+- A: C.3(b) IB는 번역 미합의 등 사소한 추가 평가가 필요할 때다. 이 사례는 합의 문구를 그대로 쓴다.
 - C: Type II는 MAH가 **새 추가 데이터**를 내야 할 때다.
 - D: USR은 긴급 안전 조치다. PSUR 결과 이행 분류가 아니다.
 
@@ -800,35 +800,35 @@ D. Urgent Safety Restriction.
 The PSUR outcome requires the MAH to submit new additional data to support revised SmPC wording. How is the variation classified?
 
 A. An annual update, because PSUR outcomes are reported in the next PSUR.
-B. C.I.3, Type II, because new additional data must be assessed.
-C. C.I.3, Type IAIN, because the change follows a PSUR outcome.
-D. C.I.3, Type IB, because safety wording changes are notified.
+B. C.3, Type II, because new additional data must be assessed.
+C. C.3, Type IAIN, because the change follows a PSUR outcome.
+D. C.3, Type IB, because safety wording changes are notified.
 
 **정답:** B
 
 **해설**
-- B: MAH가 **새 추가 데이터를 제출**해야 하면 C.I.3(b) **Type II**다.
+- B: MAH가 **새 추가 데이터를 제출**해야 하면 C.3(c) **Type II**다.
 - A: 다음 PSUR에 넘기는 경로는 없다. variation으로 낸다.
 - C: IAIN은 당국 합의 문구를 그대로 이행할 때다.
-- D: C.I.3에는 IB 선택지가 없다.
+- D: C.3(b) IB는 사소한 추가 평가만 필요할 때다. 새 데이터가 필요하면 II다.
 
 ---
 
-### Q46 [R][Domain I] — C.I.3 options
-Which statement correctly describes category C.I.3 (implementation of PSUR or PSUSA outcomes) in the EC Variations Guidelines?
+### Q46 [R][Domain I] — C.3 options
+Which statement correctly describes category C.3 (implementation of PSUR or PSUSA outcomes) in the EC Variations Guidelines applicable from 15 January 2026?
 
-A. New data from the MAH make it Type IAIN; agreed wording makes it Type II.
-B. Agreed wording is Type IAIN; new additional data from the MAH make it Type II.
-C. It has three options, IA, IB and II, chosen according to how complex the new wording is.
-D. Type IB is the default, unless the authority asks the MAH for more data.
+A. New MAH data make it Type IAIN; agreed wording without further review makes it Type II.
+B. Agreed wording is Type IAIN, minor further assessment Type IB, new MAH data Type II.
+C. It has only two options, Type IB and Type II, chosen by how complex the new wording is.
+D. Type IB is the default for all PSUR outcomes unless the authority asks for more data.
 
 **정답:** B
 
 **해설**
-- B: C.I.3은 둘뿐이다. (a) 당국 합의 문구 이행 = **Type IAIN**, (b) MAH가 새 추가 데이터를 내야 함 = **Type II**.
+- B: C.3은 셋이다. (a) 당국 합의 문구 이행 = **Type IAIN**, (b) 번역 미합의 등 사소한 추가 평가 = **Type IB**, (c) MAH가 새 추가 데이터를 내야 함 = **Type II**.
 - A: 두 분류를 뒤바꿨다.
-- C: 세 단계 선택지는 없다.
-- D: C.I.3에는 **IB 선택지가 없다**.
+- C: IAIN 선택지가 빠졌고, 분류 기준은 문구의 복잡도가 아니라 필요한 평가의 정도다.
+- D: IB는 기본값이 아니다. 사소한 추가 평가가 필요할 때만 C.3(b) IB다.
 
 ---
 
@@ -881,7 +881,7 @@ D. A Type IAIN variation, since safety changes are notified immediately.
 - B: 긴급하면 **USR**로 24시간 내 당국 미반대 시 즉시 시행하고, **15일 내 variation**으로 후속한다.
 - A: CBE-0는 미국 314.70 범주다.
 - C: DHPC는 소통 수단이다. SmPC 변경을 갱신 때까지 미룰 수 없다.
-- D: IAIN은 C.I.3 등 정해진 경우의 분류다. 새 안전성 정보는 Type IB/II다.
+- D: IAIN은 C.3(a) 등 정해진 경우의 분류다. 새 데이터에 따른 SmPC 변경은 Type II(C.4)다.
 
 ---
 
@@ -1088,7 +1088,7 @@ The same EV product is also authorised centrally in the EU. Long-term follow-up 
 
 A. Section 4.4 and 4.8 as "common" plus the PL, by Type II variation.
 B. Section 4.3 as a contraindication, by Urgent Safety Restriction alone.
-C. Section 4.8 as "very common", by Type IAIN under C.I.3.
+C. Section 4.8 as "very common", by Type IAIN under C.3.
 D. Section 4.4 and 4.8 as "uncommon" plus the PL, by Type IB variation.
 
 **정답:** A
@@ -1096,7 +1096,7 @@ D. Section 4.4 and 4.8 as "uncommon" plus the PL, by Type IB variation.
 **해설**
 - A: **4.4**(경고) + **4.8**(1.5%는 ≥1/100 ~ <1/10이라 **common**) + PL을 고치고 새 안전성 정보라 **Type II variation**으로 낸다. RMP 갱신이 따르고, 심각하면 USR을 쓴다.
 - B: 지연성 과민반응은 금기 근거로 제시되지 않았고, USR도 variation 후속이 필요하다.
-- C: very common은 ≥1/10이고, C.I.3 IAIN은 PSUR 결과의 합의 문구 이행 분류다.
+- C: very common은 ≥1/10이고, C.3 IAIN은 PSUR 결과의 합의 문구 이행 분류다.
 - D: 1.5%는 uncommon(<1/100)이 아니다.
 
 ---

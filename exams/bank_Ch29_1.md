@@ -197,7 +197,7 @@ D. 505(o)(3) is limited to safety purposes and conditions, so other agreed studi
 **해설**
 - D: 505(o)(3)는 **안전성 목적 + 기존 체계 불충분 요건**으로 범위가 제한된다. DDI·특수집단 PK, CMC 안정성, 효능 보조 연구는 요구할 수 없으니, 합의하면 PMC로 기록·추적해 투명성을 확보한다.
 - A: PMR·PMC 구분은 제품 종류가 아니라 법적 근거로 한다.
-- B: PMC도 506B로 추적된다. 506B를 대신하지 않는다.
+- B: 임상 안전성·효능·임상약리·비임상 독성 PMC는 506B로 추적된다. PMC가 506B를 대신하지 않는다.
 - C: PMC에는 PMR의 502(z) 제재가 없다.
 
 ---
@@ -225,13 +225,13 @@ A sponsor stops work on a CMC method-validation PMC without contacting FDA. Whic
 
 A. The commitment is automatically released once the sponsor stops reporting on it.
 B. FDA must issue a safety labeling change notice under 505(o)(4) within 30 days.
-C. No statutory sanction applies, but the status is reported and becomes public.
+C. No statutory sanction applies, but the sponsor must still report the status to FDA.
 D. The product is misbranded under 502(z), as for any missed obligation in the approval letter.
 
 **정답:** C
 
 **해설**
-- C: PMC 미이행에는 법적 제재가 없고 **공개·신뢰 비용**이 남는다. 일방 중단은 506B에 terminated로 드러난다.
+- C: PMC 미이행에는 법적 제재가 없고 **신뢰 비용**이 남는다. CMC PMC는 506B 연구가 아니라 314.81(b)(2)(viii)로 annual report에 상태를 보고하므로, 일방 중단은 그 보고에 드러난다.
 - A: 해제는 서면 요청과 FDA 동의가 있어야 한다. 보고 중단으로 생기지 않는다.
 - B: 505(o)(4) SLC는 새 안전성 정보에 따른 라벨 변경 절차다. CMC PMC 중단과 무관하다.
 - D: 502(z) misbranding은 PMR에 붙는다. PMC에는 해당하지 않는다.
@@ -422,7 +422,7 @@ Which postmarketing obligation sits OUTSIDE the PMR/PMC categories reported unde
 
 A. A REMS assessment under 505-1(g).
 B. A pharmacoepidemiology study under 505(o)(3).
-C. A CMC stability study agreed as a commitment.
+C. A drug-interaction PK study agreed as a commitment.
 D. A deferred pediatric study under 505B.
 
 **정답:** A
@@ -430,7 +430,7 @@ D. A deferred pediatric study under 505B.
 **해설**
 - A: **REMS assessment**(505-1(g): 18개월·3년·7년)는 REMS 자체 의무다. 506B 범주 밖이지만 추적표에는 넣는다.
 - B: 505(o)(3) 연구는 PMR이다.
-- C: 서면 합의한 CMC 연구는 PMC다.
+- C: 서면 합의한 DDI PK(임상약리) 연구는 506B 대상 PMC다. 참고로 CMC·안정성 PMC는 506B가 아니라 314.81(b)(2)(viii)로 보고한다.
 - D: 505B 연기 소아 연구는 PMR이다.
 
 ---
@@ -1146,7 +1146,7 @@ D. (1) PMC 506B; (2) PMR 505(o)(3); (3) PMR 505B; (4) PMR 506(c)(2)(A).
 **정답:** B
 
 **해설**
-- B: 안전성 위험 평가는 **505(o)(3) PMR**, CMC 안정성은 **PMC**, 연기 소아 연구는 **505B PMR**, AA 확증은 **506(c)(2)(A) PMR**이다. 넷 다 506B 대상이다.
+- B: 안전성 위험 평가는 **505(o)(3) PMR**, CMC 안정성은 **PMC**, 연기 소아 연구는 **505B PMR**, AA 확증은 **506(c)(2)(A) PMR**이다. (1)(3)(4)는 506B 대상이고, (2) 안정성 PMC는 506B가 아니라 314.81(b)(2)(viii)로 annual report에 보고한다.
 - A: AA 확증시험은 506(c)(2)(A)가 요구하는 PMR이다.
 - C: 연기 소아 연구는 PREA가 요구하는 PMR이다.
 - D: known serious risk 평가는 PMR이고, 안정성 연구는 505(o)(3) 목적 밖이다.

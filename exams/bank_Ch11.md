@@ -1,6 +1,6 @@
 # 문제은행 — Ch.11 환경 위험 평가(ERA): 미국 NEPA·21 CFR 25와 EU ERA guideline Rev. 1
 
-> **근거:** `textbook/Ch11.md` + `cards/Ch11.md` 검증 메모(21 CFR 25.15·25.21·25.31(b)·25.31(c)·25.40–42, FDA CDER Environmental Impact Review, EMA ERA guideline Rev. 1(채택 2024-02-15, 시행 2024-09-01, action limit 0.01 µg/L, log Kow > 4.5 PBT, Fpen 1%), Dir 2001/83 Art 8(3)(ca)·10(1), eCTD Module 1.12.14·1.6). EU 면제·간략화 범주(세포·EV)는 "(확인 필요)"라 정답 키로 쓰지 않았다. 새 숫자 없음. 계산 문항은 위 상수로만 계산했다.
+> **근거:** `textbook/Ch11.md` + `cards/Ch11.md` 검증 메모(21 CFR 25.15·25.21·25.31(b)·25.31(c)·25.40–42, FDA CDER Environmental Impact Review, EMA ERA guideline Rev. 1(채택 2024-02-15, 시행 2024-09-01, action limit 0.01 µg/L, log Kow > 4.5 PBT, Fpen 1%), Dir 2001/83 Art 8(3)(ca)·10(1), eCTD Module 1.12.14·1.6). EU 정당화 범주는 2026-11-28 원문 확인: Rev. 1 Phase I Q1 자연 발생 물질(비타민·전해질·아미노산·펩타이드·단백질·뉴클레오타이드·탄수화물·지질)·herbal·adjuvant 없는 백신은 ERA를 정당화로 갈음, GMO 제품은 범위 밖, 세포·EV는 직접 열거되지 않는다. 새 숫자 없음. 계산 문항은 위 상수로만 계산했다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-26. 64문항.
 
@@ -912,10 +912,10 @@ D. State the exemption, since Rev. 1 lists cell-derived products by name, and om
 **정답:** B
 
 **해설**
-- B: 세포·EV 자체가 EU에서 면제·간략화 범주로 갈 가능성은 높지만 **Rev. 1의 범위는 문서로 확인**해야 한다. 어느 쪽이든 **배지 잔류 소분자·항생제·동결보존제**의 정당화 문서를 준비한다. Module 1.6은 validation 항목이라 빠지면 접수부터 막힌다.
+- B: Rev. 1은 자연 발생 물질(단백질·지질·뉴클레오타이드 등)에 대해 ERA를 연구 대신 **정당화**로 갈음하게 하지만, 세포·EV는 이름으로 열거되지 않으므로 이 범위에 든다는 논증을 문서로 세워야 한다. 어느 쪽이든 **배지 잔류 소분자·항생제·동결보존제**의 정당화 문서를 준비한다. Module 1.6은 validation 항목이라 빠지면 접수부터 막힌다.
 - A: 교과서는 EV 자체에 Phase II 전체 평가를 요구한다고 하지 않는다.
 - C: 25.31(c)는 미국 규정이다. EU에선 Rev. 1을 본다.
-- D: 면제 범위는 확인 필요 사항이라 단정할 수 없고, 잔류 소분자를 빼면 안 된다.
+- D: Rev. 1은 세포 유래 제품을 이름으로 열거하지 않고, 자연 발생 물질도 완전 면제가 아니라 정당화 문서를 낸다. 잔류 소분자를 빼면 안 된다.
 
 ---
 

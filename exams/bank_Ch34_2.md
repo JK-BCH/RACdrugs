@@ -1029,15 +1029,15 @@ D. The US abolished periodic reports in favour of Sentinel queries once ARIA rea
 The EU QPPV resigns, and the PSMF moves to another member state. What regulatory notification is needed in the EU and the US?
 
 A. EU: update the Article 57 database only, with no variation; US: no statutory notification.
-B. EU: Type IAIN variation C.I.8 within 14 days; US: notify FDA through a CBE-0 supplement.
+B. EU: Type IAIN variation C.8 within 14 days; US: notify FDA through a CBE-0 supplement.
 C. EU: Type II variation, because the QPPV is part of the MA; US: notify FDA within 15 days.
 D. EU: notify the PRAC for approval before the change; US: name a QPPV equivalent in Form 356h.
 
 **정답:** A
 
 **해설**
-- A: 2016-02-01부터 QPPV·연락처·PSMF 위치 변경은 **Art 57 DB(xEVMPD) 갱신만**으로 통지하고 **C.I.8 Type IAIN variation은 내지 않는다**. PSMF logbook도 갱신한다. 미국은 법정 QPPV가 없어 **통지 의무가 없다**(연락처 갱신 권장).
-- B: C.I.8 variation은 2016-02-01 이후 쓰지 않는다. 미국 라벨 보충과는 무관하다.
+- A: 2016-02-01부터 QPPV·연락처·PSMF 위치 변경은 **Art 57 DB(xEVMPD) 갱신만**으로 통지하고 **C.8 Type IAIN variation은 내지 않는다**. PSMF logbook도 갱신한다. 미국은 법정 QPPV가 없어 **통지 의무가 없다**(연락처 갱신 권장).
+- B: C.8 variation은 2016-02-01 이후 쓰지 않는다. 미국 라벨 보충과는 무관하다.
 - C: Type II가 아니다. variation 자체가 불요하다.
 - D: PRAC 승인 절차는 없고, 미국엔 QPPV 대응 직위가 없다.
 
@@ -1049,7 +1049,7 @@ Since 2016-02-01, how is a change of the EU QPPV or of the PSMF location notifie
 A. By updating the Article 57 database only.
 B. By a Type IB variation with the updated PSMF summary.
 C. By letter to each national competent authority.
-D. By a Type IAIN variation under classification C.I.8.
+D. By a Type IAIN variation under classification C.8.
 
 **정답:** A
 
@@ -1057,7 +1057,7 @@ D. By a Type IAIN variation under classification C.I.8.
 - A: **2016-02-01**부터 **Art 57 DB 갱신만**으로 통지한다. variation도 수수료도 없다.
 - B: Type IB 경로는 없다.
 - C: 국가별 서신이 아니라 단일 DB 갱신이다. 일부 회원국의 국가 담당자 신고는 별개다.
-- D: C.I.8 IAIN은 2016-02-01 이전 방식이다.
+- D: C.8 IAIN은 2016-02-01 이전 방식이다.
 
 ---
 

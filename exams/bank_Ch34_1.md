@@ -782,7 +782,7 @@ An MAH's QPPV resigns and the PSMF moves to another member state. How are these 
 A. By a letter to PRAC, which then publishes the change in its monthly meeting minutes.
 B. By updating the Article 57 database, which since 1 February 2016 is the sole notification needed.
 C. By a Type II variation for each marketing authorisation, with assessment before the change takes effect.
-D. By a Type IAIN variation under classification C.I.8, submitted immediately after implementation.
+D. By a Type IAIN variation under classification C.8, submitted immediately after implementation.
 
 **정답:** B
 
@@ -790,7 +790,7 @@ D. By a Type IAIN variation under classification C.I.8, submitted immediately af
 - B: 2016-02-01부터 QPPV(연락처 포함)·PSMF 위치 변경은 **Art 57 DB 갱신만**으로 통지한다. variation은 내지 않는다. PSMF logbook도 갱신한다.
 - A: PRAC 서신 절차는 없다.
 - C: Type II는 대상이 아니다.
-- D: C.I.8 Type IAIN은 2016-02-01 이후 쓰지 않는다.
+- D: QPPV 변경에 C.8 Type IAIN을 쓰지 않는다(2016-02-01부터 Art 57 DB 갱신; C/2025/5045의 C.8은 MAH 변경 후 NAP의 PV 시스템 요약 도입용).
 
 ---
 

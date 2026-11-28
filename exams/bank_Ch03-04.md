@@ -1,6 +1,6 @@
 # 문제은행 — Ch.3+4 GLP·비임상 개발 원칙 / Safety pharmacology
 
-> **근거:** `textbook/Ch03-04.md` + `cards/Ch03-04.md` 검증 메모(21 CFR 58 조문, GLP QS NPRM 90 FR 5426, ICH S7A·S7B·E14/S7B Q&A 2022, M3(R2), OECD GLP·Dir 2004/9·2004/10·MAD). GLP QS **최종규칙 공표 여부는 미확인** — Q07은 "확인 절차"를 정답으로 두고 공표 여부를 단정하지 않는다.
+> **근거:** `textbook/Ch03-04.md` + `cards/Ch03-04.md` 검증 메모(21 CFR 58 조문, GLP QS NPRM 81 FR 58342(2016-08-24), ICH S7A·S7B·E14/S7B Q&A 2022, M3(R2), OECD GLP·Dir 2004/9·2004/10·MAD). GLP QS **최종규칙은 기준일까지 없다**(2026-08 Unified Agenda에 새 NPRM 계획만 있음) (2026-11-28 원문 확인). Q07·Q33은 "최종규칙 확인, 그 전엔 현행 Part 58"을 정답으로 둔다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-24. 68문항(Q01–Q17 초판 + Q18–Q68 증보). 유형 R 23 / A 35 / An 10.
 
@@ -118,15 +118,15 @@ D. The CRO may destroy records whose minimum retention period has elapsed, witho
 It is September 2026. A quality head asks whether the "new GLP Quality System rule" governs an ongoing rat carcinogenicity study. Which is the correct regulatory posture?
 
 A. Confirm whether a final rule is published and effective; until then, current Part 58 governs.
-B. No — the proposal was withdrawn after the comment period closed in May 2025.
-C. Yes — the January 2025 proposal took effect on publication, so ongoing studies moved to the quality-system basis.
+B. No — the proposal was withdrawn after the comment period closed in January 2017.
+C. Yes — the August 2016 proposal took effect on publication, so ongoing studies moved to the quality-system basis.
 D. Yes — OECD GLP principles apply directly in US studies, so the quality-system approach already governs.
 
 **정답:** A
 
 **해설**
-- A: FDA는 **2025-01-16 NPRM(90 FR 5426)** 으로 Part 58을 quality system 기반으로 바꾸려 했다(의견 마감 2025-05-16). **최종규칙 공표·시행일은 확인되지 않았다**. 답은 두 단계: 공표 전이면 현행 Part 58, 공표됐어도 시행일 전이면 구 규정.
-- B: 철회 사실은 확인된 바 없다. 근거 없는 단정이다.
+- A: FDA의 GLP QS 제안은 **2016-08-24 NPRM(81 FR 58342)** 이고(의견 마감 2017-01-21) **최종규칙은 없다**. 2026-08 Unified Agenda는 새 NPRM을 계획으로만 올렸다. 답은 두 단계: 최종규칙 공표·시행 전이면 현행 Part 58, 공표됐어도 시행일 전이면 구 규정. 2026-09-01엔 현행 Part 58이다.
+- B: 철회 공고는 없다. 2026-08 Unified Agenda가 새 NPRM과 함께 2016 제안 철회를 계획으로 올렸을 뿐이다.
 - C: NPRM(proposed rule)은 효력이 없다. 공표 즉시 시행도 아니다.
 - D: OECD 원칙은 미국 법이 아니다. MAD는 데이터 수용 얘기다.
 
@@ -179,7 +179,7 @@ D. Both frameworks prohibit multi-site studies, so a global CRO must keep each G
 **정답:** A
 
 **해설**
-- A: OECD GLP에는 **multi-site study·principal investigator**(각 site의 위임 책임자) 개념이 있어 SD가 원격 site를 통제하는 틀을 준다. **Part 58에는 없다**. 글로벌 CRO는 OECD 틀로 운영하고 FDA 제출 시 58 요건을 매핑한다. 2025 NPRM이 이 격차를 메우려는 개정이다.
+- A: OECD GLP에는 **multi-site study·principal investigator**(각 site의 위임 책임자) 개념이 있어 SD가 원격 site를 통제하는 틀을 준다. **Part 58에는 없다**. 글로벌 CRO는 OECD 틀로 운영하고 FDA 제출 시 58 요건을 매핑한다. 2016 NPRM이 이 격차를 메우려던 개정이다.
 - B: 방향이 반대다.
 - C: Part 58에 PI 개념이 없다는 게 핵심이다.
 - D: 금지 규정은 없다. 글로벌 CRO는 OECD 틀로 multi-site 시험을 운영한다.
@@ -577,16 +577,16 @@ A CRO's proposal states: "We operate under the new FDA GLP Quality System final 
 
 A. Accept if the CRO is OECD GLP-certified, because OECD principles override Part 58 for US submissions.
 B. Confirm whether a final rule is published and effective; until then, the 58.35 QAU requirement applies.
-C. Accept — the 2025 proposed rule replaced Part 58's QAU requirement when it was published in the Federal Register.
-D. Reject the CRO — FDA formally withdrew the Quality System proposal after the May 2025 comment deadline.
+C. Accept — the 2016 proposed rule replaced Part 58's QAU requirement when it was published in the Federal Register.
+D. Reject the CRO — FDA formally withdrew the Quality System proposal after the January 2017 comment deadline.
 
 **정답:** B
 
 **해설**
-- B: 2025-01-16 NPRM(90 FR 5426)은 **제안**이다. **최종규칙 공표·시행일은 확인되지 않았다**. 확인 전엔 현행 **Part 58**이 유효하고, 공표됐어도 시행일 전이면 구 규정이다.
+- B: 2016-08-24 NPRM(81 FR 58342)은 **제안**이고 **최종규칙은 없다**. 현행 **Part 58**이 유효하고, 최종규칙이 공표돼도 시행일 전이면 구 규정이다.
 - A: OECD 원칙은 미국 법이 아니다.
 - C: NPRM은 효력이 없다. 공표 즉시 시행도 아니다.
-- D: 철회는 확인된 사실이 아니다.
+- D: 철회 공고는 없다. 2026-08 Agenda에 철회 계획만 있다.
 
 ---
 
@@ -594,17 +594,17 @@ D. Reject the CRO — FDA formally withdrew the Quality System proposal after th
 Which statement about FDA's GLP Quality System proposed rule is correct?
 
 A. It proposes to abolish the QAU and study director roles in favour of a sponsor-led quality system.
-B. It was published on 16 May 2025, with comments closing 16 January 2026, and took effect on publication.
-C. Published 16 January 2025 at 90 FR 5426; comments closed 16 May 2025; quality-system basis aligned with OECD GLP.
-D. It was published as a final rule on 16 January 2025 and is in force, replacing Part 58 for studies started after that date.
+B. It was published on 21 January 2017, with comments closing 24 August 2016, and took effect on publication.
+C. Published 24 August 2016 at 81 FR 58342; comments closed 21 January 2017 after extension; quality-system basis aligned with OECD GLP.
+D. It was published as a final rule on 24 August 2016 and is in force, replacing Part 58 for studies started after that date.
 
 **정답:** C
 
 **해설**
-- C: **2025-01-16 NPRM, 90 FR 5426**, 의견 마감 **2025-05-16**. 목표는 quality system 기반 전환, OECD GLP 정합, **multi-site study·sponsor 책임** 명시.
+- C: **2016-08-24 NPRM, 81 FR 58342**, 의견 마감 **2017-01-21**(연장, 81 FR 75351). 목표는 GLP Quality System 요구, OECD GLP 정합, **multi-site study·sponsor 책임** 명시.
 - A: 역할 폐지가 아니라 quality system 기반 재구성이다. sponsor 책임은 명시 대상이지 SD·QAU의 대체가 아니다.
-- B: 날짜가 뒤바뀌었다. NPRM은 공표로 효력이 생기지 않고, 시행일은 확인된 바 없다.
-- D: proposed rule이다. 최종규칙 공표 여부는 미확인이고, Part 58 대체도 확인된 사실이 아니다.
+- B: 날짜가 뒤바뀌었다. NPRM은 공표로 효력이 생기지 않는다.
+- D: proposed rule이다. 최종규칙은 공표되지 않았고 Part 58은 대체되지 않았다.
 
 ---
 
@@ -619,7 +619,7 @@ D. Study director with overall responsibility as the single point of study contr
 **정답:** A
 
 **해설**
-- A: OECD GLP에는 **multi-site study**와 **principal investigator**(각 site의 위임 책임자) 개념이 있다. **Part 58에는 없다**. 2025 NPRM이 메우려는 격차다.
+- A: OECD GLP에는 **multi-site study**와 **principal investigator**(각 site의 위임 책임자) 개념이 있다. **Part 58에는 없다**. 2016 NPRM이 메우려던 격차다.
 - B·C·D: 둘 다 뼈대가 같다 — study director, QAU, master schedule은 Part 58에도 있다.
 
 ---
@@ -1202,7 +1202,7 @@ D. Nothing yet — a final rule would apply to studies started after the sponsor
 **정답:** C
 
 **해설**
-- C: 두 단계 — **시행일 전이면 구 규정**이 적용되고, 시행되면 **multi-site·sponsor 책임 구조**가 바뀌므로 **CRO 계약서를 다시 본다**. NPRM(2025-01-16, 90 FR 5426)이 multi-site study·sponsor 책임 명시를 목표로 했다. 공표 여부 자체는 확인 대상이다.
+- C: 두 단계 — **시행일 전이면 구 규정**이 적용되고, 시행되면 **multi-site·sponsor 책임 구조**가 바뀌므로 **CRO 계약서를 다시 본다**. NPRM(2016-08-24, 81 FR 58342)이 multi-site study·sponsor 책임 명시를 목표로 했다. 2026-08 Agenda는 새 NPRM을 계획 중이다.
 - A: 중단 요건은 없다.
 - B: OECD 원칙은 미국 법이 아니다. Part 58 개정이 미국 요건이다.
 - D: 적용 시점은 시행일로 정해진다. 신청 제출 시점이 아니다.

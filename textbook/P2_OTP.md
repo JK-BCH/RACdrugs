@@ -1,7 +1,7 @@
 # Phase 2 ① — CBER OTP: 세포·유전자치료의 단일 창구, "제품 = 공정"이라는 전제
 
 > **덱:** P2_OTP (20장). Phase 2 특화 주제 1/6.
-> **검증 메모(2026-11-22):** FDA **CGT FAQ 최종 guidance FR 2026-08-20**(기준일 직전 → 시험 범위 안); CBER **CMC 유연성 성명 2026-01-11**; **Potency Assurance 최종 2026-11-02 → 기준일 이후**(현행 = 2011 Potency Tests + 2023-12 초안); **Manufacturing Changes & Comparability 초안 2023-07**(2026 agenda); **Platform Technology Designation**(506K) 초안 2024-05, 첫 지정 Sarepta AAVrh74 2025-06 → 2025-07 철회, Krystal HSV-1 2025-10; **Expedited Programs for RMT 초안 2025-09-20**(+ 2025 가을 CGT 초안 3종); 동종세포 안전성 시험 초안 2024-04 → 2025-01-23 DB 삭제; **RPD PRV 재승인 2026-02-03 → 2029-09-30**; AMT designation 최종 2025-01 — 덱 메모 기준. OTP 조직(2023 super office)·CTGTAC·TRG·INTERACT 75/pre-IND 60/IND 30·312.42·210.2(c)·CMC guidance 목록·21 CFR 610·601.2·600.14/.80·1271 C·D·CPGM 7345.848/7341.002·START pilot·EMA/CAT/22473/2025는 ○. "?": OTP 산하 office 정확한 명칭·수.
+> **검증 메모(2026-11-22):** FDA **CGT FAQ 최종 guidance FR 2026-08-20**(기준일 직전 → 시험 범위 안); CBER **CMC 유연성 성명 2026-01-11**; **Potency Assurance 최종 2026-11-02 → 기준일 이후**(현행 = 2011 Potency Tests + 2023-12 초안); **Manufacturing Changes & Comparability 초안 2023-07**(2026 agenda); **Platform Technology Designation**(506K) 초안 2024-05, 첫 지정 Sarepta AAVrh74 2025-06 → 2025-07 철회, Krystal HSV-1 2025-10; **Expedited Programs for RMT 초안 2025-09-20**(+ 2025 가을 CGT 초안 3종); 동종세포 안전성 시험 초안 2024-04 → 2025-01-23 DB 삭제; **RPD PRV 재승인 2026-02-03 → 2029-09-30**; AMT designation 최종 2025-01 — 덱 메모 기준. OTP 조직(2023 super office)·CTGTAC·TRG·INTERACT 75/pre-IND 60/IND 30·312.42·210.2(c)·CMC guidance 목록·21 CFR 610·601.2·600.14/.80·1271 C·D·CPGM 7345.848/7341.002·START pilot·EMA/CAT/22473/2025는 ○. OTP 산하 office 6개(아래 OTP 항목; FDA CBER 조직 페이지) (2026-11-28 원문 확인).
 
 ## 학습 목표
 1. **OTP**가 무엇이고(2023 super office), 법적 틀(**PHS 351 + 600/601/610 + 312 + 1271 + 210/211**)과 자문·분류 기구(CTGTAC·TRG·RFD)를 안다.
@@ -11,7 +11,7 @@
 5. 가속 도구·LTFU·전임상 2013·사찰·expanded access를 CGT 맥락으로 연결하고, **미국 OTP vs EU CAT/CHMP**를 비교한다.
 
 ## 1. OTP — 무엇을, 누가
-- **OTP(Office of Therapeutic Products)**: 2023 CBER 재조직에서 **OTAT**를 격상한 **super office** — 세포치료·유전자치료·치료용 조직공학·351 HCT/P·조합(CAR T, AAV·렌티 유전자치료, 유전체 편집, 동종·자가 세포, 종양용해 바이러스, 치료 백신, 미생물군 일부). 산하 office: **CMC**(세포·조직 / 유전자치료 분리), **임상 평가**, **약리·독성**, 심사 관리 등(정확한 수·명칭 확인 필요).
+- **OTP(Office of Therapeutic Products)**: 2023 CBER 재조직에서 **OTAT**를 격상한 **super office** — 세포치료·유전자치료·치료용 조직공학·351 HCT/P·조합(CAR T, AAV·렌티 유전자치료, 유전체 편집, 동종·자가 세포, 종양용해 바이러스, 치료 백신, 미생물군 일부). 산하 office **6개**: Office of **Gene Therapy CMC** · Office of **Cellular Therapy and Human Tissue CMC** · Office of **Plasma Protein Therapeutics CMC** · Office of **Clinical Evaluation** · Office of **Pharmacology/Toxicology** · Office of **Review Management and Regulatory Review**(2023-02-26 시행) (2026-11-28 원문 확인).
 - **법적 틀**: **PHS 351 BLA + 21 CFR 600/601/610 + 312(IND) + 1271(공여자·cGTP) + 210/211**. 자문위 **CTGTAC**. 분류: **Tissue Reference Group**(CBER-CDRH 비공식·비구속, 361/351·기기 경계) vs **RFD**(Part 3, OCP, **60일**, 구속). 초기 소통 **INTERACT**(2018~).
 - **"제품 = 공정"**: 세포·EV·벡터는 분석으로 완전 규정 불가 → 품질은 **공정 통제의 산물** → 변경마다 comparability, 역가는 **matrix**(2011), 무균은 **대체 신속법**(610.12), 짧은 유효기간은 **조건부 출하**.
 

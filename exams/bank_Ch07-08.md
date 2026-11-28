@@ -1,6 +1,6 @@
 # 문제은행 — Ch.7+8 국소 내성 · 유전독성(M7 포함)
 
-> **근거:** `textbook/Ch07-08.md` + `cards/Ch07-08.md` 검증 메모(EMA 국소내성 가이드라인 Rev. 1 EMA/CHMP/SWP/2145/2000, ICH M3(R2) §8 국소 내성·§9 유전독성, ICH S2(R1) Option 1·2, ICH M7(R2) TTC·LTL AI·5 class·(Q)SAR·cohort of concern·통제 옵션 1~4·적용 범위, M4S CTD 위치, 21 CFR 312.23(a)(8)). 새 숫자 없음. 계산 문항은 M7(R2) AI 상수로만 계산했다. FDA 2024 Ames 양성 후속 draft guidance의 최종화 여부(미확인)는 정답 키로 쓰지 않았다.
+> **근거:** `textbook/Ch07-08.md` + `cards/Ch07-08.md` 검증 메모(EMA 국소내성 가이드라인 Rev. 1 EMA/CHMP/SWP/2145/2000, ICH M3(R2) §8 국소 내성·§9 유전독성, ICH S2(R1) Option 1·2, ICH M7(R2) TTC·LTL AI·5 class·(Q)SAR·cohort of concern·통제 옵션 1~4·적용 범위, M4S CTD 위치, 21 CFR 312.23(a)(8)). 새 숫자 없음. 계산 문항은 M7(R2) AI 상수로만 계산했다. FDA 2024-11 Ames 양성 후속 guidance는 2026-09-01 기준 draft다 (2026-11-28 원문 확인).
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-26. 64문항.
 
@@ -569,7 +569,7 @@ D. ICH M3(R2) §9 exempts Ames positives from follow-up when the clinical trial 
 
 **해설**
 - B: Ames 양성 후속은 **기전·대사 활성 조건·in vivo 관련성**으로 weight-of-evidence를 만드는 것이다.
-- A: FDA가 2024년에 Ames 양성 후속시험 draft guidance를 냈다는 것까지만 확인되고 최종화 여부는 확인되지 않았다. 그 내용을 근거로 단정할 수 없다.
+- A: FDA의 2024-11 Ames 양성 후속시험 guidance는 2026-09-01 기준 draft이고 최종화되지 않았다. draft는 시험을 의무화하지 않는다.
 - C: 발암성 시험을 첫 단계로 요구한다는 근거는 없다.
 - D: M3(R2) §9는 시점 규칙이고 양성 후속을 면제하지 않는다.
 

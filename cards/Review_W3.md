@@ -3,6 +3,7 @@
 **달력:** 2026-12-20 (일) · 범위: Ch.16 분석법 수명주기 · Ch.17 신청 유형 · Ch.18 phases · Ch.19 diversity · Ch.20 HA interactions · Ch.21 pediatrics
 
 ## 검증 메모 (2026-11-22)
+- ✔ EU variation 분류는 **C/2025/5045**(OJ 2025-09-22, **2026-01-15 적용**, 2013/C 223/01 대체) 기준 — Annex 장 E(행정)/Q(품질)/C(안전·효능·PV)/M(PMF/VAMF), 2013 B.x → Q.x, C.I.x → C.x로 재번호 (2026-11-28 원문 확인)
 - 이 덱의 숫자는 Ch16 / Ch17 / Ch18 / Ch19 / Ch20 / Ch21 덱의 검증 메모에 근거한다. 새 사실 없음.
 
 ## 비교표 3개
@@ -47,7 +48,7 @@
 
 **2. [A][Domain II]**
 *Front:* A method change is "within the ATP" per Q14. Does that mean no regulatory submission in the EU?
-*Back:* 아니야 — EU는 variation 분류가 **법정**(Reg 1234/2008)이라 ATP 논리는 **정당화**일 뿐 카테고리(B.II.d.2 등)를 면제하지 않아. 미국은 Q12 ECs·comparability protocol로 더 유연. (ICH Q14/Q12, Reg 1234/2008)
+*Back:* 아니야 — EU는 variation 분류가 **법정**(Reg 1234/2008)이라 ATP 논리는 **정당화**일 뿐 카테고리(Q.II.d.2 등)를 면제하지 않아. 미국은 Q12 ECs·comparability protocol로 더 유연. (ICH Q14/Q12, Reg 1234/2008)
 
 **3. [An][Domain I]**
 *Front:* Why is "verification" (USP <1226>) sufficient for compendial methods but "validation" required for in-house methods?
@@ -111,7 +112,7 @@
 
 **18. [An][Domain I]**
 *Front:* Why does FDA treat race/ethnicity collection as a regulatory matter rather than just good science?
-*Back:* **일관된 범주·자가 보고**가 없으면 314.50 하위군 분석과 Drug Trials Snapshots 공개가 **비교 불가능**해지고, DAP 목표 달성 여부도 측정할 수 없어. 그래서 2016 guidance가 OMB 범주·2문항을 표준으로 정했고, OMB 2024 개정 반영 여부를 확인해야 해. (FDA 2016 guidance)
+*Back:* **일관된 범주·자가 보고**가 없으면 314.50 하위군 분석과 Drug Trials Snapshots 공개가 **비교 불가능**해지고, DAP 목표 달성 여부도 측정할 수 없어. 그래서 2016 guidance가 OMB 범주·2문항을 표준으로 정했고, OMB 2024 개정은 기준일 FDA guidance에 반영되지 않았어 (2026-11-28 원문 확인). (FDA 2016 guidance)
 
 **19. [R][Domain III]**
 *Front:* What is the FDA response time for a Type B (EOP) meeting request, and when are preliminary responses sent?

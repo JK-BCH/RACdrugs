@@ -1,6 +1,6 @@
 # 문제은행 — Ch.25 (1/2) 전자 제출(eCTD): 개념·구조
 
-> **근거:** `textbook/Ch25.md` + `cards/Ch25_1.md`·`cards/Ch25_2.md` 검증 메모(ICH M8·M4, FD&C 745A(a)(FDASIA 2012 §1136), FDA eCTD 의무 2017-05-05/2018-05-05/2019-05-05, CDISC 2016-12-17/2017-12-17, FDA validation criteria·TCG, ESG NextGen 2025-04-14, HMA eSubmission Roadmap, EMA 포털·SPOR, eCTD v4.0 일정, 21 CFR Part 11·2003 Scope guidance). 새 숫자 없음. 계산 문항은 위 날짜로만 계산했다. "?"(2253 eCTD 의무 연도)는 정답 키로 쓰지 않았다.
+> **근거:** `textbook/Ch25.md` + `cards/Ch25_1.md`·`cards/Ch25_2.md` 검증 메모(ICH M8·M4, FD&C 745A(a)(FDASIA 2012 §1136), FDA eCTD 의무 2017-05-05/2018-05-05/2019-05-05, CDISC 2016-12-17/2017-12-17, FDA validation criteria·TCG, ESG NextGen 2025-04-14, HMA eSubmission Roadmap, EMA 포털·SPOR, eCTD v4.0 일정, 21 CFR Part 11·2003 Scope guidance). 새 숫자 없음. 계산 문항은 위 날짜로만 계산했다. 2253 eCTD 의무는 2021-06-24다 (2026-11-28 원문 확인).
 > **형식:** 영문 지문 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain. 기준일 2026-09-01.
 > **작성:** 2026-11-27. 64문항.
 

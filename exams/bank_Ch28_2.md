@@ -896,7 +896,7 @@ D. A new NB opinion and a Type II variation, because any supplier change is a ch
 **정답:** C
 
 **해설**
-- C: EMA Q&A: **GSPR 적합성에 영향 없음**(동일 규격·검증 유지)을 MAH가 정당화하면 **NB 재의견 불요**, variation은 **Type IA/IB**(B.II.e)다. 동등성·성능 시험 문서는 3.2.R에 둔다.
+- C: EMA Q&A: **GSPR 적합성에 영향 없음**(동일 규격·검증 유지)을 MAH가 정당화하면 **NB 재의견 불요**, variation은 **Type IA/IB**(Q.II.e)다. 동등성·성능 시험 문서는 3.2.R에 둔다.
 - A: integral 기기는 MA 안에 있으므로 variation이 필요하다.
 - B: integral 기기는 CE가 아니라 Art 117 opinion으로 증명한다.
 - D: 영향이 있을 때가 Type II + 갱신 opinion이다. 공급자 변경이 자동으로 그쪽으로 가지 않는다.

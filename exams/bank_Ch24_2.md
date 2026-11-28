@@ -1,6 +1,6 @@
 # 문제은행 — Ch.24 (2/2) 이익-위험 평가: 네 가지 불확실성·위험관리·시판 후 역전·HTA
 
-> **근거:** `textbook/Ch24.md` + `cards/Ch24_1.md`·`cards/Ch24_2.md` 검증 메모(FD&C 506(c)·FDORA §3210 신속 철회 506(c)(3)·6개월 진행 보고, FDAMA §115, CPMP/EWP/2330/99(2001), ICH E9(R1)·E10, FDA *Multiple Endpoints*(2022)·*Rare Diseases*(2023), 21 CFR 314.126, FD&C 505-1 REMS 요소·평가 18개월/3년/7년·505-1(f)(2), GVP Module XVI aRMM, 505(o)(4) SLC 30일·505(e), Reg 726/2004 Art 20·Dir 2001/83 Arts 31·107i·116, Reg 507/2006 Arts 6–7, HTA 상대 기준). 2024-12 AA draft의 최종화 여부와 PFDD 3·4는 정답 키로 쓰지 않았다. 새 숫자 없음. 날짜 계산 문항은 위 상수로만 계산했다.
+> **근거:** `textbook/Ch24.md` + `cards/Ch24_1.md`·`cards/Ch24_2.md` 검증 메모(FD&C 506(c)·FDORA §3210 신속 철회 506(c)(3)·6개월 진행 보고, FDAMA §115, CPMP/EWP/2330/99(2001), ICH E9(R1)·E10, FDA *Multiple Endpoints*(2022)·*Rare Diseases*(2023), 21 CFR 314.126, FD&C 505-1 REMS 요소·평가 18개월/3년/7년·505-1(f)(2), GVP Module XVI aRMM, 505(o)(4) SLC 30일·505(e), Reg 726/2004 Art 20·Dir 2001/83 Arts 31·107i·116, Reg 507/2006 Arts 6–7, HTA 상대 기준). 2024-12 AA guidance는 기준일 draft이고, PFDD 3은 2025-11 최종·4는 draft다 (2026-11-28 원문 확인). 새 숫자 없음. 날짜 계산 문항은 위 상수로만 계산했다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-27. 64문항.
 

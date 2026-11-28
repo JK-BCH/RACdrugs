@@ -1,6 +1,6 @@
 # 문제은행 — Ch.25 (2/2) 전자 제출: 잘못 내면 어떻게 되나·Module 1·제출 통로·기준일 상태
 
-> **근거:** `textbook/Ch25.md` + `cards/Ch25_1.md`·`cards/Ch25_2.md` 검증 메모(FD&C 745A(a)·FDASIA 2012 §1136, FDA eCTD 의무 2017-05-05/2018-05-05/2019-05-05, CDISC 2016-12-17/2017-12-17, FDA validation criteria high=거부·medium=접수 후 지적, TCG, US Module 1(1.1–1.16), 21 CFR 54 3454/3455·25,000 USD, SPL 1.14, grouped submission, ESG NextGen 2025-04-14, E2B(R3) IND 2026-04-01·시판 후 2026-10-01, EU eSubmission Roadmap, EU Module 1(1.0–1.10), worksharing, PSUR Repository 2016-06-13, SPOR RMS/OMS/PMS/SMS, eCTD v4.0 FDA 2024-09-16·2026-10-16, EU 2025-12-22·2027 Q1·2028 Q1). 2253 eCTD 의무 연도("?")는 정답 키로 쓰지 않았다. EU v4.0 선택 제출(2025-12-22)은 기준일 전이라 기준일엔 선택 제출 가능으로 다뤘다. 새 숫자 없음. 날짜 계산 문항은 위 상수로만 계산했다.
+> **근거:** `textbook/Ch25.md` + `cards/Ch25_1.md`·`cards/Ch25_2.md` 검증 메모(FD&C 745A(a)·FDASIA 2012 §1136, FDA eCTD 의무 2017-05-05/2018-05-05/2019-05-05, CDISC 2016-12-17/2017-12-17, FDA validation criteria high=거부·medium=접수 후 지적, TCG, US Module 1(1.1–1.16), 21 CFR 54 3454/3455·25,000 USD, SPL 1.14, grouped submission, ESG NextGen 2025-04-14, E2B(R3) IND 2026-04-01·시판 후 2026-10-01, EU eSubmission Roadmap, EU Module 1(1.0–1.10), worksharing, PSUR Repository 2016-06-13, SPOR RMS/OMS/PMS/SMS, eCTD v4.0 FDA 2024-09-16·2026-10-16, EU 2025-12-22·2027 Q1·2028 Q1). 2253 eCTD 의무는 2021-06-24다 (2026-11-28 원문 확인). EU v4.0 선택 제출(2025-12-22)은 기준일 전이라 기준일엔 선택 제출 가능으로 다뤘다. 새 숫자 없음. 날짜 계산 문항은 위 상수로만 계산했다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-27. 64문항.
 

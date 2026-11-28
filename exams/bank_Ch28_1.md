@@ -1,6 +1,6 @@
 # 문제은행 — Ch.28 (1/2) 복합제품: 개념·구조
 
-> **근거:** `textbook/Ch28.md` + `cards/Ch28_1.md`·`cards/Ch28_2.md` 검증 메모(21 CFR 3.2(e)/(m)·3.4·3.7·3.8 RFD 60일·자동 지정, OCP(MDUFMA 2002, FD&C 503(g)), Cures §3038, FDA *Principles of Premarket Pathways for Combination Products* 2022, FDA CDx guidance 2014, Part 4 Subpart A streamlined cGMP(4.3·4.4), QMSR 2026-02-02(ISO 13485:2016 §5·§7.3·§7.4·§8.5.2/8.5.3, 7382.850), Part 4 Subpart B(집행 2020-07-31·2021-01-31, 4.102, 4.103 정보 공유 5 calendar days), bridging draft 2019, HF draft 2016·CDRH 2016 final, MDR 2017/745 Art 1(8)/(9)·117·Annex IX §5.2, IVDR Art 48(3)–(4), EMA DDC guideline 2021). *Essential Drug Delivery Outputs* draft 상태(?)와 LDT 정책 변동(확인 필요)은 정답 키로 쓰지 않았다. 새 숫자 없음.
+> **근거:** `textbook/Ch28.md` + `cards/Ch28_1.md`·`cards/Ch28_2.md` 검증 메모(21 CFR 3.2(e)/(m)·3.4·3.7·3.8 RFD 60일·자동 지정, OCP(MDUFMA 2002, FD&C 503(g)), Cures §3038, FDA *Principles of Premarket Pathways for Combination Products* 2022, FDA CDx guidance 2014, Part 4 Subpart A streamlined cGMP(4.3·4.4), QMSR 2026-02-02(ISO 13485:2016 §5·§7.3·§7.4·§8.5.2/8.5.3, 7382.850), Part 4 Subpart B(집행 2020-07-31·2021-01-31, 4.102, 4.103 정보 공유 5 calendar days), bridging draft 2019, HF draft 2016·CDRH 2016 final, MDR 2017/745 Art 1(8)/(9)·117·Annex IX §5.2, IVDR Art 48(3)–(4), EMA DDC guideline 2021). LDT는 2024 final rule이 2025-03-31 vacate되고 2025-09-19 원상복구됐다 (2026-11-28 원문 확인). *Essential Drug Delivery Outputs* draft 상태(?)는 정답 키로 쓰지 않았다. 새 숫자 없음.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-27. 64문항.
 

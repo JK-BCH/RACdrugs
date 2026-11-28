@@ -71,7 +71,7 @@ D. Fulfilled, because the sponsor met the final report submission milestone in t
 **정답:** C
 
 **해설**
-- C: 최종 보고를 냈고 FDA 판단이 아직이면 **submitted**다. PMC도 506B 7범주로 보고한다.
+- C: 최종 보고를 냈고 FDA 판단이 아직이면 **submitted**다. 506B 대상 PMC(임상 안전성·효능·임상약리·비임상 독성)도 506B 7범주로 보고한다.
 - A: 최종 보고 제출이라는 사실이 이미 범주를 바꾼다.
 - B: released는 FDA가 의무를 면제한 경우다.
 - D: fulfilled는 **FDA가 인정**한 뒤의 상태다.
@@ -99,7 +99,7 @@ D. FDA has agreed in writing that the sponsor need not conduct the study.
 ### Q06 [A][Domain II] — PMC stability study now unnecessary
 The approval letter lists a PMC for a long-term stability study at 30°C/75% RH. New data show the study adds nothing, and the sponsor wants to stop it cleanly. What should the sponsor do?
 
-A. Send a written release request with scientific justification; if FDA agrees, report it as "released".
+A. Send a written release request with scientific justification; if FDA agrees, record the release in the annual report.
 B. Show that the 505(o)(3) conditions have ceased, since that test governs release of any postmarketing study.
 C. Stop the study and report it as "fulfilled", because a PMC is voluntary and its status is set by the sponsor.
 D. Stop the study and say nothing, because a PMC carries none of the legal sanctions and sits outside the 506B report.
@@ -107,10 +107,10 @@ D. Stop the study and say nothing, because a PMC carries none of the legal sanct
 **정답:** A
 
 **해설**
-- A: PMC는 서면 약속이라 **서면 release 요청**(과학적 정당화) → FDA 동의 시 506B에 **released**다.
+- A: PMC는 서면 약속이라 **서면 release 요청**(과학적 정당화) → FDA 동의 후 해제를 기록한다. 안정성 약속은 506B 연구가 아니라 **314.81(b)(2)(viii)** 로 annual report에 상태를 보고한다.
 - B: 505(o)(3) 조건 소멸 입증은 **PMR**을 해제할 때 필요한 것이다.
-- C: fulfilled는 FDA가 인정해야 하는 상태다. 일방 중단은 **terminated**로 공개된다.
-- D: PMC도 506B로 상태를 보고하고 공개된다. 제재가 없다고 보고 대상에서 빠지지 않는다.
+- C: fulfilled는 FDA가 인정해야 하는 상태다. 스폰서가 일방으로 정하지 않는다.
+- D: 안정성 PMC가 506B 밖이라는 점은 맞지만, 314.81(b)(2)(viii) annual report 상태 보고 대상이다. 제재가 없다고 보고 의무가 사라지지 않는다.
 
 ---
 
@@ -217,7 +217,7 @@ D. A PMR failure is made public, while a PMC failure stays confidential between 
 - C: PMR 미이행 → **misbranded(502(z))**, **민사 벌금(303(f))**, 공개. PMC는 법적 제재 없이 **공개·신뢰 비용**만 있다.
 - A: PMR에는 법적 제재가 있다.
 - B: misbranding은 PMR에만 붙는다.
-- D: PMC도 506B로 공개된다.
+- D: 506B 대상 PMC(임상 안전성·효능·임상약리·비임상 독성)도 506B로 공개된다.
 
 ---
 
@@ -1137,7 +1137,7 @@ D. As a PMC "pending", since the EU specific obligation already covers the study
 ---
 
 ### Q64 [A][Domain V] — counting 506B entries
-A sponsor has 3 PMRs and 2 PMCs in the US, plus an EU CMA with 2 specific obligations and an imposed PASS. How many obligations go into the US 506B annual status report?
+A sponsor has 3 PMRs and 2 clinical pharmacology PMCs in the US, plus an EU CMA with 2 specific obligations and an imposed PASS. How many obligations go into the US 506B annual status report?
 
 A. 5, the PMRs and PMCs
 B. 3, the PMRs alone
@@ -1147,8 +1147,8 @@ D. 8, the obligations of both regions
 **정답:** A
 
 **해설**
-- A: 506B는 각 **PMR·PMC**의 상태를 보고한다. 3 + 2 = **5**건이다.
-- B: PMC도 506B 대상이다.
+- A: 506B는 임상 안전성·효능·임상약리·비임상 독성에 관한 각 **PMR·PMC**의 상태를 보고한다. 3 + 2 = **5**건이다.
+- B: 임상약리 PMC도 506B 대상이다. CMC·안정성 PMC였다면 506B가 아니라 314.81(b)(2)(viii)로 보고한다.
 - C·D: EU SO·PASS는 미국 506B 범주가 아니다. EU 갱신·PRAC 절차로 다룬다.
 
 ---

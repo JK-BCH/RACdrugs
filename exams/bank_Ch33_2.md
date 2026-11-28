@@ -1069,14 +1069,14 @@ In the EU, the same shortening of shelf life is filed as which variation type?
 
 A. Type IB, since shortening is a notification that must wait 30 days.
 B. A Chapter 8 notice in place of a variation, since the recall notice covers the change.
-C. Type IA, under classification B.II.f.1 of the EU Variations Guidelines.
+C. Type IAIN, under classification Q.II.f.1 of the EU Variations Guidelines.
 D. Type II, since any change to shelf life needs a full scientific assessment.
 
 **정답:** C
 
 **해설**
-- C: 유효기간 **단축**은 EU Variations Guidelines **B.II.f.1** 상 **Type IA**다.
-- A·D: 단축은 IA로 분류된다.
+- C: 유효기간 **단축**은 EU Variations Guidelines **Q.II.f.1(a)** 상 **Type IAIN**(즉시 통지하는 IA)이다.
+- A·D: 단축은 IA(IAIN)로 분류된다.
 - B: Ch.8 통지가 variation을 대신하지 않는다.
 
 ---

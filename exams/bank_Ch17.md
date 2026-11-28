@@ -207,7 +207,7 @@ A 505(b)(2) NDA for a new extended-release form is approved on the basis of a ne
 A. The listed patents, extending each Orange Book patent term by 3 years.
 B. The active ingredient in each dosage form, blocking any ANDA for 3 years.
 C. The ER change only; generics of the original IR product are not blocked by it.
-D. Any product of the same class, because exclusivity attaches to the mechanism.
+D. Any product of the same class, because exclusivity attaches to the shared mechanism.
 
 **정답:** C
 
@@ -852,7 +852,7 @@ Which pairing of an EU legal basis with its US counterpart is correct?
 A. Article 10(1) generic — FD&C 505(b)(2).
 B. Article 10(3) hybrid — PHS Act 351(k).
 C. Article 10(4) similar biological — PHS Act 351(k).
-D. Article 10(4) similar biological — FD&C 505(b)(2).
+D. Article 10(4) similar biological route — FD&C 505(b)(2).
 
 **정답:** C
 

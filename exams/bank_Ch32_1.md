@@ -287,7 +287,7 @@ D. A batch-by-batch written confirmation from CDSCO for each API shipment enteri
 **정답:** C
 
 **해설**
-- C: Art 46b(Dir 2011/62)는 제3국 API에 수출국 당국의 written confirmation을 요구하고, 인도는 Art 111b 목록 밖이라 CDSCO 확인서가 필요하다. 공급원 변경 자체는 variation(B.I.a.1)으로 처리한다.
+- C: Art 46b(Dir 2011/62)는 제3국 API에 수출국 당국의 written confirmation을 요구하고, 인도는 Art 111b 목록 밖이라 CDSCO 확인서가 필요하다. 공급원 변경 자체는 variation(Q.I.a.1)으로 처리한다.
 - A: 스위스는 111b 목록 국가라 원래 면제였다. 새 공급원 국가 당국의 확인서가 필요하다.
 - B: NCA 사찰 GMP 인증서는 예외적 면제 경로다. 기본 요건은 written confirmation이다.
 - D: 확인서는 배치별이 아니라 제조소별이다.

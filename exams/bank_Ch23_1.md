@@ -1,6 +1,6 @@
 # 문제은행 — Ch.23 (1/2) 핵심 라벨링: 구조(PLR·SmPC)와 환자용 라벨
 
-> **근거:** `textbook/Ch23.md` + `cards/Ch23_1.md`·`cards/Ch23_2.md` 검증 메모(PLR 2006·21 CFR 201.56(d)·201.57(a)·(c)(1)·(c)(7), PLLR 2014-12-03 공포·2015-06-30 시행, 21 CFR 208·310.501/310.515·610.60–61, Dir 2001/83 Title V(Arts 54–69)·Art 11, SmPC guideline Rev 2(2009), readability guideline 2009, EMA QRD v10.4(2024-02-29), excipients guideline 2017, ICH E2C(R2) CCDS/CCSI). QRD v11 채택 여부는 미확인이라 정답 키로 쓰지 않았다. 새 숫자 없음. 계산 문항은 SmPC 4.8 경계값으로만 계산했다.
+> **근거:** `textbook/Ch23.md` + `cards/Ch23_1.md`·`cards/Ch23_2.md` 검증 메모(PLR 2006·21 CFR 201.56(d)·201.57(a)·(c)(1)·(c)(7), PLLR 2014-12-03 공포·2015-06-30 시행, 21 CFR 208·310.501/310.515·610.60–61, Dir 2001/83 Title V(Arts 54–69)·Art 11, SmPC guideline Rev 2(2009), readability guideline 2009, EMA QRD v10.4(2024-02-29), excipients guideline 2017, ICH E2C(R2) CCDS/CCSI). QRD v11은 2026-11-28 원문 확인 결과 초안(협의 종료, 미채택)이다. 새 숫자 없음. 계산 문항은 SmPC 4.8 경계값으로만 계산했다.
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-27. 64문항.
 
@@ -865,7 +865,7 @@ D. A readability test protocol for package leaflets; v11 applies after the 2025 
 - B: QRD는 중앙집중 제품의 SmPC·Annex II·라벨·PL **문장·순서·표준 문구**를 통일하는 템플릿이다. 현행은 **v10.4**(2024-02-29)다.
 - A: Blue Box는 회원국 요건이다.
 - C: QRD는 제품 정보 템플릿이고, 2024년 개정은 v10.4다.
-- D: v11 초안 채택 여부는 확인되지 않았다. 기준일엔 v10.4로 답한다.
+- D: v11은 초안이고 2026-11-28 현재도 채택되지 않았다. 기준일엔 v10.4로 답한다.
 
 ---
 
@@ -874,13 +874,13 @@ A labeling lead wants to add a "Key information" section to a centrally authoris
 
 A. Optional, because QRD templates are advisory and each MAH picks the version it prefers.
 B. Required for new MAAs, while existing products keep v10.4 until their next renewal.
-C. Follow v10.4, the current template; adoption of the v11 draft is not confirmed.
+C. Follow v10.4, the current template; the v11 draft has not been adopted.
 D. Required, because v11 took effect as soon as its public consultation closed in 2025.
 
 **정답:** C
 
 **해설**
-- C: 현행은 **v10.4**(2024-02-29)이고, **v11 초안**(PL에 Key information 신설, 2025-04-11~08-31 공개협의)은 채택 여부가 확인되지 않았다. 기준일엔 v10.4로 답한다.
+- C: 현행은 **v10.4**(2024-02-29)이고, **v11 초안**(PL에 Key information 신설, 2025-04-14~08-31 공개협의)은 2026-11-28 현재도 채택되지 않았다. 기준일엔 v10.4로 답한다.
 - A: QRD는 중앙집중 제품의 문장·순서를 통일하는 템플릿이다. 버전을 골라 쓰는 문서가 아니다.
 - B: 신규·기존을 나누는 적용 규칙은 교과서 근거가 없다.
 - D: 공개협의 종료가 채택을 뜻하지 않는다.
@@ -899,7 +899,7 @@ D. Removal of the national Blue Box from packaging of centralised products.
 
 **해설**
 - C: v10.4는 **Windsor Framework로 북아일랜드 관련 문구를 삭제**한 개정이다.
-- A: Key information은 v11 초안 내용이고, 채택 여부는 확인되지 않았다.
+- A: Key information은 v11 초안 내용이고, v11은 채택되지 않았다.
 - B: 4.8 빈도 범주는 SmPC guideline 내용이다.
 - D: Blue Box는 Art 57 국가별 정보로 그대로 있다.
 

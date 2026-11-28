@@ -321,8 +321,8 @@ D. US PAS and EU Type II, because the new scale lies outside the validated range
 **정답:** D
 
 **해설**
-- D: 미국은 검증 범위 **밖**·새 바이오리액터면 **PAS**, EU 생물의약품 규모 변경은 **Type II**(B.II.b.4)다.
-- A: EU는 생물의약품 규모 변경을 Type II로 본다.
+- D: 미국은 검증 범위 **밖**·새 바이오리액터면 **PAS**, EU는 생물 제품의 comparability 평가가 필요한 규모 변경이 **Type II**(Q.II.b.4(c), 활성물질이면 Q.I.a.3(c))다.
+- A: comparability 평가가 필요한 생물 규모 변경은 EU Type II다. 공정 변경 없는 라인 복제만 IB다.
 - B: 검증 범위 **안**의 규모 조정이면 미국 AR/CBE-30이 가능하다. 이 사례는 범위 밖이다.
 - C: 같은 공급사라는 이유로 AR·IA가 되지 않는다.
 
@@ -339,7 +339,7 @@ D. US PAS with extensive comparability, sometimes clinical data; EU Type II.
 **정답:** D
 
 **해설**
-- D: 새 MCB/WCB·공여자 세포 은행은 미국 **PAS**(+ 광범위 comparability, 때로 임상), EU **Type II**(B.I.a.1/.2)다.
+- D: 새 MCB/WCB·공여자 세포 은행은 미국 **PAS**(+ 광범위 comparability, 때로 임상), EU **Type II**(Q.I.a.1/.2)다.
 - A: 출하 데이터만으로는 부족하고, EU는 Type II다.
 - B: 공정이 같아도 공여자 = 출발 물질이므로 잠재적 신제품 수준의 변경이다.
 - C: 규격 충족만으로 comparability가 성립하지 않고, AR 대상도 아니다.
@@ -350,14 +350,14 @@ D. US PAS with extensive comparability, sometimes clinical data; EU Type II.
 After approval, an autologous CAR-T product changes the plasmid system and purification used to make its lentiviral vector. How is the change classified?
 
 A. US CBE-30; EU Type IB, because the vector is a starting material, not the drug product.
-B. US PAS (2023 draft example); EU Type II under B.I.a.1 and B.II.b.3.
+B. US PAS (2023 draft example); EU Type II under Q.I.a.1 and Q.II.b.3.
 C. US annual report if the vector meets the old specifications; EU Type IA.
 D. US PAS; EU Type IB, because the change sits upstream of drug product manufacture.
 
 **정답:** B
 
 **해설**
-- B: 벡터 생산 시스템(플라스미드·정제) 변경은 미국 **PAS**(2023 초안 예시), EU **Type II**(B.I.a.1·B.II.b.3)다.
+- B: 벡터 생산 시스템(플라스미드·정제) 변경은 미국 **PAS**(2023 초안 예시), EU **Type II**(Q.I.a.1·Q.II.b.3)다.
 - A: 벡터는 핵심 시작 물질이다. 시작 물질이라서 카테고리가 낮아지지 않는다.
 - C: 규격 충족은 Q5E상 불충분하고, AR·IA 대상이 아니다.
 - D: EU에서 생물의약품 시작 물질 제조자·공정 변경은 대부분 Type II다.
@@ -440,15 +440,15 @@ D. About 60 days, matching the Type II variation timetable for biological produc
 Under Regulation 1234/2008, how is the addition of a new manufacturing site for a biological active substance typically classified?
 
 A. Type IB, unless the site is outside the EU.
-B. Type II, as set by B.II.b.1 for biologicals.
-C. Type IB, as set by B.II.b.1 for biologicals.
+B. Type II, as set by Q.I.a.1 for biologicals.
+C. Type IB, as set by Q.I.a.1 for biologicals.
 D. Type IA, if the site holds a GMP certificate.
 
 **정답:** B
 
 **해설**
-- B: 생물의약품 **제조소 변경은 Type II**(B.II.b.1)다. 포장만 하는 사이트면 IA/IB다.
-- A: EU 내 사이트라도 생물의약품 제조소는 Type II다.
+- B: **생물 활성물질 제조소** 추가·교체는 **Type II**(Q.I.a.1(d))다. 완제 제조소는 Q.II.b.1이다.
+- A: EU 내 사이트라도 생물 활성물질 제조소는 Type II다.
 - C: 조항은 맞지만 카테고리가 틀렸다.
 - D: GMP 인증서 보유는 Type II를 IA로 낮추지 않는다.
 
@@ -493,7 +493,7 @@ D. Type II 60 days (90 for indication changes); IB after a PACMP 30 days.
 ### Q28 [A][Domain IV] — EU raw-material and shelf-life changes
 An EU-authorized biological product makes two changes: a cytokine supplier switch with identical specification, and a shelf-life extension. Which categories are typical under Regulation 1234/2008?
 
-A. Type IB for the supplier switch; Type IB (B.II.f.1.b) or II for the extension.
+A. Type IB for the supplier switch; Type IB (Q.II.f.1.b) or II for the extension.
 B. Type II for both, because biological products lack an IB category.
 C. Type II for the supplier switch; Type IA for the shelf-life extension.
 D. Type IA for the supplier switch; Type II for the shelf-life extension.
@@ -501,7 +501,7 @@ D. Type IA for the supplier switch; Type II for the shelf-life extension.
 **정답:** A
 
 **해설**
-- A: 동일 규격 공급자 변경은 **IB**, 조성 변경이면 Type II다. 유효기간 연장은 **IB**(B.II.f.1.b) 또는 II다.
+- A: 동일 규격 공급자 변경은 **IB**, 조성 변경이면 Type II다. 유효기간 연장은 **IB**(Q.II.f.1.b) 또는 II다.
 - B: 생물의약품에도 IB 범주가 있다.
 - C: 카테고리가 뒤바뀌었다.
 - D: 동일 규격 공급자 변경은 IA가 아니라 IB다.
@@ -511,18 +511,18 @@ D. Type IA for the supplier switch; Type II for the shelf-life extension.
 ### Q29 [R][Domain IV] — EU analytical method change
 How is a change to a test method for a biological product typically classified in the EU?
 
-A. Type IA under B.II.d.1, because methods are part of the specification.
-B. Type IB under B.II.b.3, because methods are part of the process.
-C. Type II under B.II.b.4, because method changes follow the scale rules.
-D. Type II under B.II.d.2, or IB if the change is minor and equivalent.
+A. Type IA under Q.II.d.1, because methods are part of the specification.
+B. Type IB under Q.II.b.3, because methods are part of the process.
+C. Type II under Q.II.b.4, because method changes follow the scale rules.
+D. Type II under Q.II.d.2, or IB if the change is minor and equivalent.
 
 **정답:** D
 
 **해설**
-- D: 생물의약품 시험 방법 변경은 **B.II.d.2 Type II**, 사소·동등이면 **IB**다.
-- A: B.II.d.1은 규격 변경 조항이고, 생물 분석법 변경이 IA로 가지 않는다.
-- B: B.II.b.3은 공정 변경 조항이다.
-- C: B.II.b.4는 규모 변경 조항이다.
+- D: 생물·면역·면역화학 분석법 도입·교체·대폭 변경은 **Q.II.d.2(c) Type II**, 그 밖의 변경은 **IB**(d), 사소 변경은 IA(a)다.
+- A: Q.II.d.1은 규격 변경 조항이고, 생물 분석법 변경이 IA로 가지 않는다.
+- B: Q.II.b.3은 공정 변경 조항이다.
+- C: Q.II.b.4는 규모 변경 조항이다.
 
 ---
 
@@ -844,7 +844,7 @@ D. A Type II variation, or a PACMP approved as Type II followed by a Type IB.
 - A: CTR 실질적 변경은 **임상시험** 경로다. 승인된 제품의 제조소 변경은 Reg 1234/2008 variation이다.
 - B: 독일 사이트는 **MIA(Art 40) + Part IV 인증서**(Landesbehörde)가 필요하다.
 - C: **Annex II.A** 갱신과 **QP**(Annex 16) 배치 인증이 필요하다. 공여자 적격은 1271 Subpart C와 2004/23을 모두 충족한다.
-- D: 생물의약품 제조소 변경은 **Type II**(B.II.b.1), PACMP면 Type II → **IB**다.
+- D: 최초 GMP 사찰이 필요한 새 제조소 추가는 **Type II**(Q.II.b.1(d)), PACMP면 Type II → **IB**다.
 
 ---
 
@@ -978,17 +978,17 @@ D. Drop potency from the comparison until the new assay is approved, relying on 
 In the same case, the product is licensed in both the US and the EU. How is the potency assay change classified?
 
 A. US annual report with the bridging data; EU Type IA, since the specification limits are unchanged.
-B. US CBE-30, because the new assay is validated; EU Type IB under B.II.d.2.
-C. US PAS, filed with or before the process-change PAS; EU Type II under B.II.d.2, with B.II.d.1.
-D. US CBE-0, so that release can continue; EU Type II under B.II.b.3, as a manufacturing process change.
+B. US CBE-30, because the new assay is validated; EU Type IB under Q.II.d.2.
+C. US PAS, filed with or before the process-change PAS; EU Type II under Q.II.d.2, with Q.II.d.1.
+D. US CBE-0, so that release can continue; EU Type II under Q.II.b.3, as a manufacturing process change.
 
 **정답:** C
 
 **해설**
-- C: 미국 **역가 시험 변경 = PAS**이고, 공정 변경과 같은 PAS에 묶거나 선행한다(Type C 권장). EU는 **Type II**(B.II.d.2)에 규격 변경 B.II.d.1을 동반하고 grouping한다.
+- C: 미국 **역가 시험 변경 = PAS**이고, 공정 변경과 같은 PAS에 묶거나 선행한다(Type C 권장). EU는 **Type II**(Q.II.d.2)에 규격 변경 Q.II.d.1을 동반하고 grouping한다.
 - A: 역가 시험 변경은 AR·IA 대상이 아니다.
 - B: 검증 여부가 역가 시험의 카테고리를 낮추지 않는다. CBE-30은 동등 입증된 비역가 분석법이다.
-- D: CBE-0이 아니고, B.II.b.3은 공정 변경 조항이다.
+- D: CBE-0이 아니고, Q.II.b.3은 공정 변경 조항이다.
 
 ---
 

@@ -1,6 +1,6 @@
 # 문제은행 — Ch.26 (1/2) 신속 경로: 개념·구조
 
-> **근거:** `textbook/Ch26.md` + `cards/Ch26_1.md`·`cards/Ch26_2.md` 검증 메모(FD&C 506(a)/(b)/(c)/(g)/(h), FDA Expedited Programs guidance 2014, PDUFA VII priority 6/10개월, PRV 524·529·565A와 RPD PRV 2026-02-03 재승인, 21 CFR 314.600/601.90, Reg 726/2004 Arts 14(8)·14(9)·83, Reg 507/2006). 새 숫자 없음. 계산 문항은 위 상수로만 계산했다. 두 draft guidance(2024-12 AA, 2025-09 RMT)는 정답 키로 쓰지 않았다.
+> **근거:** `textbook/Ch26.md` + `cards/Ch26_1.md`·`cards/Ch26_2.md` 검증 메모(FD&C 506(a)/(b)/(c)/(g)/(h), FDA Expedited Programs guidance 2014, PDUFA VII priority 6/10개월, PRV 524·529·565A와 RPD PRV 2026-02-03 재승인, 21 CFR 314.600/601.90, Reg 726/2004 Arts 14(8)·14(9)·83, Reg 507/2006). 새 숫자 없음. 계산 문항은 위 상수로만 계산했다. 두 guidance(2024-12 AA, 2025-09 RMT)는 기준일 draft다 (2026-11-28 원문 확인).
 > **형식:** 영문 시나리오 → 영문 선지 A~D → 정답 → 한국어 해설. 태그 `[R]/[A]/[An]` + Domain.
 > **작성:** 2026-11-27. 64문항.
 

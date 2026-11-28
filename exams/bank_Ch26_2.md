@@ -866,7 +866,7 @@ D. The 2024 accelerated approval guidance and the 2025 regenerative medicine gui
 - B: 기준일에 final로 확정된 근거는 2014 Expedited Programs guidance와 2019 RMAT guidance다.
 - A: 2024-12 AA guidance는 draft로 발행됐다.
 - C: 2025-09 문서는 draft로 발행됐다.
-- D: AA guidance(2024-12)와 Expedited Programs for Regenerative Medicine Therapies(2025-09)는 draft로 발행됐다. 최종화 여부는 확인되지 않아 final로 단정할 수 없다.
+- D: AA guidance(2024-12)와 Expedited Programs for Regenerative Medicine Therapies(2025-09)는 draft로 발행됐고 기준일에도 draft라 final이 아니다.
 
 ---
 
@@ -1097,7 +1097,7 @@ D. RPD PRV did expire, but both FDA guidances have since been finalised and appl
 **정답:** B
 
 **해설**
-- B: RPD PRV는 2026-02-03 재승인으로 2029-09-30까지 유효하다. AA guidance(2024-12)와 Expedited Programs for Regenerative Medicine Therapies(2025-09)는 draft로 발행됐고 최종화 여부가 확인되지 않아 "final"로 단정할 수 없다. 기준일의 확정 근거는 2014 Expedited Programs guidance와 2019 RMAT guidance다.
+- B: RPD PRV는 2026-02-03 재승인으로 2029-09-30까지 유효하다. AA guidance(2024-12)와 Expedited Programs for Regenerative Medicine Therapies(2025-09)는 draft로 발행됐고 기준일에도 draft라 "final"은 틀리다. 기준일의 확정 근거는 2014 Expedited Programs guidance와 2019 RMAT guidance다.
 - A: 세 진술이 모두 틀렸다.
 - C: 두 guidance를 final로 단정할 수 없고, 2014 guidance는 기준일에 유효하다.
 - D: RPD PRV는 재승인되어 유효하다. 두 guidance의 최종화도 확인되지 않았다.
